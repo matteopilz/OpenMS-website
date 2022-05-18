@@ -1,0 +1,28 @@
+<!-- Array libraries Tab Content -->
+{{- $arraylibraries := .Site.Params.arraylibraries }}
+{{- $intro := index $arraylibraries "intro" }}
+{{- $headers := index $arraylibraries "headers" }}
+{{- $libraries := index $arraylibraries "libraries" }}
+<li class="array-libraries">
+    {{- range $intro }}
+    <p>
+        {{ .text }}
+    </p>
+    {{- end }}
+    <table>
+        <tr class="highlight-th">
+            <td class="bold-text"></td>
+            {{- range $headers }}
+            <td class="bold-text">{{ .text }}</td>
+            {{- end }}
+            </td>
+        </tr>
+        {{- range $libraries }}
+        <tr>
+            <td><img class="first-column-layout" src="{{ .img }}" alt="{{ .alttext }}"></td>
+            <td class="full-center-text"><a href="{{ .url }}">{{ .title }}</a></td>
+            <td class="left-text">{{ .text }}</td>
+        </tr>
+        {{- end }}
+    </table>
+</li>

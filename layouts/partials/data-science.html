@@ -1,0 +1,46 @@
+<!-- Data Science Tab Content -->
+{{- $datascience := .Site.Params.datascience }}
+{{- $intro := index $datascience "intro" }}
+{{- $content := index $datascience "content" }}
+{{- $examples := index $datascience "examples" }}
+{{- $image1 := index $datascience "image1" }}
+{{- $image2 := index $datascience "image2" }}
+<li class="data-science">
+    <div class="grid-container">
+        <div>
+            {{- range $image1 }}
+                <a href="{{ .img }}" target="_blank">
+                <img src="{{ .img }}" alt="{{ .alttext }}" align="left">
+                </a>
+            {{- end }}
+        </div>
+        <div>
+            <p>
+                {{ $intro }}
+
+                <ul class="content-tab">
+                    {{- range $examples }}
+                        <li>{{ .text | markdownify }}</li>
+                    {{- end }}
+                </ul>
+            </p>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div>
+            <p></p>
+            {{- range $content }}
+            <p>
+                {{ .text | markdownify }}
+            </p>
+            {{- end }}
+            </p>
+        </div>
+        <div>
+        {{- range $image2 }}
+            <img src="{{ .img }}" alt="{{ .alttext }}" align="centre" width="75%">
+            </a>
+        {{- end }}
+        </div>
+    </div>
+</li>
