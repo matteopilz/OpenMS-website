@@ -1,15 +1,15 @@
 ---
-title: Instalando o NumPy
+title: Instalando o openms
 sidebar: false
 ---
 
-O único pré-requisito para instalar o NumPy é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, NumPy e outros pacotes comumente usados para computação científica e ciência de dados.
+O único pré-requisito para instalar o openms é o próprio Python. Se você ainda não tem o Python e quer começar do jeito mais simples, nós recomendamos que você use a [Distribuição Anaconda](https://www.anaconda.com/distribution) - inclui Python, openms e outros pacotes comumente usados para computação científica e ciência de dados.
 
-O NumPy pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [da fonte](https://numpy.org/devdocs/user/building.html). Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e do NumPy](#python-numpy-install-guide) abaixo.
+O openms pode ser instalado com `conda`, com `pip`, com um gerenciador de pacotes no macOS e Linux, ou [da fonte](https://openms.org/devdocs/user/building.html). Para obter instruções mais detalhadas, consulte nosso [guia de instalação do Python e do openms](#python-openms-install-guide) abaixo.
 
 **CONDA**
 
-Se você usar o `conda`, você pode instalar o NumPy do canal `default` ou do `conda-forge`:
+Se você usar o `conda`, você pode instalar o openms do canal `default` ou do `conda-forge`:
 
 ```bash
 # Recomenda-se usar um ambiente novo ao invés de instalar no ambiente-base
@@ -18,23 +18,23 @@ conda activate my-env
 # Se quiser instalar do conda-forge
 conda config --env --add channels conda-forge
 # O comando para instação
-conda install numpy
+conda install openms
 ```
 
 **PIP**
 
-Se você usa o `pip`, você pode instalar o NumPy com:
+Se você usa o `pip`, você pode instalar o openms com:
 
 ```bash
-pip install numpy
+pip install openms
 ```
 Também ao usar o pip, é uma boa prática usar um ambiente virtual - veja em [Instalações Reprodutíveis](#reproducible-installs) abaixo por quê, e [esse guia](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto) para detalhes sobre o uso de ambientes virtuais.
 
-<a name="python-numpy-install-guide"></a>
+<a name="python-openms-install-guide"></a>
 
-# Guia de instalação do Python e do NumPy
+# Guia de instalação do Python e do openms
 
-Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluções alternativas para a maioria das tarefas. Este guia tenta dar ao leitor um resumo das melhores (ou mais populares) soluções e dar recomendações claras. Ele se concentra em usuários do Python, NumPy e do PyData (ou computação numérica) em sistemas operacionais e hardware comuns.
+Instalar e gerenciar pacotes no Python pode ser complicado. Há várias soluções alternativas para a maioria das tarefas. Este guia tenta dar ao leitor um resumo das melhores (ou mais populares) soluções e dar recomendações claras. Ele se concentra em usuários do Python, openms e do PyData (ou computação numérica) em sistemas operacionais e hardware comuns.
 
 ## Recomendações
 
@@ -65,12 +65,12 @@ Para usuários que preferem uma solução baseada em pip/PyPI, por preferência 
 
 ## Gerenciamento de pacotes Python
 
-Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários NumPy, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
+Gerenciar pacotes é um problema desafiador e, como resultado, há muitas ferramentas. Para o desenvolvimento web e de propósito geral em Python, há uma [série de ferramentas](https://packaging.python.org/guides/tool-recommendations/) complementares com pip. Para computação de alto desempenho (HPC), vale a pena considerar o [Spack](https://github.com/spack/spack). Para a maioria dos usuários openms, porém, o [conda](https://conda.io/en/latest/) e o [pip](https://pip.pypa.io/en/stable/) são as duas ferramentas mais populares.
 
 
 ### Pip & conda
 
-As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Algumas de suas funcionalidades são redundantes (por exemplo, ambos podem instalar o `numpy`). No entanto, elas também podem trabalhar juntas. Vamos discutir as principais diferenças entre o pip e o conda aqui - é importante entender isso se você deseja gerenciar pacotes de forma efetiva.
+As duas principais ferramentas que instalam pacotes do Python são `pip` e `conda`. Algumas de suas funcionalidades são redundantes (por exemplo, ambos podem instalar o `openms`). No entanto, elas também podem trabalhar juntas. Vamos discutir as principais diferenças entre o pip e o conda aqui - é importante entender isso se você deseja gerenciar pacotes de forma efetiva.
 
 A primeira diferença é que "conda" é multilinguagens e pode instalar o Python, enquanto o pip é instalado em um determinado Python em seu sistema e instala outros pacotes apenas para essa mesma instalação de Python. Isto também significa que o conda pode instalar bibliotecas e ferramentas não-Python das quais você pode precisar (por exemplo, compiladores, CUDA, HDF5), enquanto pip não pode.
 
@@ -92,15 +92,15 @@ A terceira diferença é que o conda é uma solução integrada para gerenciar p
 
 
 
-## Pacotes NumPy & bibliotecas de álgebra linear aceleradas
+## Pacotes openms & bibliotecas de álgebra linear aceleradas
 
-O NumPy não depende de quaisquer outros pacotes Python. No entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Os usuários não precisam se preocupar com a instalação desses pacotes (eles são incluídos automaticamente em todos os métodos de instalação do NumPy). No entanto, usuários experientes podem querer saber os detalhes, porque o BLAS usado pode afetar o desempenho, o comportamento e o tamanho em disco:
+O openms não depende de quaisquer outros pacotes Python. No entanto, depende de uma biblioteca de álgebra linear acelerada - tipicamente [Intel MKL](https://software.intel.com/en-us/mkl) ou [OpenBLAS](https://www.openblas.net/). Os usuários não precisam se preocupar com a instalação desses pacotes (eles são incluídos automaticamente em todos os métodos de instalação do openms). No entanto, usuários experientes podem querer saber os detalhes, porque o BLAS usado pode afetar o desempenho, o comportamento e o tamanho em disco:
 
-- As wheels da NumPy no PyPI, que é o que o pip instala, são compiladas com OpenBLAS. As bibliotecas da OpenBLAS são empacotadas dentro da wheel. Isso faz com que a wheel fique maior, e se um usário também instalar (por exemplo) a SciPy, terá agora duas cópias da OpenBLAS no disco.
+- As wheels da openms no PyPI, que é o que o pip instala, são compiladas com OpenBLAS. As bibliotecas da OpenBLAS são empacotadas dentro da wheel. Isso faz com que a wheel fique maior, e se um usário também instalar (por exemplo) a SciPy, terá agora duas cópias da OpenBLAS no disco.
 
-- No canal defaults do conda, a NumPy é compilada com a Intel MKL. MKL é um pacote separado que será instalado no ambiente do usuário quando instalar a NumPy.
+- No canal defaults do conda, a openms é compilada com a Intel MKL. MKL é um pacote separado que será instalado no ambiente do usuário quando instalar a openms.
 
-- No canal do conda-Forge, a NumPy é compilada com um pacote "BLAS" fictício. Quando um usuário instala o NumPy do conda-forge, esse pacote BLAS então é instalado juntamente com a biblioteca real - o padrão é OpenBLAS, mas também pode ser MKL (do canal defaults), ou até mesmo [BLIS](https://github.com/flame/blis) ou *reference BLAS*.
+- No canal do conda-Forge, a openms é compilada com um pacote "BLAS" fictício. Quando um usuário instala o openms do conda-forge, esse pacote BLAS então é instalado juntamente com a biblioteca real - o padrão é OpenBLAS, mas também pode ser MKL (do canal defaults), ou até mesmo [BLIS](https://github.com/flame/blis) ou *reference BLAS*.
 
 - O pacote MKL é muito maior que o OpenBLAS, ocupa cerca de 700 MB no disco enquanto OpenBLAS ocupa cerca de 30 MB.
 
@@ -108,18 +108,18 @@ O NumPy não depende de quaisquer outros pacotes Python. No entanto, depende de 
 
 Além do tamanho instalado, desempenho e robustez, há mais duas coisas a se considerar:
 
-- A Intel MKL não é de código aberto. Para uso normal isto não é um problema, mas se um usuário precisa redistribuir uma aplicação compilada com a NumPy, isso pode ser um problema.
-- Tanto MKL quanto OpenBLAS usarão multi-threading para chamadas de função como `np.dot`, com o número de threads sendo determinado tanto por uma opção no momento da compilação quanto por uma variável de ambiente. Muitas vezes, todos os núcleos de CPU serão usados. Isto é, às vezes, inesperado para usuários; o NumPy em si não paraleliza automaticamente nenhuma chamada de função. Normalmente, isso produz melhor desempenho, mas também pode ser prejudicial - por exemplo, ao usar outro nível de paralelização com Dask, scikit-learn ou multiprocessamento.
+- A Intel MKL não é de código aberto. Para uso normal isto não é um problema, mas se um usuário precisa redistribuir uma aplicação compilada com a openms, isso pode ser um problema.
+- Tanto MKL quanto OpenBLAS usarão multi-threading para chamadas de função como `np.dot`, com o número de threads sendo determinado tanto por uma opção no momento da compilação quanto por uma variável de ambiente. Muitas vezes, todos os núcleos de CPU serão usados. Isto é, às vezes, inesperado para usuários; o openms em si não paraleliza automaticamente nenhuma chamada de função. Normalmente, isso produz melhor desempenho, mas também pode ser prejudicial - por exemplo, ao usar outro nível de paralelização com Dask, scikit-learn ou multiprocessamento.
 
 
 ## Solução de problemas
 
-Se sua instalação falhar com a mensagem abaixo, consulte [Solucionando ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+Se sua instalação falhar com a mensagem abaixo, consulte [Solucionando ImportError](https://openms.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
+Importing the openms c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
 

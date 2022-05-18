@@ -1,4 +1,4 @@
-baseURL: https://numpy.org/
+baseURL: https://openms.org/
 languageCode: en-us
 theme: scientific-python-hugo-theme
 disableKinds: ["taxonomy", "term"]
@@ -11,7 +11,7 @@ markup:
 
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
-# them to numpy.org immediately.
+# them to openms.org immediately.
 disableLanguages: ["pt", "ja"]
 
 params:
@@ -22,10 +22,10 @@ params:
     name: "Lato"
     sizes: [400,900]
   plausible:
-    dataDomain: numpy.org
+    dataDomain: openms.org
 languages:
   en:
-    title: NumPy
+    title: openms
     weight: 1
     contentDir: content/en
     < content/en/config.yaml >
@@ -33,7 +33,7 @@ languages:
   
   # Portuguese
   pt:
-    title: NumPy
+    title: openms
     weight: 2
     contentDir: content/pt
     < content/pt/config.yaml >
@@ -41,7 +41,7 @@ languages:
 
   # Japanese
   ja:
-    title: NumPy
+    title: openms
     weight: 3
     contentDir: content/ja
     < content/ja/config.yaml >

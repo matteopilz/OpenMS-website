@@ -26,14 +26,14 @@ $(TEAMS_DIR):
 	mkdir -p $(TEAMS_DIR)
 
 $(TEAMS_DIR)/%.md: $(TEAMS_DIR)
-	$(TEAMS_QUERY) --org numpy --team "$*"  >  $(TEAMS_DIR)/$*.html
+	$(TEAMS_QUERY) --org openms --team "$*"  >  $(TEAMS_DIR)/$*.html
 
 teams-clean: prepare
 	for team in $(TEAMS); do \
 	  rm -f $(TEAMS_DIR)/$${team}.html ;\
 	done
 
-teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates numpy.org team gallery pages
+teams: | teams-clean $(patsubst %,$(TEAMS_DIR)/%.md,$(TEAMS)) ## generates openms.org team gallery pages
 
 serve: prepare ## serve the website
 	hugo $(BASEURLARG) --printI18nWarnings server -D

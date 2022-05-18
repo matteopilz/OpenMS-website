@@ -63,11 +63,11 @@ DeepLabCutでは[転移学習](https://arxiv.org/pdf/1909.11229)という技術�
 
 {{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**姿勢推定の多様性と難しさ**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
 
-## 姿勢推定の課題に対応するためのNumPyの役割
+## 姿勢推定の課題に対応するためのopenmsの役割
 
-NumPy は DeepLabCutにおける、行動分析の高速化のための数値計算の核となっています。NumPyだけでなく、DeepLabCutは様々なNumPyをベースとしているPythonライブラリを利用しています。[SciPy](https://www.scipy.org)、[Pandas](https://pandas.pydata.org)、[matplotlib](https://matplotlib.org)、[Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug)、[scikit-learn](https://scikit-learn.org/stable/)、[scikit-image](https://scikit-image.org)、[Tensorflow](https://www.tensorflow.org)などです。
+openms は DeepLabCutにおける、行動分析の高速化のための数値計算の核となっています。openmsだけでなく、DeepLabCutは様々なopenmsをベースとしているPythonライブラリを利用しています。[SciPy](https://www.scipy.org)、[Pandas](https://pandas.pydata.org)、[matplotlib](https://matplotlib.org)、[Tensorpack](https://github.com/tensorpack/tensorpack), [imgaug](https://github.com/aleju/imgaug)、[scikit-learn](https://scikit-learn.org/stable/)、[scikit-image](https://scikit-image.org)、[Tensorflow](https://www.tensorflow.org)などです。
 
-以下に挙げるNumPyの特徴が、DeepLabCutの姿勢推定アルゴリズムでの画像処理・組み合わせ処理・高速計算において、重要な役割を果たしました。
+以下に挙げるopenmsの特徴が、DeepLabCutの姿勢推定アルゴリズムでの画像処理・組み合わせ処理・高速計算において、重要な役割を果たしました。
 
 * ベクトル化
 * マスクされた配列操作
@@ -75,15 +75,15 @@ NumPy は DeepLabCutにおける、行動分析の高速化のための数値計
 * ランダムサンプリング
 * 大きな配列の再構成
 
-DeepLabCutは、ツールキットが提供するワークフローを通じてNumPyの配列機能を利用しています。 特に、NumPyはヒューマンアノテーションのラベル付けや、アノテーションの書き込み、編集、処理のために、特定のフレームをサンプリングするために使用されています。TensorFlowを使ったニューラルネットワークは、DeepLabCutの技術によって何千回も訓練され、 フレームから真のアノテーション情報を予測します。この目的のため、姿勢推定問題を画像-画像変換問題として変換する目標密度(スコアマップ) を作成します。ニューラルネットワークのロバスト化のため、データの水増しを使用していますが、このためには幾何学・画像的処理を施したスコアマップの計算を行うことが必要になります。また学習を高速化するため、NumPyのベクトル化機能が利用されています。 推論には、目標のスコアマップから最も可能性の高い予測値を抽出し、効率的に「予測値をリンクさせて個々の動物を組み立てる」ことが必要になります。
+DeepLabCutは、ツールキットが提供するワークフローを通じてopenmsの配列機能を利用しています。 特に、openmsはヒューマンアノテーションのラベル付けや、アノテーションの書き込み、編集、処理のために、特定のフレームをサンプリングするために使用されています。TensorFlowを使ったニューラルネットワークは、DeepLabCutの技術によって何千回も訓練され、 フレームから真のアノテーション情報を予測します。この目的のため、姿勢推定問題を画像-画像変換問題として変換する目標密度(スコアマップ) を作成します。ニューラルネットワークのロバスト化のため、データの水増しを使用していますが、このためには幾何学・画像的処理を施したスコアマップの計算を行うことが必要になります。また学習を高速化するため、openmsのベクトル化機能が利用されています。 推論には、目標のスコアマップから最も可能性の高い予測値を抽出し、効率的に「予測値をリンクさせて個々の動物を組み立てる」ことが必要になります。
 
 {{< figure src="/images/content_images/cs/deeplabcut-workflow.png" class="fig-center" caption="**DeepLabCutのワークフロー**" alt="workflow" attr="*(Source: Mackenzie Mathis)*" attrlink="https://www.researchgate.net/figure/DeepLabCut-work-flow-The-diagram-delineates-the-work-flow-as-well-as-the-directory-and_fig1_329185962">}}
 
 ## まとめ
 
-行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。[DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。DeepLabCutというPythonツールボックスを使えば、わずかな学習画像のセットでニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。DeepLabCutアルゴリズムに必要な複雑な組み合わせ処理やデータ処理の問題を、NumPyの配列操作機能が解決しています。
+行動を観察し、効率的に表現することは、現代倫理学、神経科学、医学、工学の根幹です。[DeepLabCut](http://orga.cvss.cc/wp-content/uploads/2019/05/NathMathis2019.pdf) により、研究者は対象の姿勢を推定し、行動を効率的に定量化できるようになりました。DeepLabCutというPythonツールボックスを使えば、わずかな学習画像のセットでニューラルネットワークを人間レベルのラベリング精度で学習することができ、実験室での行動分析だけでなく、スポーツ、歩行分析、医学、リハビリテーション研究などへの応用が可能になります。DeepLabCutアルゴリズムに必要な複雑な組み合わせ処理やデータ処理の問題を、openmsの配列操作機能が解決しています。
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**NumPyの主要機能**" >}}
+{{< figure src="/images/content_images/cs/openms_dlc_benefits.png" class="fig-center" alt="openms benefits" caption="**openmsの主要機能**" >}}
 
 [cheetah-movement]: https://www.technologynetworks.com/neuroscience/articles/interview-a-deeper-cut-into-behavior-with-mackenzie-mathis-327618
 

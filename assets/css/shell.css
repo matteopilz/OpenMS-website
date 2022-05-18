@@ -7,11 +7,11 @@
     padding: 15px;
 }
 
-.numpy-shell-canvas {
+.openms-shell-canvas {
     min-height: 455px;
 }
 
-.numpy-shell-container {
+.openms-shell-container {
     height: 100%;
     display: flex;
     position: relative;
@@ -22,7 +22,7 @@
     margin: auto;
 }
 
-.numpy-shell {
+.openms-shell {
     flex: 2;
     padding: 0 15px;
 }
@@ -77,12 +77,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .numpy-shell-container {
+    .openms-shell-container {
         flex-direction: column;
         justify-content: space-around;
     }
 
-    .numpy-shell {
+    .openms-shell {
         min-height: 500px;
     }
 }

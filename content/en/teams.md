@@ -1,5 +1,5 @@
 ---
-title: NumPy Teams
+title: openms Teams
 sidebar: false
 ---
 
@@ -21,4 +21,4 @@ communities worldwide by building quality, open-source software.
 
 # Governance
 
-For the list of the Steering Council members, please see [here](https://numpy.org/about/).
+For the list of the Steering Council members, please see [here](https://openms.org/about/).

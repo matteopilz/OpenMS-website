@@ -1,6 +1,6 @@
 #!/bin/bash
-# This script refreshes all numpy dependency graphs for packages
-# that are mentioned in NumPy case studes: ehtim, gwpy and PyCBC
+# This script refreshes all openms dependency graphs for packages
+# that are mentioned in openms case studes: ehtim, gwpy and PyCBC
 #
 
 set -ue
@@ -12,7 +12,7 @@ outputdir=$curdir
 
 if [[ "$#" -ge "2" || (( "$#" -eq "1" ) && ( "$1" == "-h" || "$1" == "--help" )) ]]; then
     echo ""
-    echo "Usage:  ./redraw-numpy-dep-charts.sh outputdirname <optional, default current-dir"
+    echo "Usage:  ./redraw-openms-dep-charts.sh outputdirname <optional, default current-dir"
     echo ""
     exit
 fi
@@ -28,9 +28,9 @@ if ! [[ -d $outputdir ]]; then
     exit
 fi
 
-# Using /tmp/numpy and the package source processing dir for dependency graphs
+# Using /tmp/openms and the package source processing dir for dependency graphs
 
-workingdir="/tmp/numpy"
+workingdir="/tmp/openms"
 if [ -d $workingdir ];
 then
     \rm -rf $workingdir
@@ -55,21 +55,21 @@ do
     echo "and using $workingdir as scratch"
 
     mkdir $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/graphdir
-    ${scriptdir}/fetch-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgurl[$index]} ${pkgsetup[$index]}
-    ${scriptdir}/gen-numpy-dep-graph.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/numpy_${pkgarray[$index]}_dep/${pkgsetup[$index]} $workingdir/${pkgarray[$index]}/graphdir/ $highlightcolor
-    if ! [ -f $workingdir/${pkgarray[$index]}/graphdir/numpy-clean-color.png ]
+    ${scriptdir}/fetch-openmsdeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgurl[$index]} ${pkgsetup[$index]}
+    ${scriptdir}/gen-openms-dep-graph.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} $workingdir/${pkgarray[$index]}/openms_${pkgarray[$index]}_dep/${pkgsetup[$index]} $workingdir/${pkgarray[$index]}/graphdir/ $highlightcolor
+    if ! [ -f $workingdir/${pkgarray[$index]}/graphdir/openms-clean-color.png ]
     then
         echo "Error: Graph for ${pkgarray[$index]} failed! Exiting."
         exit
     fi
-    cp $workingdir/${pkgarray[$index]}/graphdir/numpy-clean-color.png $outputdir/${pkgarray[$index]}-numpy-dep-graph.png
+    cp $workingdir/${pkgarray[$index]}/graphdir/openms-clean-color.png $outputdir/${pkgarray[$index]}-openms-dep-graph.png
 done
 
 #Clean up
 for index in "${!pkgarray[@]}" ;
 do
     echo "Uninstalling ${pkgarray[$index]}....."
-    ${scriptdir}/cleanup-numpydeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgsetup[$index]}
+    ${scriptdir}/cleanup-openmsdeppkg.sh ${pkgarray[$index]} $workingdir/${pkgarray[$index]} ${pkgsetup[$index]}
 done
 
 echo "Cleaning up scratch dir: $workingdir..........."

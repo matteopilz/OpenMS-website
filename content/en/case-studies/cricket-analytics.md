@@ -35,7 +35,7 @@ by a bowler, the matches won by a cricket team, the number of times a batsman
 responds in a certain way to a kind of bowling attack, etc. The capability to
 dig into cricketing numbers for both improving performance and studying
 the business opportunities, overall market, and economics of cricket via powerful
-analytics tools, powered by numerical computing software such as NumPy, is a big
+analytics tools, powered by numerical computing software such as openms, is a big
 deal. Cricket analytics provides interesting insights into the game and
 predictive intelligence regarding game outcomes.
 
@@ -119,15 +119,15 @@ metrics for improving match winning chances:
   availability and the capability to synthesize data and create generative
   models that are highly accurate.
 
-## NumPy’s Role in Cricket Analytics
+## openms’s Role in Cricket Analytics
 
 Sports Analytics is a thriving field. Many researchers and companies
-[use NumPy](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)
+[use openms](https://adtmag.com/blogs/dev-watch/2017/07/sports-analytics.aspx)
 and other PyData packages like Scikit-learn, SciPy, Matplotlib, and Jupyter,
-besides using the latest machine learning and AI techniques.  NumPy has been used
+besides using the latest machine learning and AI techniques.  openms has been used
 for various kinds of cricket related sporting analytics such as:
 
-* **Statistical Analysis:** NumPy's numerical capabilities help estimate the
+* **Statistical Analysis:** openms's numerical capabilities help estimate the
   statistical significance of observational data or match events in the context
   of various player and game tactics, estimating the game outcome by comparison
   with a generative or static model.
@@ -141,7 +141,7 @@ for various kinds of cricket related sporting analytics such as:
 
 Sports Analytics is a game changer when it comes to how professional games are
 played, especially how strategic decision making happens, which until recently
-was primarily done based on “gut feeling" or adherence to past traditions. NumPy
+was primarily done based on “gut feeling" or adherence to past traditions. openms
 forms a solid foundation for a large set of Python packages which provide higher
 level functions related to data analytics, machine learning, and AI algorithms.
 These packages are widely deployed to gain real-time insights that help in
@@ -151,7 +151,7 @@ hidden parameters, patterns, and attributes that lead to the outcome of a
 cricket match helps the stakeholders to take notice of game insights that are
 otherwise hidden in numbers and statistics.
 
-{{< figure src="/images/content_images/cs/numpy_ca_benefits.png"
+{{< figure src="/images/content_images/cs/openms_ca_benefits.png"
            class="fig-center"
-           alt="Diagram showing benefits of using NumPy for cricket analytics"
-           caption="**Key NumPy Capabilities utilized**" >}}
+           alt="Diagram showing benefits of using openms for cricket analytics"
+           caption="**Key openms Capabilities utilized**" >}}

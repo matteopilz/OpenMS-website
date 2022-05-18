@@ -1,5 +1,5 @@
 :root {
-  --numpySlateGray: rgb(108, 122, 137);
+  --openmsSlateGray: rgb(108, 122, 137);
 }
 
 .sign-up-container {
@@ -39,7 +39,7 @@
   position: absolute;
   right: 18%;
   font-size: 10px;
-  color: var(--numpySlateGray);
+  color: var(--openmsSlateGray);
 }
 
 .signup-button {

@@ -7,7 +7,7 @@
 
 # Here is another way to define context specific environment variables.
 [context.deploy-preview.environment]
-  NUMPYORG_WITH_TRANSLATIONS = "1"
+  openmsORG_WITH_TRANSLATIONS = "1"
 
 [[plugins]]
   package = "netlify-plugin-checklinks"

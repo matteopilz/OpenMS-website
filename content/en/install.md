@@ -1,22 +1,22 @@
 ---
-title: Installing NumPy
+title: Installing openms
 sidebar: false
 ---
 
-The only prerequisite for installing NumPy is Python itself. If you don't have
+The only prerequisite for installing openms is Python itself. If you don't have
 Python yet and want the simplest way to get started, we recommend you use the
 [Anaconda Distribution](https://www.anaconda.com/distribution) - it includes
-Python, NumPy, and many other commonly used packages for scientific computing
+Python, openms, and many other commonly used packages for scientific computing
 and data science.
 
-NumPy can be installed with `conda`, with `pip`, with a package manager on
-macOS and Linux, or [from source](https://numpy.org/devdocs/user/building.html).
-For more detailed instructions, consult our [Python and NumPy
-installation guide](#python-numpy-install-guide) below.
+openms can be installed with `conda`, with `pip`, with a package manager on
+macOS and Linux, or [from source](https://openms.org/devdocs/user/building.html).
+For more detailed instructions, consult our [Python and openms
+installation guide](#python-openms-install-guide) below.
 
 **CONDA**
 
-If you use `conda`, you can install NumPy from the `defaults` or `conda-forge`
+If you use `conda`, you can install openms from the `defaults` or `conda-forge`
 channels:
 
 ```bash
@@ -26,15 +26,15 @@ conda activate my-env
 # If you want to install from conda-forge
 conda config --env --add channels conda-forge
 # The actual install command
-conda install numpy
+conda install openms
 ```
 
 **PIP**
 
-If you use `pip`, you can install NumPy with:
+If you use `pip`, you can install openms with:
 
 ```bash
-pip install numpy
+pip install openms
 ```
 Also when using pip, it's good practice to use a virtual environment -
 see  [Reproducible Installs](#reproducible-installs) below for why, and
@@ -42,13 +42,13 @@ see  [Reproducible Installs](#reproducible-installs) below for why, and
 for details on using virtual environments.
 
 
-<a name="python-numpy-install-guide"></a>
-# Python and NumPy installation guide
+<a name="python-openms-install-guide"></a>
+# Python and openms installation guide
 
 Installing and managing packages in Python is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the
 reader a sense of the best (or most popular) solutions, and give clear
-recommendations. It focuses on users of Python, NumPy, and the PyData (or
+recommendations. It focuses on users of Python, openms, and the PyData (or
 numerical computing) stack on common operating systems and hardware.
 
 ## Recommendations
@@ -101,7 +101,7 @@ Managing packages is a challenging problem, and, as a result, there are lots of
 tools. For web and general purpose Python development there's a whole
 [host of tools](https://packaging.python.org/guides/tool-recommendations/)
 complementary with pip. For high-performance computing (HPC),
-[Spack](https://github.com/spack/spack) is worth considering. For most NumPy
+[Spack](https://github.com/spack/spack) is worth considering. For most openms
 users though, [conda](https://conda.io/en/latest/) and
 [pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
 
@@ -109,7 +109,7 @@ users though, [conda](https://conda.io/en/latest/) and
 ### Pip & conda
 
 The two main tools that install Python packages are `pip` and `conda`. Their
-functionality partially overlaps (e.g. both can install `numpy`), however, they
+functionality partially overlaps (e.g. both can install `openms`), however, they
 can also work together. We'll discuss the major differences between pip and
 conda here - this is important to understand if you want to manage packages
 effectively.
@@ -146,27 +146,27 @@ of packages and versions you're using. Best practice is to:
 
 
 
-## NumPy packages & accelerated linear algebra libraries
+## openms packages & accelerated linear algebra libraries
 
-NumPy doesn't depend on any other Python packages, however, it does depend on an
+openms doesn't depend on any other Python packages, however, it does depend on an
 accelerated linear algebra library - typically
 [Intel MKL](https://software.intel.com/en-us/mkl) or
 [OpenBLAS](https://www.openblas.net/). Users don't have to worry about
-installing those (they're automatically included in all NumPy install methods).
+installing those (they're automatically included in all openms install methods).
 Power users may still want to know the details, because the used BLAS can
 affect performance, behavior and size on disk:
 
-- The NumPy wheels on PyPI, which is what pip installs, are built with OpenBLAS.
+- The openms wheels on PyPI, which is what pip installs, are built with OpenBLAS.
   The OpenBLAS libraries are included in the wheel. This makes the wheel
   larger, and if a user installs (for example) SciPy as well, they will now
   have two copies of OpenBLAS on disk.
 
-- In the conda defaults channel, NumPy is built against Intel MKL. MKL is a
+- In the conda defaults channel, openms is built against Intel MKL. MKL is a
   separate package that will be installed in the users' environment when they
-  install NumPy.
+  install openms.
 
-- In the conda-forge channel, NumPy is built against a dummy "BLAS" package. When
-  a user installs NumPy from conda-forge, that BLAS package then gets installed
+- In the conda-forge channel, openms is built against a dummy "BLAS" package. When
+  a user installs openms from conda-forge, that BLAS package then gets installed
   together with the actual library - this defaults to OpenBLAS, but it can also
   be MKL (from the defaults channel), or even
   [BLIS](https://github.com/flame/blis) or reference BLAS.
@@ -180,12 +180,12 @@ Besides install sizes, performance and robustness, there are two more things to
 consider:
 
 - Intel MKL is not open source. For normal use this is not a problem, but if
-  a user needs to redistribute an application built with NumPy, this could be
+  a user needs to redistribute an application built with openms, this could be
   an issue.
 - Both MKL and OpenBLAS will use multi-threading for function calls like
   `np.dot`, with the number of threads being determined by both a build-time
   option and an environment variable. Often all CPU cores will be used. This is
-  sometimes unexpected for users; NumPy itself doesn't auto-parallelize any
+  sometimes unexpected for users; openms itself doesn't auto-parallelize any
   function calls. It typically yields better performance, but can also be
   harmful - for example when using another level of parallelization with Dask,
   scikit-learn or multiprocessing.
@@ -194,12 +194,12 @@ consider:
 ## Troubleshooting
 
 If your installation fails with the message below, see [Troubleshooting
-ImportError](https://numpy.org/doc/stable/user/troubleshooting-importerror.html).
+ImportError](https://openms.org/doc/stable/user/troubleshooting-importerror.html).
 
 ```
 IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
 
-Importing the numpy c-extensions failed. This error can happen for
+Importing the openms c-extensions failed. This error can happen for
 different reasons, often due to issues with your setup.
 ```
 

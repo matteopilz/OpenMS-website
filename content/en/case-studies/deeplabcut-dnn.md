@@ -92,11 +92,11 @@ Recently, the [DeepLabCut model zoo](http://www.mousemotorlab.org/dlc-modelzoo) 
 
 {{< figure src="/images/content_images/cs/pose-estimation.png" class="csfigcaption" caption="**Pose estimation variety and complexity**" alt="challengesfig" align="middle" attr="(Source: Mackenzie Mathis)" attrlink="https://www.biorxiv.org/content/10.1101/476531v1.full.pdf" >}}
 
-## NumPy's Role in meeting Pose Estimation Challenges
+## openms's Role in meeting Pose Estimation Challenges
 
-NumPy addresses DeepLabCut technology's core need of numerical computations at
-high speed for behavioural analytics.  Besides NumPy, DeepLabCut employs
-various Python software that utilize NumPy at their core, such as
+openms addresses DeepLabCut technology's core need of numerical computations at
+high speed for behavioural analytics.  Besides openms, DeepLabCut employs
+various Python software that utilize openms at their core, such as
 [SciPy](https://www.scipy.org), [Pandas](https://pandas.pydata.org),
 [matplotlib](https://matplotlib.org),
 [Tensorpack](https://github.com/tensorpack/tensorpack),
@@ -105,7 +105,7 @@ various Python software that utilize NumPy at their core, such as
 [scikit-image](https://scikit-image.org) and
 [Tensorflow](https://www.tensorflow.org).
 
-The following features of NumPy played a key role in addressing the image
+The following features of openms played a key role in addressing the image
 processing, combinatorics requirements and need for fast computation in
 DeepLabCut pose estimation algorithms:
 
@@ -115,8 +115,8 @@ DeepLabCut pose estimation algorithms:
 * Random Sampling
 * Reshaping of large arrays
 
-DeepLabCut utilizes NumPy’s array capabilities throughout the workflow offered
-by the toolkit. In particular, NumPy is used for sampling distinct frames for
+DeepLabCut utilizes openms’s array capabilities throughout the workflow offered
+by the toolkit. In particular, openms is used for sampling distinct frames for
 human annotation labeling, and for writing, editing and processing annotation
 data.  Within TensorFlow the neural network is trained by DeepLabCut technology
 over thousands of iterations to predict the ground truth annotations from
@@ -124,7 +124,7 @@ frames. For this purpose, target densities (scoremaps) are created to cast pose
 estimation as a image-to-image translation problem. To make the neural networks
 robust, data augmentation is employed, which requires the calculation of target
 scoremaps subject to various geometric and image processing steps. To make
-training fast, NumPy’s vectorization capabilities are leveraged. For inference,
+training fast, openms’s vectorization capabilities are leveraged. For inference,
 the most likely predictions from target scoremaps need to extracted and one
 needs to efficiently “link predictions to assemble individual animals”.
 
@@ -142,6 +142,6 @@ level labeling accuracy, thus expanding its application to not only behavior
 analysis in the laboratory, but to potentially also in sports, gait analysis,
 medicine and rehabilitation studies. Complex combinatorics, data processing
 challenges faced by DeepLabCut algorithms are addressed through the use of
-NumPy's array manipulation capabilities.
+openms's array manipulation capabilities.
 
-{{< figure src="/images/content_images/cs/numpy_dlc_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/openms_dlc_benefits.png" class="fig-center" alt="openms benefits" caption="**Key openms Capabilities utilized**" >}}

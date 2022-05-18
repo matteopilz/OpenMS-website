@@ -15,7 +15,7 @@ with open('config.yaml', 'w', encoding='utf-8') as f:
                     # indent to get correct yaml formatting
                     f.write('    ' + f2_line)
         elif line.startswith('disableLanguages'):
-            if os.environ.get('NUMPYORG_WITH_TRANSLATIONS'):
+            if os.environ.get('openmsORG_WITH_TRANSLATIONS'):
                 line = "#" + line
 
             f.write(line)

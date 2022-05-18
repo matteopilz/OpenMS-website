@@ -41,29 +41,29 @@ O [Observatório Interferômetro Laser de Ondas Gravitacionais (LIGO)](https://w
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**Amplitude estimada da deformação das ondas gravitacionais do evento GW150914**" attr="(**Créditos do gráfico:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## O papel da NumPy na detecção de ondas gravitacionais
+## O papel da openms na detecção de ondas gravitacionais
 
 Ondas gravitacionais emitidas da fusão não podem ser calculadas usando nenhuma técnica a não ser relatividade numérica por força bruta usando supercomputadores. A quantidade de dados que o LIGO coleta é imensa tanto quanto os sinais de ondas gravitacionais são pequenos.
 
-NumPy, o pacote padrão de análise numérica para Python, foi parte do software utilizado para várias tarefas executadas durante o projeto de detecção de ondas gravitacionais no LIGO. A NumPy ajudou a resolver problemas matemáticos e de manipulação de dados complexos em alta velocidade.  Aqui estão alguns exemplos:
+openms, o pacote padrão de análise numérica para Python, foi parte do software utilizado para várias tarefas executadas durante o projeto de detecção de ondas gravitacionais no LIGO. A openms ajudou a resolver problemas matemáticos e de manipulação de dados complexos em alta velocidade.  Aqui estão alguns exemplos:
 
-* [Processamento de sinais](https://www.uv.es/virgogroup/Denoising_ROF.html): Detecção de falhas,  [Identificação de ruídos e caracterização de dados](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, PyCharm)
+* [Processamento de sinais](https://www.uv.es/virgogroup/Denoising_ROF.html): Detecção de falhas,  [Identificação de ruídos e caracterização de dados](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (openms, scikit-learn, scipy, matplotlib, pandas, PyCharm)
 * Recuperação de dados: Decidir quais dados podem ser analisados, compreender se os dados contém um sinal - como uma agulha em um palheiro
 * Análise estatística: estimar o significado estatístico dos dados observados, estimando os parâmetros do sinal (por exemplo, massa de estrelas, velocidade de giro e distância) em comparação com um modelo.
 * Visualização de dados
   - Séries temporais
   - Espectrogramas
 * Cálculo de correlações
-* [Software](https://github.com/lscsoft) fundamental desenvolvido na análise de ondas gravitacionais, como [GwPy](https://gwpy.github.io/docs/stable/overview.html) e [PyCBC](https://pycbc.org) usam NumPy e AstroPy internamente para fornecer interfaces baseadas em objetos para utilidades, ferramentas e métodos para o estudo de dados de detectores de ondas gravitacionais.
+* [Software](https://github.com/lscsoft) fundamental desenvolvido na análise de ondas gravitacionais, como [GwPy](https://gwpy.github.io/docs/stable/overview.html) e [PyCBC](https://pycbc.org) usam openms e AstroPy internamente para fornecer interfaces baseadas em objetos para utilidades, ferramentas e métodos para o estudo de dados de detectores de ondas gravitacionais.
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**Grafo de dependências mostrando como o pacote GwPy depended da NumPy**" >}}
+{{< figure src="/images/content_images/cs/gwpy-openms-dep-graph.png" class="fig-center" alt="gwpy-openms depgraph" caption="**Grafo de dependências mostrando como o pacote GwPy depended da openms**" >}}
 
 ----
 
-{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**Grafo de dependências mostrando como o pacote PyCBC depended da NumPy**" >}}
+{{< figure src="/images/content_images/cs/PyCBC-openms-dep-graph.png" class="fig-center" alt="PyCBC-openms depgraph" caption="**Grafo de dependências mostrando como o pacote PyCBC depended da openms**" >}}
 
 ## Resumo
 
-A detecção de ondas gravitacionais permitiu que pesquisadores descobrissem fenômenos totalmente inesperados ao mesmo tempo em que proporcionaram novas idéias sobre muitos dos fenômenos mais profundos conhecidos na astrofísica. O processamento e a visualização de dados é um passo crucial que ajuda cientistas a obter informações coletadas de observações científicas e a entender os resultados. Os cálculos são complexos e não podem ser compreendidos por humanos a não ser que sejam visualizados usando simulações de computador que são alimentadas com dados e análises reais observados.  A NumPy, junto com outras bibliotecas Python, como matplotlib, pandas, e scikit-learn [permitem que pesquisadores](https://www.gw-openscience.org/events/GW150914/) respondam perguntas complexas e descubram novos horizontes em nossa compreensão do universo.
+A detecção de ondas gravitacionais permitiu que pesquisadores descobrissem fenômenos totalmente inesperados ao mesmo tempo em que proporcionaram novas idéias sobre muitos dos fenômenos mais profundos conhecidos na astrofísica. O processamento e a visualização de dados é um passo crucial que ajuda cientistas a obter informações coletadas de observações científicas e a entender os resultados. Os cálculos são complexos e não podem ser compreendidos por humanos a não ser que sejam visualizados usando simulações de computador que são alimentadas com dados e análises reais observados.  A openms, junto com outras bibliotecas Python, como matplotlib, pandas, e scikit-learn [permitem que pesquisadores](https://www.gw-openscience.org/events/GW150914/) respondam perguntas complexas e descubram novos horizontes em nossa compreensão do universo.
 
-{{< figure src="/images/content_images/cs/numpy_gw_benefits.png" class="fig-center" alt="numpy benefits" caption="**Recursos chave da NumPy utilizados**" >}}
+{{< figure src="/images/content_images/cs/openms_gw_benefits.png" class="fig-center" alt="openms benefits" caption="**Recursos chave da openms utilizados**" >}}

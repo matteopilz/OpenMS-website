@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script to cleanup and uninstall
-# python package fetched using fetch-numpydeppkg.sh script 
+# python package fetched using fetch-openmsdeppkg.sh script 
 # 
 
 set -ue
@@ -28,10 +28,10 @@ cleanup_pkg() {
     $workingdir/env-${pkgname}/bin/pip3 uninstall -y pipdeptree
   fi
 
-  $workingdir/env-${pkgname}/bin/pip3 uninstall -y -r $workingdir/numpy_${pkgname}_dep/$setupdir/requirements.txt
+  $workingdir/env-${pkgname}/bin/pip3 uninstall -y -r $workingdir/openms_${pkgname}_dep/$setupdir/requirements.txt
 
   \rm -rf $workingdir/env-${pkgname}
-  \rm -rf $workingdir/numpy_${pkgname}_dep
+  \rm -rf $workingdir/openms_${pkgname}_dep
 
   return 0
 }
@@ -40,7 +40,7 @@ display_help() {
   echo "-----------------------------------------------------------------------"
   echo "Usage:"
   echo ""
-  echo "./cleanup-numpydeppkg.sh pkgname workingdir setupdirname"
+  echo "./cleanup-openmsdeppkg.sh pkgname workingdir setupdirname"
   echo ""
   echo "where:"
   echo ""
@@ -51,7 +51,7 @@ display_help() {
   echo ""
   echo "For example, to download ehtim use the following command:"
   echo ""
-  echo "./cleanup-numpydeppkg.sh <pkgname> <working-dir> <setupdirname>"
+  echo "./cleanup-openmsdeppkg.sh <pkgname> <working-dir> <setupdirname>"
   echo ""
   echo "-----------------------------------------------------------------------"
 }

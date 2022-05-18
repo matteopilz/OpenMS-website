@@ -9,15 +9,15 @@
             </div>
         {{- end }}
     </div>
-    <div class="numpy-shell-canvas">
-        <div class="numpy-shell-container">
+    <div class="openms-shell-canvas">
+        <div class="openms-shell-container">
             <div class="shell-lesson shell-content">
                 {{partial "shell-lesson.html" | print | markdownify}}
             </div>
             <!-- Interactive Shell -->
             <iframe
-                class="numpy-shell"
-                src="https://jupyterlite.github.io/demo/repl/?toolbar=1&kernel=python&code=import%20numpy%20as%20np"
+                class="openms-shell"
+                src="https://jupyterlite.github.io/demo/repl/?toolbar=1&kernel=python&code=import%20openms%20as%20np"
             >
             </iframe>
         </div>

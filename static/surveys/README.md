@@ -1,1 +1,1 @@
-This folder contains files related to the announcements about NumPy surveys on numpy.org.
+This folder contains files related to the announcements about openms surveys on openms.org.

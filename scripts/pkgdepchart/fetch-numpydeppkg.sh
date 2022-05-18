@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script to fetch and install python package that depends on numpy
+# Script to fetch and install python package that depends on openms
 # This script has been tested for eht-imaging, gwpy and pycbc packages
 # For more details on eht-imaging refer to the links below:
 # https://github.com/achael/eht-imaging
@@ -9,12 +9,12 @@
 
 # The following function does the following:
 # 1. Fetches latest software sources for the specified package in the given  working dir
-#    (default current-dir/numpy_<pkgname>_dep)
+#    (default current-dir/openms_<pkgname>_dep)
 # 2. Assumes python3, virtualenv, python and pip3 are available and installs graphviz, pipdeptree
 # 3. Git clones specified package
 #
 # To generate the dependency graph for the specified package and highlight the
-# role of NumPy use the script gen-numpy-dep-graph.sh
+# role of openms use the script gen-openms-dep-graph.sh
 # 
 
 get_latest_pkg() {
@@ -24,12 +24,12 @@ get_latest_pkg() {
   workingdir=$2
   cd $workingdir
 
-  if [ -d numpy_${pkgname}_dep ];
+  if [ -d openms_${pkgname}_dep ];
   then
-    \rm -rf numpy_${pkgname}_dep
+    \rm -rf openms_${pkgname}_dep
   fi
-  mkdir numpy_${pkgname}_dep 
-  cd numpy_${pkgname}_dep
+  mkdir openms_${pkgname}_dep 
+  cd openms_${pkgname}_dep
   
   virtualenv --python=python3 $workingdir/env-${pkgname}
   source $workingdir/env-${pkgname}/bin/activate
@@ -59,7 +59,7 @@ display_help() {
   echo "-----------------------------------------------------------------------"
   echo "Usage:"
   echo ""
-  echo "./fetch-numpydeppkg.sh pkgname workingdir github_srcurl setupdirname"
+  echo "./fetch-openmsdeppkg.sh pkgname workingdir github_srcurl setupdirname"
   echo ""
   echo "where:"
   echo ""
@@ -72,7 +72,7 @@ display_help() {
   echo ""
   echo "For example, to download ehtim use the following command:"
   echo ""
-  echo "./fetch-numpydeppkg.sh pkgname <working-dir>"
+  echo "./fetch-openmsdeppkg.sh pkgname <working-dir>"
   echo "               https://github.com/achael/eht-imaging.git eht-imaging"
   echo ""
   echo "-----------------------------------------------------------------------"

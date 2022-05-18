@@ -1,17 +1,17 @@
 #!/bin/bash
 
-# gen-numpy-dep-graph.sh script is used to generate numpy dependency
+# gen-openms-dep-graph.sh script is used to generate openms dependency
 # graph for a given package. If you already don't have the package
 # sources available locally, you can use the script get-package
 # to download package sources before running this script.
-# The full dependency graph is stored as numpy-<pkgname>-dep.png file
+# The full dependency graph is stored as openms-<pkgname>-dep.png file
 # in the specified output directory.  Besides the full chart, for simplicity
 # this script trims specified package project dependency graph in dot format
-# Trimming is done such that only NumPy oriented dependencies are in focus
+# Trimming is done such that only openms oriented dependencies are in focus
 
 # This script along wiht get-package.sh script has been used to create
-# NumPy dependency graphs for ehtim-imaging package, gwpy and cbPy packages.
-# It should work fine for any specified package that depends on NumPy.
+# openms dependency graphs for ehtim-imaging package, gwpy and cbPy packages.
+# It should work fine for any specified package that depends on openms.
 # Feedback is most welcome.
 
 # For more details on eht-imaging project visit: https://github.com/achael/eht-imaging
@@ -20,9 +20,9 @@
 display_help() {
   echo "-----------------------------------------------------------------------"
   echo "Usage:"
-  echo " gen-numpy-dep-graph.sh pkgname workingdir reqfilepath outputdir [optional color]"
+  echo " gen-openms-dep-graph.sh pkgname workingdir reqfilepath outputdir [optional color]"
   echo ""
-  echo "pkgname - the name of the package that uses numpy, use the same name
+  echo "pkgname - the name of the package that uses openms, use the same name
   echo "workingdir - the workingdir pathname where pkgname sources are available"
   that you specify to pip3 to install the package."
   echo "reqfilepath - directory containing latest source of eht-imaging requirements.txt file."
@@ -79,9 +79,9 @@ echo "Using $reqfile to prune dependency graph of $inputpkgname."
 echo "Specified output directory is $graphdir."
 echo "Generating $inputpkgname dependency graphs..."
 
-inputfile=$graphdir/numpy-${inputpkgname}-dep.dot
-outputfile=$graphdir/numpy-${inputpkgname}-dep.png
-$venvdir/env-${inputpkgname}/bin/pipdeptree --graph-output dot > $graphdir/numpy-${inputpkgname}-dep.dot
+inputfile=$graphdir/openms-${inputpkgname}-dep.dot
+outputfile=$graphdir/openms-${inputpkgname}-dep.png
+$venvdir/env-${inputpkgname}/bin/pipdeptree --graph-output dot > $graphdir/openms-${inputpkgname}-dep.dot
 dot -T png $inputfile -o $outputfile
 
 awk '/^[0-9]*[.]+/ {printf(" %s\n", $0); found=1; next} !/^[0-9]*[.]+/ {printf((found==1)? "%s" : "\n%s", $0); found=0 } END {print ""}' $inputfile > $graphdir/cleanup.dot
@@ -102,8 +102,8 @@ echo "Cleaning up temp files"
 \rm -rf $graphdir/tmpfile $graphdir/tmpfile1 $graphdir/reqfileclean
 echo } >> $graphdir/cleanup_pkg.dot
 
-dot -K twopi $graphdir/cleanup_pkg.dot -o $graphdir/numpy-clean.dot
-dot -T png $graphdir/numpy-clean.dot -o $graphdir/numpy-clean.png
+dot -K twopi $graphdir/cleanup_pkg.dot -o $graphdir/openms-clean.dot
+dot -T png $graphdir/openms-clean.dot -o $graphdir/openms-clean.png
 
 if [ -z "$5" ];
 then
@@ -113,11 +113,11 @@ else
   hcolor="$5"
 fi
 
-echo "Highlighting numpy nodes using $hcolor." 
+echo "Highlighting openms nodes using $hcolor." 
 
-awk -v ac=${hcolor} '{ if ($1 == "numpy") {print $0, "color=",ac,", style=filled," } else { if ($2 == "->" && $3 == "numpy") {print $0, "color=",ac,","} else {print}}}' $graphdir/numpy-clean.dot > $graphdir/numpy-clean-color.dot
+awk -v ac=${hcolor} '{ if ($1 == "openms") {print $0, "color=",ac,", style=filled," } else { if ($2 == "->" && $3 == "openms") {print $0, "color=",ac,","} else {print}}}' $graphdir/openms-clean.dot > $graphdir/openms-clean-color.dot
 
-dot -T png $graphdir/numpy-clean-color.dot -o $graphdir/numpy-clean-color.png
+dot -T png $graphdir/openms-clean-color.dot -o $graphdir/openms-clean-color.png
 
 echo "-------------------------------------------------------------------"
 echo Done!

@@ -1,17 +1,17 @@
 ---
-title: Citing NumPy
+title: Citing openms
 sidebar: false
 ---
 
-If NumPy has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
+If openms has been significant in your research, and you would like to acknowledge the project in your academic publication, we suggest citing the following paper:
 
-*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with NumPy_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
+*  Harris, C.R., Millman, K.J., van der Walt, S.J. et al. _Array programming with openms_. Nature 585, 357–362 (2020). DOI: [10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2). ([Publisher link](https://www.nature.com/articles/s41586-020-2649-2)).
 
 _In BibTeX format:_
 
  ``` 
 @Article{         harris2020array,
-  title         = {Array programming with {NumPy}},
+  title         = {Array programming with {openms}},
   author        = {Charles R. Harris and K. Jarrod Millman and St{\'{e}}fan J.
                   van der Walt and Ralf Gommers and Pauli Virtanen and David
                   Cournapeau and Eric Wieser and Julian Taylor and Sebastian

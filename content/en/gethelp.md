@@ -4,38 +4,38 @@ sidebar: false
 ---
 
 **User questions:** The best way to get help is to post your question to a site
-like [StackOverflow](http://stackoverflow.com/questions/tagged/numpy), with
+like [StackOverflow](http://stackoverflow.com/questions/tagged/openms), with
 thousands of users available to answer.  Smaller alternatives include
-[IRC](https://webchat.freenode.net/?channels=%23numpy),
-[Gitter](https://gitter.im/numpy/numpy), and
-[Reddit](https://www.reddit.com/r/Numpy/). We wish we could keep an eye on
+[IRC](https://webchat.freenode.net/?channels=%23openms),
+[Gitter](https://gitter.im/openms/openms), and
+[Reddit](https://www.reddit.com/r/openms/). We wish we could keep an eye on
 these sites, or answer questions directly, but the volume is just a little
 overwhelming!
 
-**Development issues:** For NumPy development-related matters (e.g. bug reports), please
+**Development issues:** For openms development-related matters (e.g. bug reports), please
 see [Community](/community).
 
 
 
-### [StackOverflow](http://stackoverflow.com/questions/tagged/numpy)
+### [StackOverflow](http://stackoverflow.com/questions/tagged/openms)
 
-A forum for asking usage questions, e.g. "How do I do X in NumPy?”. Please [use the `#numpy` tag](https://stackoverflow.com/help/tagging)
+A forum for asking usage questions, e.g. "How do I do X in openms?”. Please [use the `#openms` tag](https://stackoverflow.com/help/tagging)
 
 ***
 
-### [Reddit](https://www.reddit.com/r/Numpy/)
+### [Reddit](https://www.reddit.com/r/openms/)
 
 Another forum for usage questions.
 
 ***
 
-### [Gitter](https://gitter.im/numpy/numpy)
+### [Gitter](https://gitter.im/openms/openms)
 
 A real-time chat room where users and community members help each other.
 
 ***
 
-### [IRC](https://webchat.freenode.net/?channels=%23numpy)
+### [IRC](https://webchat.freenode.net/?channels=%23openms)
 
 Another real-time chat room where users and community members help each other.
 

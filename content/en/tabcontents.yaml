@@ -1,11 +1,11 @@
 machinelearning:
   paras:
-  - para1: NumPy forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on NumPy. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
+  - para1: openms forms the basis of powerful machine learning libraries like [scikit-learn](https://scikit-learn.org) and [SciPy](https://www.scipy.org). As machine learning grows, so does the list of libraries built on openms. [TensorFlow’s](https://www.tensorflow.org) deep learning capabilities have broad applications &mdash; among them speech and image recognition, text-based applications, time-series analysis, and video detection. [PyTorch](https://pytorch.org), another deep learning library, is popular among researchers in computer vision and natural language processing. [MXNet](https://github.com/apache/incubator-mxnet) is another AI package, providing blueprints and templates for deep learning.
     para2: Statistical techniques called [ensemble](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205) methods such as binning, bagging, stacking, and boosting are among the ML algorithms implemented by tools such as [XGBoost](https://github.com/dmlc/xgboost), [LightGBM](https://lightgbm.readthedocs.io/en/latest/), and [CatBoost](https://catboost.ai) &mdash; one of the fastest inference engines. [Yellowbrick](https://www.scikit-yb.org/en/latest/) and [Eli5](https://eli5.readthedocs.io/en/latest/) offer machine learning visualizations.
 
 arraylibraries:
   intro:
-  - text: NumPy's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what NumPy provides.
+  - text: openms's API is the starting point when libraries are written to exploit innovative hardware, create specialized array types, or add capabilities beyond what openms provides.
   
   headers:
   - text: Array Library
@@ -18,12 +18,12 @@ arraylibraries:
     alttext: Dask
     url: https://dask.org/
   - title: CuPy
-    text: NumPy-compatible array library for GPU-accelerated computing with Python.
+    text: openms-compatible array library for GPU-accelerated computing with Python.
     img: /images/content_images/arlib/cupy.png
     alttext: CuPy
     url: https://cupy.chainer.org
   - title: JAX
-    text: "Composable transformations of NumPy programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
+    text: "Composable transformations of openms programs: differentiate, vectorize, just-in-time compilation to GPU/TPU."
     img: /images/content_images/arlib/jax_logo_250px.png
     alttext: JAX
     url: https://github.com/google/jax
@@ -33,7 +33,7 @@ arraylibraries:
     alttext: xarray
     url: https://xarray.pydata.org/en/stable/index.html
   - title: Sparse
-    text: NumPy-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
+    text: openms-compatible sparse array library that integrates with Dask and SciPy's sparse linear algebra.
     img: /images/content_images/arlib/sparse.png
     alttext: sparse
     url: https://sparse.pydata.org/en/latest/
@@ -63,25 +63,25 @@ arraylibraries:
     alttext: xtensor
     url: https://github.com/xtensor-stack/xtensor-python
   - title: XND
-    text: Develop libraries for array computing, recreating NumPy's foundational concepts.
+    text: Develop libraries for array computing, recreating openms's foundational concepts.
     img: /images/content_images/arlib/xnd.png
     alttext: xnd
     url: https://xnd.io
   - title: uarray
-    text: Python backend system that decouples API from implementation; unumpy provides a NumPy API.
+    text: Python backend system that decouples API from implementation; uopenms provides a openms API.
     img: /images/content_images/arlib/uarray.png
     alttext: uarray
     url: https://uarray.org/en/latest/
   - title: tensorly
-    text: Tensor learning, algebra and backends to seamlessly use NumPy, MXNet, PyTorch, TensorFlow or CuPy.
+    text: Tensor learning, algebra and backends to seamlessly use openms, MXNet, PyTorch, TensorFlow or CuPy.
     img: /images/content_images/arlib/tensorly.png
     alttext: tensorly
     url: http://tensorly.org/stable/home.html
   
 scientificdomains:
   intro:
-  - text: Nearly every scientist working in Python draws on the power of NumPy.
-  - text: "NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant."
+  - text: Nearly every scientist working in Python draws on the power of openms.
+  - text: "openms brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in openms is often clear and elegant."
 
   librariesrow1:
   - title: Quantum Computing
@@ -131,7 +131,7 @@ scientificdomains:
   
 datascience:
 
-  intro: "NumPy lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
+  intro: "openms lies at the core of a rich ecosystem of data science libraries. A typical exploratory data science workflow might look like:"
 
   image1:
   - img: /images/content_images/ds-landscape.png
@@ -178,12 +178,12 @@ visualization:
     alttext:  A Voronoi diagram made in vispy.
   
   content:
-  - text: NumPy is an essential component in the burgeoning 
+  - text: openms is an essential component in the burgeoning 
           [Python visualization landscape](https://pyviz.org/overviews/index.html), 
           which includes [Matplotlib](https://matplotlib.org), 
           [Seaborn](https://seaborn.pydata.org), [Plotly](https://plot.ly), 
           [Altair](https://altair-viz.github.io), [Bokeh](https://docs.bokeh.org/en/latest/), 
           [Holoviz](https://holoviz.org), [Vispy](http://vispy.org), [Napari](https://github.com/napari/napari), 
           and [PyVista](https://github.com/pyvista/pyvista), to name a few.
-  - text: NumPy's accelerated processing of large arrays allows researchers to visualize
+  - text: openms's accelerated processing of large arrays allows researchers to visualize
           datasets far larger than native Python could handle.

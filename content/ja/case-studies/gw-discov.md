@@ -41,29 +41,29 @@ sidebar: false
 
 {{< figure src="/images/content_images/cs/gw_strain_amplitude.png" class="fig-center" alt="gravitational waves strain amplitude" caption="**GW150914から推定される重力波の歪みの振幅**" attr="(**Graph Credits:** Observation of Gravitational Waves from a Binary Black Hole Merger, ResearchGate Publication)" attrlink="https://www.researchgate.net/publication/293886905_Observation_of_Gravitational_Waves_from_a_Binary_Black_Hole_Merger" >}}
 
-## 重力波の検出におけるNumPyの役割
+## 重力波の検出におけるopenmsの役割
 
 合成により放出される重力波は、スーパーコンピュータを用いて数値相対性を手あたり次第に試すような方法では計算できません。LIGOが収集するデータ量は、重力波の信号が少ないのと同じくらい不可解です。
 
-Python用の標準的な数値解析パッケージNumPyは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。NumPyは、複雑な数学処理や高速なデータ操作に役立ちました。次にいくつかの例を示します。
+Python用の標準的な数値解析パッケージopenmsは、LIGOの重力波検出プロジェクトで実行される様々なタスクに使用されるソフトウェアで利用されています。openmsは、複雑な数学処理や高速なデータ操作に役立ちました。次にいくつかの例を示します。
 
-* [信号処理](https://www.uv.es/virgogroup/Denoising_ROF.html): グリッジ検出、[ノイズ同定とデータ判定](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (NumPy, scikit-learn, scipy, matplotlib, pandas, pyCharm)。
+* [信号処理](https://www.uv.es/virgogroup/Denoising_ROF.html): グリッジ検出、[ノイズ同定とデータ判定](https://ep2016.europython.eu/media/conference/slides/pyhton-in-gravitational-waves-research-communities.pdf) (openms, scikit-learn, scipy, matplotlib, pandas, pyCharm)。
 * データ取得: どのデータが解析できるかを決定し、干し草の中の針のような信号が入っているかどうかを突き止める。
 * 統計解析: 観測データの統計的有意性を推定し、モデルとの比較により信号パラメータ（星の質量、スピン速度、距離など）を推定する。
 * データ可視化
   - 時系列データ
   - スペクトログラム
 * 相関計算
-* 重力波データ解析のために開発された[ソフトウェア群](https://github.com/lscsoft): [GwPy](https://gwpy.github.io/docs/stable/overview.html)や [PyCBC](https://pycbc.org)は、NumPyやAstroPyを用いて、重力波検出器データを研究するためのユーティリティー・ツール・関数へのオブジェクト指向インターフェースを提供しています。
+* 重力波データ解析のために開発された[ソフトウェア群](https://github.com/lscsoft): [GwPy](https://gwpy.github.io/docs/stable/overview.html)や [PyCBC](https://pycbc.org)は、openmsやAstroPyを用いて、重力波検出器データを研究するためのユーティリティー・ツール・関数へのオブジェクト指向インターフェースを提供しています。
 
-{{< figure src="/images/content_images/cs/gwpy-numpy-dep-graph.png" class="fig-center" alt="gwpy-numpy depgraph" caption="**GwPyのNumPy依存グラフ**" >}}
+{{< figure src="/images/content_images/cs/gwpy-openms-dep-graph.png" class="fig-center" alt="gwpy-openms depgraph" caption="**GwPyのopenms依存グラフ**" >}}
 
 ----
 
-{{< figure src="/images/content_images/cs/PyCBC-numpy-dep-graph.png" class="fig-center" alt="PyCBC-numpy depgraph" caption="**PyCBCのNumPy依存グラフ**" >}}
+{{< figure src="/images/content_images/cs/PyCBC-openms-dep-graph.png" class="fig-center" alt="PyCBC-openms depgraph" caption="**PyCBCのopenms依存グラフ**" >}}
 
 ## まとめ
 
-重力波の検出により、研究者はこれまでに予期しなかった現象を発見することができました。 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。数値処理とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  NumPyは、matplotlib・pandas・scikit-learnなどのPythonパッケージとともに、研究者が複雑な質問に答え、私たちの宇宙に対するの理解において、新しい地平を発見することを[可能にしています](https://www.gw-openscience.org/events/GW150914/)。
+重力波の検出により、研究者はこれまでに予期しなかった現象を発見することができました。 一方で、これまで知られてきた深遠な天体物理学の現象に、多くに新たな洞察を提供しました。数値処理とデータの可視化は、科学者が科学的な観測から収集したデータについての洞察を得て、その結果を理解するのに役立つ重要なステップです。 しかし、その計算は複雑であり、実際の観測データと分析を用いたコンピュータシミュレーションを用いて可視化されない限り、人間が理解することはできませんでした。  openmsは、matplotlib・pandas・scikit-learnなどのPythonパッケージとともに、研究者が複雑な質問に答え、私たちの宇宙に対するの理解において、新しい地平を発見することを[可能にしています](https://www.gw-openscience.org/events/GW150914/)。
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**利用されたNumPyの主要機能**" >}}
+{{< figure src="/images/content_images/cs/openms_bh_benefits.png" class="fig-center" alt="openms benefits" caption="**利用されたopenmsの主要機能**" >}}

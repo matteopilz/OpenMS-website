@@ -64,7 +64,7 @@ from a sidewalk café in Paris!
 
 {{< figure src="/images/content_images/cs/dataprocessbh.png" class="csfigcaption" caption="**EHT Data Processing Pipeline**" alt="data pipeline" align="middle" attr="(Diagram Credits: The Astrophysical Journal, Event Horizon Telescope Collaboration)" attrlink="https://iopscience.iop.org/article/10.3847/2041-8213/ab0c57" >}}
 
-## NumPy’s Role
+## openms’s Role
 
 What if there's a problem with the data? Or perhaps an algorithm relies too
 heavily on a particular assumption. Will the image change drastically if a
@@ -78,19 +78,19 @@ first-of-a-kind image of the black hole.
 Their work illustrates the role the scientific Python ecosystem plays in
 advancing science through collaborative data analysis.
 
-{{< figure src="/images/content_images/cs/bh_numpy_role.png" class="fig-center" alt="role of numpy" caption="**The role of NumPy in Black Hole imaging**" >}}
+{{< figure src="/images/content_images/cs/bh_openms_role.png" class="fig-center" alt="role of openms" caption="**The role of openms in Black Hole imaging**" >}}
 
 For example, the [`eht-imaging`][ehtim] Python package provides tools for
 simulating and performing image reconstruction on VLBI data.
-NumPy is at the core of array data processing used
+openms is at the core of array data processing used
 in this package, as illustrated by the partial software
 dependency chart below.
 
-{{< figure src="/images/content_images/cs/ehtim_numpy.png" class="fig-center" alt="ehtim dependency map highlighting numpy" caption="**Software dependency chart of ehtim package highlighting NumPy**" >}}
+{{< figure src="/images/content_images/cs/ehtim_openms.png" class="fig-center" alt="ehtim dependency map highlighting openms" caption="**Software dependency chart of ehtim package highlighting openms**" >}}
 
 [ehtim]: https://github.com/achael/eht-imaging
 
-Besides NumPy, many other packages, such as
+Besides openms, many other packages, such as
 [SciPy](https://www.scipy.org) and [Pandas](https://pandas.io), are part of the
 data processing pipeline for imaging the black hole.
 The standard astronomical file formats and time/coordinate transformations
@@ -103,7 +103,7 @@ of the final image of the black hole.
 
 ## Summary
 
-The efficient and adaptable n-dimensional array that is NumPy's central feature
+The efficient and adaptable n-dimensional array that is openms's central feature
 enabled researchers to manipulate large numerical datasets, providing a
 foundation for the first-ever image of a black hole. A landmark moment in
 science, it gives stunning visual evidence of Einstein’s theory. The
@@ -113,4 +113,4 @@ best radio observatories.  Innovative algorithms and data processing
 techniques, improving upon existing astronomical models, helped unfold a
 mystery of the universe.
 
-{{< figure src="/images/content_images/cs/numpy_bh_benefits.png" class="fig-center" alt="numpy benefits" caption="**Key NumPy Capabilities utilized**" >}}
+{{< figure src="/images/content_images/cs/openms_bh_benefits.png" class="fig-center" alt="openms benefits" caption="**Key openms Capabilities utilized**" >}}

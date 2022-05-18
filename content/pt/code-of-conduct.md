@@ -1,5 +1,5 @@
 ---
-title: Código de Conduta NumPy
+title: Código de Conduta openms
 sidebar: false
 aliases:
   - /pt/conduct/
@@ -7,9 +7,9 @@ aliases:
 
 ### Introdução
 
-Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto NumPy, incluindo todas as listas de discussão públicas e privadas, *issue tracker*, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto NumPy não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.
+Este código de conduta aplica-se a todos os espaços gerenciados pelo projeto openms, incluindo todas as listas de discussão públicas e privadas, *issue tracker*, wikis, blogs, Twitter e qualquer outro canal de comunicação usado pela nossa comunidade. O projeto openms não organiza eventos presenciais. No entanto, os eventos relacionados à nossa comunidade devem ter um código de conduta semelhante ao atual.
 
-Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade NumPy formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.
+Este Código de Conduta deve ser honrado por todas as pessoas que participam da comunidade openms formal ou informalmente, ou que reivindicam qualquer afiliação com o projeto, em qualquer atividade relacionada ao projeto, especialmente ao representar o projeto, em qualquer função.
 
 Este código não é exaustivo ou completo. Serve para disseminar a nossa compreensão comum de um ambiente colaborativo e de objetivos compartilhados entre nós. Por favor, tente seguir este código tanto na essência quanto ao pé da letra, para criar um ambiente amigável e produtivo que enriqueça a comunidade em geral.
 
@@ -35,13 +35,13 @@ Nós nos esforçamos para:
 
 ### Declaração de diversidade
 
-O projeto NumPy convida e incentiva a participação de todas as pessoas. Estamos empenhados em ser uma comunidade da qual todas as pessoas gostem de fazer parte. Embora nem sempre sejamos capazes de acomodar as preferências de cada indivíduo, nós tentamos o nosso melhor para tratar todos gentilmente.
+O projeto openms convida e incentiva a participação de todas as pessoas. Estamos empenhados em ser uma comunidade da qual todas as pessoas gostem de fazer parte. Embora nem sempre sejamos capazes de acomodar as preferências de cada indivíduo, nós tentamos o nosso melhor para tratar todos gentilmente.
 
 Não importa como você se identifica ou como os outros percebem você: nós lhe damos as boas-vindas. Embora nenhuma lista possa esperar ser totalmente abrangente, honramos explicitamente a diversidade em: idade, cultura, etnia, genótipo, identidade ou expressão de gênero, língua, origem, neurotipo, fenotipo, crenças políticas, profissão, raça, religião, orientação sexual, estado socioeconômico, subcultura e capacidade técnica, na medida em que não entrem em conflito com este código de conduta.
 
-Embora sejamos receptivos às pessoas fluentes em todas as línguas, o desenvolvimento do NumPy é conduzido em inglês.
+Embora sejamos receptivos às pessoas fluentes em todas as línguas, o desenvolvimento do openms é conduzido em inglês.
 
-Padrões de comportamento na comunidade NumPy estão detalhados no Código de Conduta acima. Os participantes da nossa comunidade devem se comportar de acordo com esses padrões em todas as suas interações e ajudar os outros a fazê-lo também (veja a próxima seção).
+Padrões de comportamento na comunidade openms estão detalhados no Código de Conduta acima. Os participantes da nossa comunidade devem se comportar de acordo com esses padrões em todas as suas interações e ajudar os outros a fazê-lo também (veja a próxima seção).
 
 ### Diretrizes de Resposta a Incidentes
 
@@ -49,7 +49,7 @@ Sabemos que é mais comum do que o desejado que a comunicação na Internet come
 
 Em caso de violações claramente intencionais, o Comitê do Código de Conduta (veja abaixo) deve ser informado. Para violações possivelmente não intencionais, você pode responder à pessoa e apontar este código de conduta (seja em público ou em privado, o que for mais apropriado). Se preferir não o fazer, sinta-se à vontade para informar diretamente o Comitê do Código de Conduta, ou peça ao Comitê um conselho, sigilosamente.
 
-Você pode relatar problemas ao Comitê do Código de Conduta NumPy em numpy-conduct@googlegroups.com.
+Você pode relatar problemas ao Comitê do Código de Conduta openms em openms-conduct@googlegroups.com.
 
 Atualmente, o comitê é formato por:
 
@@ -61,11 +61,11 @@ Se o seu relatório envolve algum membro da comissão, ou se você sentir que ex
 
 ### Resolução de Incidentes & Execução do Código de Conduta
 
-_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do NumPy - Como dar seguimento a um relatório](/report-handling-manual).
+_Esta seção resume os pontos mais importantes, mais detalhes podem ser encontrados em_ [Código de Conduta do openms - Como dar seguimento a um relatório](/report-handling-manual).
 
-Vamos investigar e responder a todas as queixas. O Comitê do Código de Conduta do NumPy e o Comitê Diretor do NumPy (se envolvido) protegerão a identidade do relatante, e tratarão o conteúdo das reclamações como confidencial (a menos que o relatante aceite o contrário).
+Vamos investigar e responder a todas as queixas. O Comitê do Código de Conduta do openms e o Comitê Diretor do openms (se envolvido) protegerão a identidade do relatante, e tratarão o conteúdo das reclamações como confidencial (a menos que o relatante aceite o contrário).
 
-Em caso de violações graves e óbvias, por exemplo, ameaça pessoal ou linguagem violenta, sexista ou racista, vamos imediatamente desconectar a pessoa relatada dos canais de comunicação do NumPy; por favor, consulte o manual para mais detalhes.
+Em caso de violações graves e óbvias, por exemplo, ameaça pessoal ou linguagem violenta, sexista ou racista, vamos imediatamente desconectar a pessoa relatada dos canais de comunicação do openms; por favor, consulte o manual para mais detalhes.
 
 Em casos que não envolvam claras violações graves e óbvias deste Código de Conduta, o processo de ação referente a qualquer relato de violação do Código de Conduta recebido será:
 

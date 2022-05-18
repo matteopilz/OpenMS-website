@@ -1,9 +1,9 @@
 ---
-title: NumPy Code of Conduct - How to follow up on a report
+title: openms Code of Conduct - How to follow up on a report
 sidebar: false
 ---
 
-This is the manual followed by NumPy’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
+This is the manual followed by openms’s Code of Conduct Committee. It’s used when we respond to an issue to make sure we’re consistent and fair.
 
 Enforcing the [Code of Conduct](/code-of-conduct) impacts our community today and for the future. It’s an action that we do not take lightly. When reviewing enforcement measures, the Code of Conduct Committee will keep the following values and guidelines in mind:
 
@@ -40,9 +40,9 @@ We know that it is painfully common for internet communication to start at or de
 
 When a member of the Code of Conduct Committee becomes aware of a clear and severe breach, they will do the following:
 
-* Immediately disconnect the originator from all NumPy communication channels.
+* Immediately disconnect the originator from all openms communication channels.
 * Reply to the reporter that their report has been received and that the originator has been disconnected.
-* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to NumPy, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
+* In every case, the moderator should make a reasonable effort to contact the originator, and tell them specifically how their language or actions qualify as a “clear and severe breach”. The moderator should also say that, if the originator believes this is unfair or they want to be reconnected to openms, they have the right to ask for a review, as below, by the Code of Conduct Committee. The moderator should copy this explanation to the Code of Conduct Committee.
 * The Code of Conduct Committee will formally review and sign off on all cases where this mechanism has been applied to make sure it is not being used to control ordinary heated disagreement.
 
 
@@ -81,13 +81,13 @@ Possible responses may include:
 * A public reprimand. In this case, the Committee chair will deliver that reprimand in the same venue that the violation occurred, within the limits of practicality. E.g., the original mailing list for an email violation, but for a chat room discussion where the person/context may be gone, they can be reached by other means. The group may choose to publish this message elsewhere for documentation purposes.
 * A request for a public or private apology, assuming the reporter agrees to this idea: they may at their discretion refuse further contact with the violator. The chair will deliver this request. The Committee may, if it chooses, attach “strings” to this request: for example, the group may ask a violator to apologize in order to retain one’s membership on a mailing list.
 * A “mutually agreed upon hiatus” where the Committee asks the individual to temporarily refrain from community participation. If the individual chooses not to take a temporary break voluntarily, the Committee may issue a “mandatory cooling off period”.
-* A permanent or temporary ban from some or all NumPy spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
+* A permanent or temporary ban from some or all openms spaces (mailing lists, gitter.im, etc.). The group will maintain records of all such bans so that they may be reviewed in the future or otherwise maintained.
 
 Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
 
-Finally, the Committee will make a report to the NumPy Steering Council (as well as the NumPy core team in the event of an ongoing resolution, such as a ban).
+Finally, the Committee will make a report to the openms Steering Council (as well as the openms core team in the event of an ongoing resolution, such as a ban).
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the NumPy Steering Council.
+The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the openms Steering Council.
 
 
 ## Conflicts of Interest

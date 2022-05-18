@@ -1,9 +1,9 @@
 ---
-title: Código de Conduta NumPy - Como dar seguimento a um relatório
+title: Código de Conduta openms - Como dar seguimento a um relatório
 sidebar: false
 ---
 
-Este é o manual seguido pelo Comitê do Código de Conduta do NumPy. É usado quando respondemos a um incidente para nos certificarmos de que somos pessoas consistentes e justas.
+Este é o manual seguido pelo Comitê do Código de Conduta do openms. É usado quando respondemos a um incidente para nos certificarmos de que somos pessoas consistentes e justas.
 
 Garantir que o [Código de Conduta](/code-of-conduct) seja respeitado afeta nossa comunidade hoje e no futuro. É uma ação que levamos muito a sério. Ao analisar medidas de aplicação do Código de Conduta, o Comitê terá em mente os seguintes valores e orientações:
 
@@ -40,9 +40,9 @@ Sabemos que é mais comum do que o desejado que a comunicação na Internet come
 
 Quando um membro do Comitê do Código de Conduta tomar conhecimento de uma violação clara e grave, fará o seguinte:
 
-* Desligará imediatamente a pessoa originadora de todos os canais de comunicação do NumPy.
+* Desligará imediatamente a pessoa originadora de todos os canais de comunicação do openms.
 * Responderá à pessoa relatante para informá-la que seu relatório foi recebido e que a pessoa originadora foi desligada.
-* Em todos os casos, a pessoa moderadora deve fazer um esforço razoável para entrar em contato com a pessoa originadora, e dizer-lhes especificamente como sua linguagem ou ações se qualificam como uma "violação clara e severa". A pessoa moderadora deve também dizer que, se a pessoa originadora considerar que isso é injusto ou quiser ser reconectada ao NumPy, tem o direito de solicitar uma revisão, de acordo com as disposições do Comitê do Código de Conduta. A pessoa moderadora deve copiar esta explicação para o Comitê do Código de Conduta.
+* Em todos os casos, a pessoa moderadora deve fazer um esforço razoável para entrar em contato com a pessoa originadora, e dizer-lhes especificamente como sua linguagem ou ações se qualificam como uma "violação clara e severa". A pessoa moderadora deve também dizer que, se a pessoa originadora considerar que isso é injusto ou quiser ser reconectada ao openms, tem o direito de solicitar uma revisão, de acordo com as disposições do Comitê do Código de Conduta. A pessoa moderadora deve copiar esta explicação para o Comitê do Código de Conduta.
 * O Comitê do Código de Conduta procederá formalmente à análise e decisão em todos os casos em que este mecanismo tenha sido aplicado para garantir que não seja utilizado para controlar desentendimentos acalorados comuns.
 
 
@@ -81,13 +81,13 @@ Possíveis respostas podem incluir:
 * Uma advertência pública. Neste caso, a pessoa presidente do Comitê vai apresentar essa advertência no mesmo fórum em que ocorreu a violação, dentro dos limites da viabilidade. Exemplo: a lista original para uma violação de e-mail, mas para uma discussão em sala de bate-papo onde a pessoa/contexto pode sumir, isto pode ser feito por outros meios. O grupo pode optar por publicar esta mensagem em outro local para fins de documentação.
 * Um pedido de desculpas públicas ou privadas, supondo que a(s) pessoa(s) relatante(s) concorde(m) com esta ideia: a(s) pessoa(s) pode(m), a seu critério, recusar contatos adicionais com a pessoa relatada. A Presidência dará seguimento a este pedido. O Comitê, se escolher, pode anexar condições adicionais a este pedido inicial: por exemplo, o grupo pode pedir à pessoa relatada que se desculpe para que tenha o direito de manter a sua adesão a uma lista de e-mails.
 * Um “acordo mútuo de trégua” onde o Comitê solicita à pessoa que se abstenha temporariamente da participação na comunidade. Se a pessoa optar por não fazer uma pausa temporária voluntariamente, o Comitê pode aplicar um “período de afastamento obrigatório”.
-* Um banimento permanente ou temporário de alguns ou todos os espaços do NumPy (listas de e-mails, gitter.im, etc.). O grupo manterá registro de todas essas proibições, para que elas possam ser revistas no futuro ou mantidas.
+* Um banimento permanente ou temporário de alguns ou todos os espaços do openms (listas de e-mails, gitter.im, etc.). O grupo manterá registro de todas essas proibições, para que elas possam ser revistas no futuro ou mantidas.
 
 Uma vez aprovada uma resolução, mas antes de ser efetivamente aplicada, o Comitê entrará em contato com a pessoa relatante original e quaisquer outras partes afetadas e explicará a resolução proposta. O Comitê perguntará se esta resolução é aceitável e terá de tomar nota da sua resposta para registro futuro.
 
-Finalmente, o Comitê apresentará um relatório ao Conselho Diretor do NumPy (bem como ao time *core* do NumPy no caso de uma resolução em curso, como um banimento).
+Finalmente, o Comitê apresentará um relatório ao Conselho Diretor do openms (bem como ao time *core* do openms no caso de uma resolução em curso, como um banimento).
 
-O Comitê nunca discutirá publicamente a questão; todas as declarações públicas serão feitas pela pessoa presidente do Comitê do Código de Conduta ou pelo Conselho Diretor do NumPy.
+O Comitê nunca discutirá publicamente a questão; todas as declarações públicas serão feitas pela pessoa presidente do Comitê do Código de Conduta ou pelo Conselho Diretor do openms.
 
 
 ## Conflitos de Interesse

@@ -23,3 +23,5 @@ jobs:
         with:
           githubToken: ${{ secrets.JENKINS_PERSONAL_TOKEN }}
           branch: main
+          repo: OpenMS/openms.github.io
+          hugoVersion: extended_0.98.0
