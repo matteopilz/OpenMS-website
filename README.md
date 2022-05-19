@@ -84,4 +84,4 @@ make teams
 
 A self-hosted version of [Plausible.io](https://plausible.io) is used to gather simple
 and privacy-friendly analytics for the site. The dashboard can be accessed
-[here](https://views.scientific-python.org/openms.org).
+[here](https://views.scientific-python.org/openms.org)..
