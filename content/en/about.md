@@ -3,59 +3,11 @@ title: About Us
 sidebar: false
 ---
 
-_Some information about the openms project and community_
+_Some information about the OpenMS project and community_
 
-openms is an open source project aiming to enable numerical computing with Python. It was created in 2005, building on the early work of the Numeric and Numarray libraries. openms will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/openms/openms/blob/main/LICENSE.txt).
+OpenMS is an open-source software C++ library for LC-MS data management and analyses. It offers an infrastructure for rapid development of mass spectrometry related software. OpenMS is free software available under the three clause BSD license and runs under Windows, macOS, and Linux. OpenMS will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/openms/openms/blob/main/License.txt).
 
-openms is developed in the open on GitHub, through the consensus of the openms and wider scientific Python community. For more information on our governance approach, please see our [Governance Document](https://www.openms.org/devdocs/dev/governance/index.html).
-
-
-## Steering Council
-
-The role of the openms Steering Council is to ensure, through working with and serving the broader openms community, the long-term well-being of the project, both technically and as a community. The openms Steering Council currently consists of the following members (in alphabetical order):
-
-- Sebastian Berg
-- Ralf Gommers
-- Charles Harris
-- Stephan Hoyer
-- Melissa Weber Mendonça
-- Inessa Pawson
-- Matti Picus
-- Stéfan van der Walt
-- Eric Wieser
-
-Emeritus:
-
-- Travis Oliphant (project founder, 2005-2012)
-- Alex Griffing (2015-2017)
-- Marten van Kerkwijk (2017-2019)
-- Allan Haldane (2015-2021)
-- Nathaniel Smith (2012-2021)
-- Julian Taylor (2013-2021)
-- Pauli Virtanen (2008-2021)
-- Jaime Fernández del Río (2014-2021)
-
-
-## Teams
-
-The openms project is growing! &#127881; We have teams for:
-
-- code
-- documentation
-- website
-- triage
-- survey
-- funding and grants
-
-See the [Team]({{< relref "/teams" >}}) page for individual team members.
-
-## NumFOCUS Subcommittee
-
-- Charles Harris
-- Ralf Gommers
-- Melissa Weber Mendonça
-- Sebastian Berg
-- External member: Thomas Caswell
+With pyOpenMS, OpenMS offers Python bindings to a large part of the OpenMS API to enable rapid algorithm development. OpenMS supports the Proteomics Standard Initiative (PSI) formats for MS data. The main contributors of OpenMS are currently the Eberhard-Karls-Universität in Tübingen, the Freie Universität Berlin, and the ETH Zürich.
 
 ## Sponsors
 

@@ -3,20 +3,99 @@ title: Installing openms
 sidebar: false
 ---
 
-The only prerequisite for installing openms is Python itself. If you don't have
-Python yet and want the simplest way to get started, we recommend you use the
-[Anaconda Distribution](https://www.anaconda.com/distribution) - it includes
-Python, openms, and many other commonly used packages for scientific computing
-and data science.
+## Installation instructions:
 
-openms can be installed with `conda`, with `pip`, with a package manager on
-macOS and Linux, or [from source](https://openms.org/devdocs/user/building.html).
-For more detailed instructions, consult our [Python and openms
-installation guide](#python-openms-install-guide) below.
+Here you can select the operating system of your choce and follow the installation instructions.
+
+### Installation on GNU/Linux
+
+#### Install Debian package
+
+If you are using a Debian-based Linux we suggest to use the deb-package provided by us in our [archive](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/latest). It is most easily installed with "gdebi" which automatically resolves the dependencies if they are available in your repositories.
+
+```bash
+sudo apt-get install gdebi
+sudo gdebi /PATH/TO/OpenMS.deb
+```
+
+To ensure the tool functionality please add the OPENMS_DATA_PATH variable to your environment as follows (you will get an error advising you this when executing a tool):
+
+```bash
+export OPENMS_DATA_PATH=/usr/share/OpenMS 
+```
+
+Once the path is exported, close the current terminal and open a new one.
+
+#### Install via package managers
+
+Currently there are also packaged versions of OpenMS provided for Fedora, OpenSUSE, Debian, and Ubuntu [available in the corresponding package managers](https://pkgs.org/search/openms) of these distributions (they might require a lookup in thirdparty "science" repositories). For other GNU/Linux distributions or to obtain the most recent version of the library you need to build your own OpenMS.
+
+> **_NOTE:_** Please note that these packages are not directly maintained by us and we can not guarantee the same behaviour as when building it on your own. Also their availability and version is subject to change and support might be limited (due to unforeseen or untested behaviour). We also suggest not to install them parallel to our Debian package.
+
+### Installation on MacOS
+
+Simply download and install the MacOS drag-and-drop installer for your system from our archive. After double-clicking, accepting the "downloaded App warning" and mounting the dmg image, drag the [OpenMS](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/namespaceOpenMS.html) folder into your Applications folder as advised.
+
+To use TOPP as regular apps in your shell just add the following lines to your ~/.profile file. Please adapt the first line to point to the folder where you installed OpenMS (e.g., /Applications/OpenMS-2.3.0)
+
+```bash
+export OPENMS_TOPP_PATH=<OpenMS-PATH>
+source ${OPENMS_TOPP_PATH}/.TOPP_bash_profile
+```
+
+---
+
+#### Known Issues:
+
+Since macOS Catalina (maybe also Mojave) notarized apps and executables are mandatory. Although we put a lot of effort in signing and notarizing everything, it seems like our software still lands in quarantine on the abovementioned systems, after installation of the DMG (when downloading it from a browser). Therefore, to have a streamlined experience without blocking popups, we recommend to remove the quarantine flag manually. For this, open the Terminal.app and type the following (replace the first line with the actual installation directory):
+
+```bash
+cd /Applications/OpenMS-2.5-0
+sudo xattr -r -d com.apple.quarantine *
+```
+
+There is also a known bug with running Java based thirdparty tools (like MSGFPlusAdapter and LuciphorAdapter) from within TOPPAS.app. Please run the TOPPAS.app from within the Terminal.app (e.g. with the open command) to get access to the path where Java is located (which is usually present in the PATH of your Terminal). Advanced users can set this path in the Info.plist of/inside the TOPPAS.app.
+
+---
+
+### Installation on Windows
+
+In order to install the binary package of OpenMS & TOPP, simply download and execute the installer from OpenMS.de and follow its instructions. Run the installer under the user account that later runs OpenMS - do not install using your admin account! You will be asked for an admin authentification, but only after you start the installer as normal user. The windows binary version works with most versions of windows from Win7 to Win10 (older versions might still work but are untested).
+
+> **_NOTE:_** If you are running Win8 or later, windows will report an error while installing .net4 as it's mostly included. But it might occur that .net3.5 does not get properly installed in the course. You can simply fix this by enabling the .NET Framework 3.5 yourself through Control Panel. See this [Microsoft help page](https://msdn.microsoft.com/de-de/library/hh506443(v=vs.110).aspx#ControlPanel) for detailed information. Even if this step fails, this does not affect the functionality of OpenMS, except for the executability of included thirdparty tools (ProteoWizard).
+
+---
+
+#### Known Issues:
+
+**Problem**
+During installation, an error message pops up, saying *"The installation of the Microsoft .NET 3.5 SP1' package failed! You must download and install it manually in order for Proteowizard to work."*
+
+- **Solution**
+This should only happen if you selected to install the *"Third Party - Proteowizard"* components. The reason is usually that .NET 3.5 SP1 is already installed (see Windows Control Panel). If it's not installed, follow the instructions of the error message.
+
+**Problem**
+During installation, an error message pops up, saying *"The installation of the Visual Studio redistributable package ... failed. ..."*.
+
+- **Solution**
+First of all, we'd like to stress that is a problem of a Microsoft package - we cannot do anything about it.
+The error message will give you the location where the redistributable package was extracted to. Go to this folder and run the executable (usually named 'vcredistXXXX.exe') as an administrator (right-click -> Run-As). You will likely receive an error message (this is also the reason why the OpenMS setup complained about it). Now you have to find a solution yourself. If you're lucky the error message is instructive and the problem is easy to fix.
+For some messages we have a recipe:
+
+  - Error: *"Error opening installation log file"*<br>
+    Fix: the system environment variables might be messed up. There should be a 'TMP' and a 'TEMP' variable, and both should contain ONE(!) directory only, which exists and is writable. Fix accordingly (search the internet on how to change environment variables on Windows).
+
+---
+
+## pyOpenMS installation
+
+pyOpenMS is a python library for Liquid Chromatography-Mass Spectrometry (LC-MS) data analysis. It can be seen as an extension of OpenMS that offers almost all the features in python.
+
+> **_NOTE:_** This introduction is aimed at users new to the field of LC-MS data analysis and will introduce some basics terms and concepts. How to handle the data analysis, available data structures, algorithms and more are covered in the various subsections of this documentation.
 
 **CONDA**
 
-If you use `conda`, you can install openms from the `defaults` or `conda-forge`
+If you use `conda`, you can install pyOpenMS from the `defaults` or `conda-forge`
 channels:
 
 ```bash
@@ -26,15 +105,15 @@ conda activate my-env
 # If you want to install from conda-forge
 conda config --env --add channels conda-forge
 # The actual install command
-conda install openms
+conda install -c bioconda -c conda-forge pyopenms
 ```
 
 **PIP**
 
-If you use `pip`, you can install openms with:
+If you use `pip`, you can install pyOpenMS with:
 
 ```bash
-pip install openms
+pip install pyopenms
 ```
 Also when using pip, it's good practice to use a virtual environment -
 see  [Reproducible Installs](#reproducible-installs) below for why, and
@@ -50,61 +129,6 @@ number of alternative solutions for most tasks. This guide tries to give the
 reader a sense of the best (or most popular) solutions, and give clear
 recommendations. It focuses on users of Python, openms, and the PyData (or
 numerical computing) stack on common operating systems and hardware.
-
-## Recommendations
-
-We'll start with recommendations based on the user's experience level and
-operating system of interest. If you're in between "beginning" and "advanced",
-please go with "beginning" if you want to keep things simple, and with
-"advanced" if you want to work according to best practices that go a longer way
-in the future.
-
-### Beginning users
-
-On all of Windows, macOS, and Linux:
-
-- Install [Anaconda](https://www.anaconda.com/distribution/) (it installs all
-  packages you need and all other tools mentioned below).
-- For writing and executing code, use notebooks in
-  [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/index.html) for
-  exploratory and interactive computing, and
-  [Spyder](https://www.spyder-ide.org/) or [Visual Studio Code](https://code.visualstudio.com/)
-  for writing scripts and packages.
-- Use [Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/) to
-  manage your packages and start JupyterLab, Spyder, or Visual Studio Code.
-
-
-### Advanced users
-
-#### Conda
-
-- Install [Miniforge](https://github.com/conda-forge/miniforge).
-- Keep the `base` conda environment minimal, and use one or more
-  [conda environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-  to install the package you need for the task or project you're working on.
-
-#### Alternative if you prefer pip/PyPI
-
-For users who know, from personal preference or reading about the main
-differences between conda and pip below, they prefer a pip/PyPI-based solution,
-we recommend:
-- Install Python from [python.org](https://www.python.org/downloads/),
-  [Homebrew](https://brew.sh/), or your Linux package manager.
-- Use [Poetry](https://python-poetry.org/) as the most well-maintained tool
-  that provides a dependency resolver and environment management capabilities
-  in a similar fashion as conda does.
-
-
-## Python package management
-
-Managing packages is a challenging problem, and, as a result, there are lots of
-tools. For web and general purpose Python development there's a whole
-[host of tools](https://packaging.python.org/guides/tool-recommendations/)
-complementary with pip. For high-performance computing (HPC),
-[Spack](https://github.com/spack/spack) is worth considering. For most openms
-users though, [conda](https://conda.io/en/latest/) and
-[pip](https://pip.pypa.io/en/stable/) are the two most popular tools.
-
 
 ### Pip & conda
 
@@ -143,63 +167,4 @@ of packages and versions you're using. Best practice is to:
    - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
   [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
    - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
-
-
-
-## openms packages & accelerated linear algebra libraries
-
-openms doesn't depend on any other Python packages, however, it does depend on an
-accelerated linear algebra library - typically
-[Intel MKL](https://software.intel.com/en-us/mkl) or
-[OpenBLAS](https://www.openblas.net/). Users don't have to worry about
-installing those (they're automatically included in all openms install methods).
-Power users may still want to know the details, because the used BLAS can
-affect performance, behavior and size on disk:
-
-- The openms wheels on PyPI, which is what pip installs, are built with OpenBLAS.
-  The OpenBLAS libraries are included in the wheel. This makes the wheel
-  larger, and if a user installs (for example) SciPy as well, they will now
-  have two copies of OpenBLAS on disk.
-
-- In the conda defaults channel, openms is built against Intel MKL. MKL is a
-  separate package that will be installed in the users' environment when they
-  install openms.
-
-- In the conda-forge channel, openms is built against a dummy "BLAS" package. When
-  a user installs openms from conda-forge, that BLAS package then gets installed
-  together with the actual library - this defaults to OpenBLAS, but it can also
-  be MKL (from the defaults channel), or even
-  [BLIS](https://github.com/flame/blis) or reference BLAS.
-
-- The MKL package is a lot larger than OpenBLAS, it's about 700 MB on disk
-  while OpenBLAS is about 30 MB.
-
-- MKL is typically a little faster and more robust than OpenBLAS.
-
-Besides install sizes, performance and robustness, there are two more things to
-consider:
-
-- Intel MKL is not open source. For normal use this is not a problem, but if
-  a user needs to redistribute an application built with openms, this could be
-  an issue.
-- Both MKL and OpenBLAS will use multi-threading for function calls like
-  `np.dot`, with the number of threads being determined by both a build-time
-  option and an environment variable. Often all CPU cores will be used. This is
-  sometimes unexpected for users; openms itself doesn't auto-parallelize any
-  function calls. It typically yields better performance, but can also be
-  harmful - for example when using another level of parallelization with Dask,
-  scikit-learn or multiprocessing.
-
-
-## Troubleshooting
-
-If your installation fails with the message below, see [Troubleshooting
-ImportError](https://openms.org/doc/stable/user/troubleshooting-importerror.html).
-
-```
-IMPORTANT: PLEASE READ THIS FOR ADVICE ON HOW TO SOLVE THIS ISSUE!
-
-Importing the openms c-extensions failed. This error can happen for
-different reasons, often due to issues with your setup.
-```
 
