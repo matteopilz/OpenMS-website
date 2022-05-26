@@ -1,57 +1,19 @@
 ---
 title: News
 sidebar: false
-newsHeader: NumFOCUS DEI research study - call for participation
+newsHeader: SECOND OPENMS DOCUMENTATION UPDATE
 date:
 ---
 
-### NumFOCUS DEI research study: call for participation
+### SECOND OPENMS DOCUMENTATION UPDATE
 
-openms is working with [NumFOCUS](http://numfocus.org/) on a
-[research project](https://numfocus.org/diversity-inclusion-disc/a-pivotal-time-in-numfocuss-project-aimed-dei-efforts?eType=EmailBlastContent&eId=f41a86c3-60d4-4cf9-86cf-58eb49dc968c)
-funded by the [Gordon & Betty Moore Foundation](https://www.moore.org/) to
-understand the barriers to participation that contributors, particularly those
-from historically underrepresented groups, face in the open-source software
-community. The research team would like to talk to new contributors, project
-developers and maintainers, and those who have contributed in the past about
-their experiences joining and contributing to openms.
+The OpenMS team has won a 2022 Google Season of Docs grant to update the OpenMS documentation. Combined with money from the University of Tübingen, a team of three technical writers will review and rewrite OpenMS documentation. The 2022 team consists of Rahul Agrawal, Christina Kumar and Tapasweni Pathak.
 
-**Interested in sharing your experiences?**
+### OPENMS DEVELOPERS’ MEETING 4-8 APRIL 2022 
 
-Please complete this brief [“Participant Interest” form](https://numfocus.typeform.com/to/WBWVJSqe)
-which contains additional information on the research goals, privacy, and
-confidentiality considerations. Your participation will be valuable to the
-growth and sustainability of diverse and inclusive open-source software
-communities. Accepted participants will participate in a 30-minute interview
-with a research team member.
+_Dec 31, 2021_ -- The OpenMS developer meeting brings bioinformaticians working in computational mass spectrometry together to shape the future development of OpenMS. It is targeted to core developers, new developers, and potential future contributors. Short talks, developer tutorials, and code sprints will be intertwined. Participants will have the opportunity to design custom tools and workflows together with instructors. External users are welcome to bring their own ideas and will receive detailed feedback as well as help getting started in OpenMS development. Progress will be tracked on our GitHub page with a resume of each day.
 
-### openms 1.22.0 release
-
-_Dec 31, 2021_ -- [openms 1.22.0](https://openms.org/doc/stable/release/1.22.0-notes.html)
-is now available. The highlights of the release are:
-
-* Type annotations of the main namespace are essentially complete. Upstream is
-  a moving target, so there will likely be further improvements, but the major
-  work is done. This is probably the most user visible enhancement in this
-  release.
-* A preliminary version of the proposed
-  [array API Standard](https://data-apis.org/array-api/latest/) is provided
-  (see [NEP 47](https://openms.org/neps/nep-0047-array-api-standard.html)).
-  This is a step in creating a standard collection of functions that can be
-  used across libraries such as CuPy and JAX.
-* openms now has a DLPack backend. DLPack provides a common interchange format
-  for array (tensor) data.
-* New methods for ``quantile``, ``percentile``, and related functions. The new
-  methods provide a complete set of the methods commonly found in the
-  literature.
-* The universal functions have been refactored to implement most of
-  [NEP 43](https://openms.org/neps/nep-0043-extensible-ufuncs.html).
-  This also unlocks the ability to experiment with the future DType API.
-* A new configurable memory allocator for use by downstream projects.
-
-openms 1.22.0 is a big release featuring the work of 153 contributors spread
-over 609 pull requests. The Python versions supported by this release are
-3.8-3.10.
+For registration mail Timo Sachsenberg at  timo.sachsenberg <at> uni-tuebingen.de
 
 ### Advancing an inclusive culture in the scientific Python ecosystem
 

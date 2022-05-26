@@ -16,15 +16,6 @@ params:
     # Hero image (from static/images/___)
     image: logo.svg
 
-  shell:
-    title: placeholder
-
-    intro:
-    - title: Try OpenMS
-      text: Use the interactive shell to try OpenMS in the browser
-
-    docslink: Don't forget to check out the <a href="https://OpenMS.org/doc/stable" target="_blank">docs</a>.
-
   casestudies:
     title: CASE STUDIES
     features:
@@ -51,18 +42,12 @@ params:
 
   keyfeatures:
     features:
-    - title: Powerful N-dimensional arrays
-      text:  Fast and versatile, the OpenMS vectorization, indexing, and broadcasting concepts are the de-facto standards of array computing today.
-    - title: Numerical computing tools
-      text: OpenMS offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.
-    - title: Interoperable
-      text: OpenMS supports a wide range of hardware and computing platforms, and plays well with distributed, GPU, and sparse array libraries.
-    - title: Performant
-      text: The core of OpenMS is well-optimized C code. Enjoy the flexibility of Python with the speed of compiled code.
-    - title: Easy to use
-      text: OpenMS's high level syntax makes it accessible and productive for programmers from any background or experience level.
-    - title: Open source
-      text: Distributed under a liberal [BSD license](https://github.com/OpenMS/OpenMS/blob/main/LICENSE.txt), OpenMS is developed and maintained [publicly on GitHub](https://github.com/OpenMS/OpenMS) by a vibrant, responsive, and diverse [community](/community).
+    - title: Proteomics
+      text: Almost 200 ready-made and customisable tools for analysing your proteomics data. Combined in flexible workflows they provide solutions to a broad range of problems arising in proteomics labs.
+    - title: Metabolomics
+      text: OpenMS provides a wide range of customisable tools, specifically designed for all steps in the analysis of your targeted and untargeted metabolomics data.
+    - title: Workflows
+      text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
   tabs:
     title: ECOSYSTEM
   section5: false

@@ -29,9 +29,4 @@ Institutional Partners are organizations that support the project by employing p
 
 If you have found openms useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of openms’s open source software, documentation, and community.
 
-openms is a Sponsored Project of NumFOCUS, a 501(c)(3) nonprofit charity in the United States. NumFOCUS provides openms with fiscal, legal, and administrative support to help ensure the health and sustainability of the project. Visit [numfocus.org](https://numfocus.org) for more information.
-
-Donations to openms are managed by [NumFOCUS](https://numfocus.org). For donors in the United States, your gift is tax-deductible to the extent provided by law. As with any donation, you should consult with your tax advisor about your particular tax situation.
-
-openms's Steering Council will make the decisions on how to best use any funds received. Technical and infrastructure priorities are documented on the [openms Roadmap](https://www.openms.org/neps/index.html#roadmap).
-{{< numfocus >}}
+You can also donate using our [opencollective](https://opencollective.com/openms) account.
