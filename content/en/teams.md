@@ -11,14 +11,8 @@ communities worldwide by building quality, open-source software.
 
 {{< include-html "static/gallery/docs-team.html" >}}
 
-{{< include-html "static/gallery/web-team.html" >}}
-
-{{< include-html "static/gallery/triage-team.html" >}}
-
-{{< include-html "static/gallery/survey-team.html" >}}
-
-{{< include-html "static/gallery/emeritus-maintainers.html" >}}
+{{< include-html "static/gallery/grants-team.html" >}}
 
 # Governance
 
-For the list of the Steering Council members, please see [here](https://openms.org/about/).
+For the list of the Steering Council members, please see [here]({{< relref "/about" >}}).

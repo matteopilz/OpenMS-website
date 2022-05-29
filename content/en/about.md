@@ -9,6 +9,25 @@ OpenMS is an open-source software C++ library for LC-MS data management and anal
 
 With pyOpenMS, OpenMS offers Python bindings to a large part of the OpenMS API to enable rapid algorithm development. OpenMS supports the Proteomics Standard Initiative (PSI) formats for MS data. The main contributors of OpenMS are currently the Eberhard-Karls-Universität in Tübingen, the Freie Universität Berlin, and the ETH Zürich.
 
+## Steering Council
+
+The OpenMS Steering Council's mission is to ensure the project's long-term viability, both technically and as a community, by collaborating with and serving the broader OpenMS community. The current members of the OpenMS Steering Council are as follows: (in alphabetical order):
+
+- Timo Sachsenberg
+- Tjeerd Dijkstra
+- Kyowon Jeong
+- Axel Walter
+
+## Teams
+
+The NumPy project is growing! &#127881; We have teams for:
+
+- core
+- documentation
+- funding and grants
+
+See the [Team]({{< relref "/teams" >}}) page for individual team members.
+
 ## Sponsors
 
 openms receives direct funding from the following sources:
