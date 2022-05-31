@@ -84,8 +84,6 @@ footer:
           link: /install
         - text: Documentation
           link: https://OpenMS.org/doc/stable
-        - text: Learn
-          link: /learn
         - text: Citing OpenMS
           link: /citing-OpenMS
         - text: Roadmap
@@ -96,8 +94,6 @@ footer:
           link: /about
         - text: Community
           link: /community
-        - text: User surveys
-          link: /user-surveys
         - text: Contribute
           link: /contribute
         - text: Code of conduct
