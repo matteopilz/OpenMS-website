@@ -1,0 +1,17 @@
+{{- $keyfeatures := .Site.Params.keyfeatures }}
+{{- $title    := index $keyfeatures "title" }}
+{{- $features := index $keyfeatures "features" }}
+<section class="keyfeatures">
+    <div class="container">
+        <h1 class="keyfeatures-title">{{ $title }}</h1>
+        <div class="keyfeatures-box-container">
+            {{- range $features }}
+            <a class="keyfeatures-box-content keyfeatures-underline" href="{{ .url }}">
+                <div class="keyfeatures-box-title">{{ .title }}</div>
+                    <img src="{{ .img }}" alt="{{ .alttext }}">
+                <div class="keyfeatures-box-text">{{ .text | markdownify }}</div>
+            </a>
+            {{- end }}
+        </div>
+    </div>
+</section>
