@@ -2,7 +2,7 @@ languageName: English
 params:
   description: Why OpenMS? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
   navbarlogo:
-    image: logo.svg
+    image: openms-logo.png
     link: /
   hero:
     # Main hero title
@@ -14,7 +14,7 @@ params:
     # Where the main hero button links to
     buttonlink: "/install"
     # Hero image (from static/images/___)
-    image: logo.svg
+    image: openms-logo.png
 
   casestudies:
     title: CASE STUDIES
@@ -75,7 +75,7 @@ navbar:
   - title: Publications
     url: /publications
 footer:
-  logo: logo.svg
+  logo: 
   socialmediatitle: ""
   socialmedia:
   - link: https://github.com/OpenMS/OpenMS
