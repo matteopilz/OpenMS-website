@@ -8,7 +8,7 @@ params:
     # Main hero title
     title: OpenMS
     # Hero subtitle (optional)
-    subtitle: The fundamental package for scientific computing with Python
+    subtitle: The fundamental software for Mass Spectometry
     # Button text
     buttontext: Get started
     # Where the main hero button links to
