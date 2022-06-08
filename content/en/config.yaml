@@ -15,6 +15,12 @@ params:
     buttonlink: "/install"
     # Hero image (from static/images/___)
     image: openms-logo.png
+  pyopenms:
+    title: Python Bindings
+    subtitle: Python Folks!!! Get Started With pyOpenMS.
+    buttontext: Get Started
+    buttonlink: "/install"
+    image: pyopenms.png
 
   casestudies:
     title: CASE STUDIES
