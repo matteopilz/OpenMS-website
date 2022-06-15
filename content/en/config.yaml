@@ -62,8 +62,8 @@ params:
       text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
       img: /images/content_images/keyfeatures/workflows.png
       url: /keyfeatures/workflows
-  tabs:
-    title: ECOSYSTEM
+  # tabs:
+  #   title: ECOSYSTEM
   section5: false
 
 
@@ -80,6 +80,9 @@ navbar:
     url: /contribute
   - title: Publications
     url: /publications
+  - title: Help Request
+    url: /help-request
+    button: true
 footer:
   logo: 
   socialmediatitle: ""

@@ -201,7 +201,9 @@ To read more about it, please click <a href="/application/rnpxl/">here</a>.
 
 MetaProSIP: automated inference of elemental fluxes in microbial communities
 
-> Note: MetaProSIP has been fully integrated into OpenMS. No additional installer is required anymore.
+{{< notice info >}}
+MetaProSIP has been fully integrated into OpenMS. No additional installer is required anymore.
+{{< /notice >}}
 
 To read more about it, please click <a href="/application/metaprosip/">here</a>.
 

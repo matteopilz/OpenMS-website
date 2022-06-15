@@ -30,7 +30,9 @@ Once the path is exported, close the current terminal and open a new one.
 
 Currently there are also packaged versions of OpenMS provided for Fedora, OpenSUSE, Debian, and Ubuntu [available in the corresponding package managers](https://pkgs.org/search/openms) of these distributions (they might require a lookup in thirdparty "science" repositories). For other GNU/Linux distributions or to obtain the most recent version of the library you need to build your own OpenMS.
 
-> **_NOTE:_** Please note that these packages are not directly maintained by us and we can not guarantee the same behaviour as when building it on your own. Also their availability and version is subject to change and support might be limited (due to unforeseen or untested behaviour). We also suggest not to install them parallel to our Debian package.
+{{< notice note >}}
+Please note that these packages are not directly maintained by us and we can not guarantee the same behaviour as when building it on your own. Also their availability and version is subject to change and support might be limited (due to unforeseen or untested behaviour). We also suggest not to install them parallel to our Debian package.
+{{< /notice >}}
 
 ### Installation on MacOS
 
@@ -62,7 +64,9 @@ There is also a known bug with running Java based thirdparty tools (like MSGFPlu
 
 In order to install the binary package of OpenMS & TOPP, simply download and execute the installer from OpenMS.de and follow its instructions. Run the installer under the user account that later runs OpenMS - do not install using your admin account! You will be asked for an admin authentification, but only after you start the installer as normal user. The windows binary version works with most versions of windows from Win7 to Win10 (older versions might still work but are untested).
 
-> **_NOTE:_** If you are running Win8 or later, windows will report an error while installing .net4 as it's mostly included. But it might occur that .net3.5 does not get properly installed in the course. You can simply fix this by enabling the .NET Framework 3.5 yourself through Control Panel. See this [Microsoft help page](https://msdn.microsoft.com/de-de/library/hh506443(v=vs.110).aspx#ControlPanel) for detailed information. Even if this step fails, this does not affect the functionality of OpenMS, except for the executability of included thirdparty tools (ProteoWizard).
+{{< notice note >}} 
+If you are running Win8 or later, windows will report an error while installing .net4 as it's mostly included. But it might occur that .net3.5 does not get properly installed in the course. You can simply fix this by enabling the .NET Framework 3.5 yourself through Control Panel. See this [Microsoft help page](https://msdn.microsoft.com/de-de/library/hh506443(v=vs.110).aspx#ControlPanel) for detailed information. Even if this step fails, this does not affect the functionality of OpenMS, except for the executability of included thirdparty tools (ProteoWizard).
+{{< /notice >}}
 
 ---
 

@@ -5,7 +5,9 @@ sidebar: false
 
 ## MetaProSIP: automated inference of elemental fluxes in microbial communities
 
-> Note: MetaProSIP has been fully integrated into OpenMS. No additional installer is required anymore.
+{{< notice info >}}
+MetaProSIP has been fully integrated into OpenMS. No additional installer is required anymore.
+{{< /notice >}}
 
 **Update: MetaProSIP now supports labeling experiments with heavy water (D, 18O)**
 
@@ -60,7 +62,10 @@ Example output and quality control report for 15N mix dataset (replicate a, 1:3)
 
 Download Win64 installer of the original publication:
 [Win64 installer](http://www-bs2.informatik.uni-tuebingen.de/services/sachsenb/MetaProSIP/OpenMS-1.11_MetaProSIP_Win64_setup.exe)
-> Note that MetaProSIP requires R installed and accessible via the path environment variable.
+
+{{< notice info >}}
+Note that MetaProSIP requires R installed and accessible via the path environment variable.
+{{< /notice >}}
 
 Additionally, following R libraries need to be installed:
 1. gplots
