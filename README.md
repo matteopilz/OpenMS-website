@@ -1,4 +1,5 @@
 # openms.org
+![example workflow](https://github.com/OpenMS/OpenMS/actions/workflows/openms-ci.yml/badge.svg)
 
 ## Getting Started
 
