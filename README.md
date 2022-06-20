@@ -1,7 +1,7 @@
 # openms.org
 | Repository | Status |
 | ------------- | ------------- |
-| OpenMS | ![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/openms-ci.yml/badge.svg)<br>![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/dockerdeploy.yml/badge.svg)<br>![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/pyopenms-wheels.yml/badge.svg) |
+| OpenMS | ![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/openms-ci.yml/badge.svg)<br>![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/dockerdeploy.yml/badge.svg)<br>![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/pyopenms-wheels.yml/badge.svg?branch=nightly) |
 |  |
 
 ![workflow](https://github.com/OpenMS/OpenMS/actions/workflows/openms-ci.yml/badge.svg)
