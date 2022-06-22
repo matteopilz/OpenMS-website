@@ -65,9 +65,3 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 4. enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
-
-### Endnotes
-
-We are thankful to the groups behind the following documents, from which we drew content and inspiration:
-
-- [The SciPy Code of Conduct](https://docs.scipy.org/doc/scipy/reference/dev/conduct/code_of_conduct.html)
