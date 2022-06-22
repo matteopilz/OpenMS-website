@@ -47,10 +47,10 @@ After a restart of KNIME the OpenMS nodes will be available in your Node Reposit
 
 Download our [Introduction to OpenMS in KNIME](https://www.openms.de/wp-content/uploads/2016/02/handout1.pdf) containing hands-on training material covering also basic usage of KNIME. See the official [KNIME Getting Started](https://tech.knime.org/knime) guide for a more in-depth view of the KNIME functionality besides OpenMS.
 
-When you encounter any problems, please see our [Support](https://www.openms.de/support/) page and specifically for the usage of OpenMS in KNIME, the KNIME community contributions [forum](https://tech.knime.org/forum/openms). When in doubt where to turn to, open an issue on our [GitHub issue](https://github.com/OpenMS/OpenMS/issues) tracker.
+When you encounter any problems, please see our [Support](/gethelp) page and specifically for the usage of OpenMS in KNIME, the KNIME community contributions [forum](https://tech.knime.org/forum/openms). When in doubt where to turn to, open an issue on our [GitHub issue](https://github.com/OpenMS/OpenMS/issues) tracker.
 
 ### Creating your own Generic KNIME Nodes
-See the more advanced instructions on our [Getting Started](http://www.openms.de/getting-started/develop-your-own-openms-tools/) page for developers.
+See the more advanced instructions on our [Getting Started](/getting-started/develop-your-own-openms-tools) page for developers.
 
 ### Example 
 
