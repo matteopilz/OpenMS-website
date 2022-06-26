@@ -1,7 +1,7 @@
 ---
 title: News
 sidebar: false
-newsHeader: SECOND OPENMS DOCUMENTATION UPDATE
+newsHeader: Latest News - OpenMS Made it to GSoD 22 🎉
 date:
 ---
 

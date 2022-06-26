@@ -95,7 +95,9 @@ For some messages we have a recipe:
 
 pyOpenMS is a python library for Liquid Chromatography-Mass Spectrometry (LC-MS) data analysis. It can be seen as an extension of OpenMS that offers almost all the features in python.
 
-> **_NOTE:_** This introduction is aimed at users new to the field of LC-MS data analysis and will introduce some basics terms and concepts. How to handle the data analysis, available data structures, algorithms and more are covered in the various subsections of this documentation.
+{{< notice note >}} 
+This introduction is aimed at users new to the field of LC-MS data analysis and will introduce some basics terms and concepts. How to handle the data analysis, available data structures, algorithms and more are covered in the various subsections of this documentation.
+{{< /notice >}} 
 
 **CONDA**
 

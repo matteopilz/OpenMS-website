@@ -17,7 +17,7 @@ params:
     image: openms-logo.png
   pyopenms:
     title: Python Bindings
-    subtitle: Python Folks!!! Get Started With pyOpenMS.
+    subtitle: Python Folks 🐍 ! Get Started With pyOpenMS.
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: pyopenms.png
@@ -67,6 +67,7 @@ navbar:
     url: /help-request
     button: true
 footer:
+  title: OpenMS
   logo: 
   socialmediatitle: ""
   socialmedia:
@@ -83,7 +84,7 @@ footer:
         - text: Install
           link: /install
         - text: Documentation
-          link: https://OpenMS.org/doc/stable
+          link: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/nightly/html/index.html
         - text: Citing OpenMS
           link: /citing-openms
 
