@@ -20,11 +20,11 @@ The OpenMS Steering Council's mission is to ensure the project's long-term viabi
 
 ## Teams
 
-The NumPy project is growing! &#127881; We have teams for:
+The OpenMS project is growing! &#127881; We have teams for:
 
-- core
-- documentation
-- funding and grants
+- Core 🏆
+- Documentation 📄
+- Funding and grants 💰
 
 See the [Team]({{< relref "/teams" >}}) page for individual team members.
 
