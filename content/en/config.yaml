@@ -6,9 +6,9 @@ params:
     link: /
   hero:
     # Main hero title
-    title: OpenMS
+    # title: OpenMS
     # Hero subtitle (optional)
-    subtitle: The fundamental software for Mass Spectometry
+    subtitle: The open-source framework for Mass Spectrometry
     # Button text
     buttontext: Get started
     # Where the main hero button links to
