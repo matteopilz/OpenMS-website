@@ -14,7 +14,7 @@ If you cannot find your application in the menu on the left, more OpenMS tools c
 
 ***
 
-### INTELLIGENT DATA ACQUISITION FOR TOP-DOWN PROTEOMICS (FLASHIDA)
+### Intelligent data acquisition for top-down proteomics (FLASHIda)
 
 **FLASHIda beta version (under construction)**
 
@@ -22,7 +22,7 @@ FLASHIda is an intelligent online data acquisition algorithm for top-down proteo
 
 ***
 
-### FEATURE LEVEL LABEL-FREE QUANTIFICATION ALGORITHM FOR TOP-DOWN PROTEOMICS (FLASHDECONVQ)
+### Feature level label-free quantification algorithm for top-down proteomics (FLASHDECONVQ)
 
 Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics, is developed based on OpenMS and FLASHDeconv.
 
@@ -30,7 +30,7 @@ Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics
 
 ***
 
-### SRM QUANTITATION AND QC (SMARTPEAK 2)
+### SRM Quantitation & QC (SMARTPEAK 2)
 
 {{< figure src="/images/content_images/SmartPeak_overview-scaled-wpcf_812x400.jpeg" >}}
 
@@ -40,7 +40,7 @@ Based on OpenMS, a full SRM quantitation and quality control suite was developed
 
 ***
 
-### PROTEIN-NUCLEIC ACID CROSS-LINKING (OPENNUXL)
+### Protein-nucleic acid cross-linking (OPENNUXL)
 
 {{< figure src="/images/content_images/opennuxl.png" >}}
 
@@ -50,7 +50,7 @@ Prior to publication, installers (and source code) are available on request: ple
 
 ***
 
-### EFFICIENT BAYESIAN PROTEIN INFERENCE (EPIFANY)
+### Efficient bayesian protein inference (EPIFANY)
 <br>
 <center>{{< figure src="/images/content_images/epifany_factor_graph-wpcf_465x400.png" >}}</center>
 
@@ -142,7 +142,7 @@ OpenMS implementation **sources**: [github.com](https://github.com/OpenMS/OpenMS
 
 ***
 
-### ULTRA-FAST MS1/MS2 DECONVOLUTION FOR TOP-DOWN PROTEOMICS: FLASHDECONV 2.0 BETA+, FINALLY WITH A GUI!
+### ULTRA-FAST MS1/MS2 deconvolution for top-down proteomics: FLASHDECONV 2.0 BETA+, finally with a GUI!
 
 FLASHDeconv 2.0 beta+ with a GUI!!
 
@@ -152,7 +152,7 @@ To read more about it, please click <a href="/application/flashdeconv/">here</a>
 
 ***
 
-### NUCLEIC ACID SEARCH ENGINE (NASE)
+### Nucleic acid search engine (NASE)
 
 NASE is now included in OpenMS release, 2.5.
 
@@ -179,7 +179,7 @@ This workflow can be used to reproduce the results from the [PXD016308](https://
 
 ***
 
-### PROTEIN-PROTEIN CROSS-LINKING (OPENPEPXL)
+### Protein-protein cross-linking (OPENPEPXL)
 
 **OpenPepXL: an open source peptide cross-link identification tool**
 
@@ -197,7 +197,7 @@ To read more about it, please click <a href="/application/rnpxl/">here</a>.
 
 *** 
 
-### STABLE ISOTOPE PROBING (METAPROSIP)
+### Stable isotope probing (METAPROSIP)
 
 MetaProSIP: automated inference of elemental fluxes in microbial communities
 
@@ -211,7 +211,7 @@ To read more about it, please click <a href="/application/metaprosip/">here</a>.
 
 ## Featured workflows
 
-### QUANTITATIVE DATA INDEPENDENT PROTEOMICS (DIAPROTEOMICS)
+### Quantitative data independent proteomics (DIAPROTEOMICS)
 
 DIAproteomics is a bioinformatics analysis pipeline used for quantitative processing of data independent (DIA) proteomics data.
 
@@ -219,7 +219,7 @@ To read more about it, please click <a href="/application/diaproteomics/">here</
 
 *** 
 
-### DATA-INDEPENDENT ACQUISITION METABOLOMICS ANALYZER (DIAMETALYZER)
+### Data-independent acquisition metabolomics analyzer (DIAMETALYZER)
 
 _DIAMetAlyzer_ is a KNIME workflow which integrates DDA and targeted DIA analysis for metabolomics, which allows for false-discovery rate estimation based a target-decoy approach (see figure 1). It performs DDA based candidate identification and constructs a target/decoy assay library, which is used for DIA target extraction and statistical validation (FDR estimation).
 
@@ -227,7 +227,7 @@ To read more about it, please click <a href="/application/diametalyzer/">here</a
 
 *** 
 
-### QUANTIFICATION AND IDENTIFICATION OF MHC PEPTIDES (MHCQUANT)
+### Quantification and identification of mhc peptides (MHCQUANT)
 
 **MHCquant: Identify and quantify peptides from mass spectrometry raw data**
 

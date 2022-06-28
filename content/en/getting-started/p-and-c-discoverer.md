@@ -5,21 +5,21 @@ sidebar: false
 
 ## Overview
 
-### PROTEOME AND COMPOUND DISCOVERER INTEGRATION
+### Proteome and Compound discoverer integration
 
 We provide integrated workflow solutions for the Thermo Proteome Discoverer and Compound Discoverer platforms powered by OpenMS.
 
-### PROTEOME DISCOVERER
+### Proteome discoverer
 
 Starting from version 2.0, Proteome Discoverer functionality can be extended by external plugins. Several OpenMS workflows are now made available as Proteome Discoverer Community Nodes. Installer packages and workflows can be downloaded from [here](http://www.openms.de/download/proteomediscoverer-plugin/).
 
 <center>{{< figure src="/images/content_images/rnpxl_new_spectrum_viewer.jpeg" caption="**Example workflow in KNIME**" alt="Example workflow in KNIME" >}}</center>
 
-### COMPOUND DISCOVERER
+### Compound discoverer
 
 MetaboProfiler provides functionality of multiple OpenMS 2.0 tools to the recently released Thermo Fisher Compound Discoverer (CD). It extends CD with methods for large-scale feature detection and quantification of small metabolites for label-free LC-MS data and can be found [here](http://www.openms.de/download/compounddiscoverer-plugin/).
 
-## OPENMS IN COMPOUND DISCOVERER
+## Openms in compound discoverer
 
 **METABOPROFILER COMMUNITY NODE FOR COMPOUND DISCOVERER**
 
@@ -67,13 +67,13 @@ Please note that Thermo only provides the framework for the integration of third
 - [[2]](http://dx.doi.org/10.1021/pr300992u) H. Weisser, S. Nahnsen, J. Grossmann, L. Nilse, A. Quandt, H. Brauer, M. Sturm, E. Kenar, O. Kohlbacher, R. Aebersold, and L. Malmström, “An Automated Pipeline for High-Throughput Label-Free Quantitative Proteomics.,” J Proteome Res, 2013.
 - [[3]](http://dx.doi.org/10.1093/bioinformatics/btm209) E. Lange, C. Gröpl, O. Schulz-Trieglaff, A. Leinenbach, C. Huber, and K. Reinert, “A geometric approach for the alignment of liquid chromatography-mass spectrometry data,” Bioinformatics, vol. 23, iss. 13, pp. 273-281, 2007.
 
-## OPENMS IN PROTEOME DISCOVERER
+## OpenMS in proteome discoverer
 
 **What are Proteome Discoverer Community Nodes?**
 
 Starting from version 2.0 Proteome Discoverer functionality can be extended by external plugins. Several OpenMS workflows are now made available as Proteome Discoverer Community Nodes. If you are interested in metabolite or small molecule analysis you might want to check out our [Compound Discoverer Community Node](http://www.openms.de/getting-started/proteome-and-compound-discoverer-integration/openms-in-compound-discoverer/).
 
-**LFQProfiler**
+### LFQProfiler
 
 Label-free quantification (LFQ) of peptides and proteins has become a very popular analytical technique in particular in clinical proteomics. Large-scale studies comprising hundreds or even thousands of LC-MS experiments require efficient computational processing tools. Here, we present the integration of an OpenMS-based LFQ workflow into the Proteome Discoverer platform.
 
@@ -84,7 +84,7 @@ In addition, we provide the intended processing and consensus workflow. Please n
 - [Processing workflow](http://sourceforge.net/projects/open-ms/files/CommunityNodes/LFQProfiler_processing.pdProcessingWF/download)
 - [Consensus workflow](http://sourceforge.net/projects/open-ms/files/CommunityNodes/LFQProfiler_consensus.pdConsensusWF/download)
 
-**RNPxl**
+### RNPxl
 
 UV-induced cross-linking combined with LC-MS/MS analysis has been successful in the elucidation of protein-DNA and protein-RNA interactions. We recently presented RNPxl, a computational pipeline, implemented in the OpenMS framework, for the analysis of LC-MS/MS cross-link data. The RNPxl workflow is now made available to a larger audience by integration into the Proteome Discoverer platform. In addition, we were able to increase processing speed by a factor of ten compared to the previous version.
 
@@ -93,15 +93,15 @@ UV-induced cross-linking combined with LC-MS/MS analysis has been successful in 
 - [Processing workflow](http://sourceforge.net/projects/open-ms/files/CommunityNodes/RNPxl_processing.pdProcessingWF/download)
 - [Consensus workflow](http://sourceforge.net/projects/open-ms/files/CommunityNodes/RNPxl_consensus.pdConsensusWF/download)
 
-**Support**
+### Support
 
 If you have any questions, bug reports, or feature requests, please take a look at the [support page](/gethelp).
 
-**Disclaimer**
+### Disclaimer
 
 Please note that Thermo only provides the framework for the integration of third-party plugins. They do neither provide any support nor take any legal responsibility for external contributions. If you have any questions, bug reports, or feature requests regarding the OpenMS Community Nodes for Proteome Discoverer, please contact the [OpenMS mailing list](open-ms-general@lists.sourceforge.net) or open an [issue on GitHub](https://github.com/OpenMS/PDCommunityNodes/issues) instead.
 
-**References**
+### References
 
 Sturm et al. OpenMS – an open-source software framework for mass spectrometry. BMC Bioinformatics, 9:163, 2008.
 

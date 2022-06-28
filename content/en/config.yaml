@@ -48,6 +48,8 @@ navbar:
     url: /install
   - title: Documentation
     url: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/nightly/html/index.html
+  - title: Training
+    url: /training
   - title: Community
     url: /community
   - title: About Us
@@ -61,8 +63,6 @@ navbar:
         url: /applications
       - title: Publications
         url: /publications
-      - title: Training
-        url: /training
   - title: Help Request
     url: /help-request
     button: true
