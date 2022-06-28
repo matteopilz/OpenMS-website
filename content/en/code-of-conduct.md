@@ -59,9 +59,9 @@ In case of severe and obvious breaches, e.g. personal threat or violent, sexist 
 
 In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
 
-1. acknowledge report is received,
-2. reasonable discussion/feedback,
-3. mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
-4. enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
+1. Acknowledge report is received,
+2. Reasonable discussion/feedback,
+3. Mediation (if feedback didn’t help, and only if both reporter and reportee agree to this),
+4. Enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
