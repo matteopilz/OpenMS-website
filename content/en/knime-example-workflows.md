@@ -39,7 +39,7 @@ doi={10.1021/acs.jproteome.7b00248}
 
 <a href="https://github.com/OpenMS/workflows/raw/master/targeted_feature_detection_for_LFQ/FFId_iPRG-2015.knwf"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">DOWNLOAD</button></a>
 
-### PARALLEL EXECUTION OF OPENMS TOOLS IN KNIME
+### PARALLEL EXECUTION OF OpenMS TOOLS IN KNIME
 
 This workflow shows both the use of standard ZipLoop nodes for iterative OpenMS tool execution, as well as how to execute OpenMS tools in parallel in a high-throughput manner (e.g., to use all computing power for a large number of files)!
 

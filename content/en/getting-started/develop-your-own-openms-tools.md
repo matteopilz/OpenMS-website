@@ -1,5 +1,5 @@
 ---
-title: "Develop Your Own Openms Tools"
+title: "Develop Your Own OpenMS Tools"
 sidebar: false
 ---
 
@@ -33,7 +33,7 @@ pyOpenMS are the Python bindings to the OpenMS library which are available for W
 
 The pyOpenMS package contains Python bindings for a large part of the OpenMS library for mass spectrometry based proteomics. It thus provides providing facile access to a feature-rich, open-source algorithm library for mass-spectrometry based proteomics analysis. These Python bindings allow raw access to the data-structures and algorithms implemented in OpenMS, specifically those for file access (mzXML, mzML, TraML, mzIdentML among others), basic signal processing (smoothing, filtering, de-isotoping and peak-picking) and complex data analysis (including label-free, SILAC, iTRAQ and SWATH analysis tools).
 
-After importing pyopenms in your python tool, you can use the python bindings of almost all OpenMS classes. This means you can use methods and classes as they would be python methods or classes. You can access the stored values in objects using the provided functions of the respective class.
+After importing pyOpenMS in your python tool, you can use the python bindings of almost all OpenMS classes. This means you can use methods and classes as they would be python methods or classes. You can access the stored values in objects using the provided functions of the respective class.
 
 Calling methods from pyOpenMS objects works just as with other python objects. The pyOpenMS bindings ensure that C++ types that are mappable are being mapped to their python ‘equivalent’. This means that you can e.g. use your data, already in python lists as input to a OpenMS class object function (i.e. often either an accessor or algorithm implementation) or the output of such to further process the data in your python code.
 

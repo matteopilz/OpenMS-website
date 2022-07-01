@@ -1,5 +1,5 @@
 ---
-title: openms Code of Conduct
+title: OpenMS Code of Conduct
 sidebar: false
 aliases:
     - /conduct.html
@@ -7,9 +7,9 @@ aliases:
 
 ### Introduction
 
-This Code of Conduct applies to all spaces managed by the openms project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The openms project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+This Code of Conduct applies to all spaces managed by the OpenMS project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The OpenMS project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
 
-This Code of Conduct should be honored by everyone who participates in the openms community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+This Code of Conduct should be honored by everyone who participates in the OpenMS community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
 
 This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
 
@@ -35,13 +35,13 @@ We strive to:
 
 ### Diversity Statement
 
-The openms project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+The OpenMS project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
 
 No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
 
-Though we welcome people fluent in all languages, openms development is conducted in English.
+Though we welcome people fluent in all languages, OpenMS development is conducted in English.
 
-Standards for behaviour in the openms community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+Standards for behaviour in the OpenMS community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
 
 ### Reporting Guidelines
 
@@ -51,11 +51,11 @@ For clearly intentional breaches, report those to the Code of Conduct Committee 
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
-_This section summarizes the most important points, more details can be found in_ [openms Code of Conduct - How to follow up on a report](/report-handling-manual).
+_This section summarizes the most important points, more details can be found in_ [OpenMS Code of Conduct - How to follow up on a report](/report-handling-manual).
 
-We will investigate and respond to all complaints. The openms Code of Conduct Committee and the openms Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
+We will investigate and respond to all complaints. The OpenMS Code of Conduct Committee and the OpenMS Steering Committee (if involved) will protect the identity of the reporter, and treat the content of complaints as confidential (unless the reporter agrees otherwise).
 
-In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from openms communication channels; please see the manual for details.
+In case of severe and obvious breaches, e.g. personal threat or violent, sexist or racist language, we will immediately disconnect the originator from OpenMS communication channels; please see the manual for details.
 
 In cases not involving clear severe and obvious breaches of this Code of Conduct the process for acting on any received Code of Conduct violation report will be:
 

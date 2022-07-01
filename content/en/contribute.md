@@ -3,7 +3,7 @@ title: Contribute to openms
 sidebar: false
 ---
 
-The openMS project welcomes your expertise and enthusiasm!
+The OpenMS project welcomes your expertise and enthusiasm!
 Your choices aren't limited to programming, as you can
 see below there are many areas where we need **your** help.
 
@@ -28,7 +28,7 @@ and welcoming environment.
 
 Programmers, this
 [guide](https://github.com/OpenMS/OpenMS/blob/develop/CONTRIBUTING.md)
-explains how to contribute to the openms codebase.
+explains how to contribute to the OpenMS codebase.
 
 ### Reviewing pull requests
 The project has more than 45+ open pull requests -- meaning many potential
@@ -51,7 +51,7 @@ lays out our ideas -- and you may have others.
 
 ### Issue triaging
 
-The [openms issue tracker](https://github.com/openms/openms/issues) has a _lot_
+The [OpenMS issue tracker](https://github.com/openms/openms/issues) has a _lot_
 of open issues. Some are no longer valid, some should be prioritized, and some
 would make good issues for new contributors.  You can:
 

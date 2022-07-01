@@ -1,5 +1,5 @@
 ---
-title: openms Teams
+title: OpenMS Teams
 sidebar: false
 ---
 

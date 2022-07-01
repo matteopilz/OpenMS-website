@@ -30,13 +30,13 @@ See the [Team]({{< relref "/teams" >}}) page for individual team members.
 
 ## Sponsors
 
-openms receives direct funding from the following sources:
+OpenMS receives direct funding from the following sources:
 {{< sponsors >}}
 
 
 ## Institutional Partners
 
-Institutional Partners are organizations that support the project by employing people that contribute to openms as part of their job. Current Institutional Partners include:
+Institutional Partners are organizations that support the project by employing people that contribute to OpenMS as part of their job. Current Institutional Partners include:
 
 - UC Berkeley (Stéfan van der Walt, Sebastian Berg, Ross Barnowski)
 - Quansight (Ralf Gommers, Melissa Weber Mendonça, Mars Lee, Matti Picus, Pearu Peterson)
@@ -46,6 +46,6 @@ Institutional Partners are organizations that support the project by employing p
 
 ## Donate
 
-If you have found openms useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of openms’s open source software, documentation, and community.
+If you have found OpenMS useful in your work, research, or company, please consider a donation to the project commensurate with your resources. Any amount helps! All donations will be used strictly to fund the development of openms’s open source software, documentation, and community.
 
 You can also donate using our [opencollective](https://opencollective.com/openms) account.
