@@ -19,7 +19,7 @@ Starting from version 2.0, Proteome Discoverer functionality can be extended by 
 
 MetaboProfiler provides functionality of multiple OpenMS 2.0 tools to the recently released Thermo Fisher Compound Discoverer (CD). It extends CD with methods for large-scale feature detection and quantification of small metabolites for label-free LC-MS data and can be found [here](http://www.openms.de/download/compounddiscoverer-plugin/).
 
-## Openms in compound discoverer
+## OpenMS in compound discoverer
 
 **METABOPROFILER COMMUNITY NODE FOR COMPOUND DISCOVERER**
 

@@ -1,4 +1,4 @@
-# openms Dependency Chart generator Scripts 
+# OpenMS Dependency Chart generator Scripts 
 
 ## Overview
 
@@ -24,13 +24,13 @@ Usage details of each script are listed in the section below.
 
 ### Use Case:
 
-openms case studies refers to ehtim, gwpy and PyCBC packages.  For each of these,
-we have created openms dependency graphs.  You can redraw all these three graphs
+OpenMS case studies refers to ehtim, gwpy and PyCBC packages.  For each of these,
+we have created OpenMS dependency graphs.  You can redraw all these three graphs
 in one go (obtain 3 png files) in the specified output directory. If you wish
 to add a new package and also refresh existing charts, you can edit the script
 and update three arrays:
 
-* *pkgarray:* List of packages for which openms dependency chart is to be generated
+* *pkgarray:* List of packages for which OpenMS dependency chart is to be generated
 * *pkgurl:* List of github urls from where pkg sources can be git cloned
 * *pkgsetup:* Dirname (not path) of the top level dir in pkg source that contains
   requirements.txt file used to pip install the package in a virtualenv.
@@ -57,7 +57,7 @@ The following software packages must be installed on the system where you are ru
 ### Use Case:
 
 This script is one of the helper scripts used by **redraw-openms-dep-charts.sh**
-script. Its sole purpose is to download the package for which openms dependency
+script. Its sole purpose is to download the package for which OpenMS dependency
 graph is to be generated and install it in a virtual environment, setup the 
 directory structure which can be used by other helper script 
 **gen-openms-dep-graph.sh** to generate the graph.  This script is paired with
@@ -84,16 +84,16 @@ fetch-openmsdeppkg.sh **package_name scratchdir git_url reqfile_parentdir**
 This is a helper script used by **redraw-openms-dep-charts.sh** script. Its sole
 purpose is to use the pre-installed pkg in a local virtual environment by
 the script **fetch-openmsdeppkg.sh** (or manually installed locally) and use them
-to run graphviz, dot and other utilities for creating openms dependency chart
+to run graphviz, dot and other utilities for creating OpenMS dependency chart
 as png files for the pkg.  It assumes that packages is pre-installed and does
 not clean up any pre-installed packages.  In case a user has the package 
-pre-installed and would like to simply generate openms dependency chart, this script can be used.
+pre-installed and would like to simply generate OpenMS dependency chart, this script can be used.
 
 #### Usage:
 
 gen-openms-dep-graph.sh **package_name scratchdir output_graphdir highlight_color (optional)**
 
-*package_name:* Name of the package (as in pip registry) for which openms dependency graph is to be generated.
+*package_name:* Name of the package (as in pip registry) for which OpenMS dependency graph is to be generated.
 
 *scratchdir:* local directory where the package contents reside, the same directory as input to the fetch-openmsdeppkg.sh where package_name was fetched by that script.
 

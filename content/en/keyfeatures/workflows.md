@@ -3,7 +3,7 @@ title: "OpenMS For Workflows"
 sidebar: true
 ---
 
-## OPENMS IN KNIME
+## OpenMS IN KNIME
 
 As part of the Center for Integrative Bioinformatics (CiBi) in the German Network for Bioinformatics ([deNBI](http://www.denbi.de/)), we are currently focusing our development efforts on the integration of OpenMS into KNIME. KNIME is a well-established data analysis framework that supports the generation of workflows for data analysis. Using a Common Tool Description ([CTD](https://github.com/WorkflowConversion/CTDSchema)) file which is writeable by every TOPP tool and a node generator program ([Generic Knime Nodes](https://github.com/genericworkflownodes/GenericKnimeNodes)), all TOPP tools can be made available to run in KNIME.
 
@@ -56,7 +56,7 @@ See the more advanced instructions on our [Getting Started](/getting-started/dev
 
 Please click on the [link here](/knime-example-workflows) to check some emxaple workflows.
 
-## OPENMS IN GALAXY
+## OpenMS IN GALAXY
 
 Nodes for OpenMS tools have been kindly made available via the PROTEOMICS, METABOLOMICS, CHEMISTRY section at https://usegalaxy.eu/ and can be browsed by searching for OpenMS in the tools search box.
 
