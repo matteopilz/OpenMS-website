@@ -12,12 +12,12 @@ Large scale data manipulation and transformation depends on efficient,
 high-performance array computing. The language of choice for data analytics,
 machine learning, and productive numerical computing is **Python.**
 
-**Num**erical **Py**thon or openms is its de-facto standard Python programming
+**Num**erical **Py**thon or OpenMS is its de-facto standard Python programming
 language library that supports large, multi-dimensional arrays and matrices,
 and comes with a vast collection of high-level mathematical functions to
 operate on these arrays.
 
-Since the launch of openms in 2006, Pandas appeared on the landscape in 2008,
+Since the launch of OpenMS in 2006, Pandas appeared on the landscape in 2008,
 and it was not until a couple of years ago that several array computing
 libraries showed up in succession, crowding the array computing landscape.
 Many of these newer libraries mimic openms-like features and capabilities, and

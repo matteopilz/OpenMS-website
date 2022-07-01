@@ -128,7 +128,7 @@ for details on using virtual environments.
 
 
 <a name="python-openms-install-guide"></a>
-# Python and openms installation guide
+# Python and OpenMS installation guide
 
 Installing and managing packages in Python is complicated, there are a
 number of alternative solutions for most tasks. This guide tries to give the

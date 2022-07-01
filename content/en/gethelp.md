@@ -10,7 +10,7 @@ thousands of users available to answer.  Smaller alternatives include
 these sites, or answer questions directly, but the volume is just a little
 overwhelming!
 
-**Development issues:** For openms development-related matters (e.g. bug reports), please
+**Development issues:** For OpenMS development-related matters (e.g. bug reports), please
 see [Community](/community).
 
 

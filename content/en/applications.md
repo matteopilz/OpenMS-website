@@ -83,7 +83,7 @@ max-product inference (for this, set the regularize flag and choose a p-norm sma
 EPIFANY can now also be found in the official OpenMS 2.5 release (or later). We recommend using the version that ships with your OpenMS distribution of choice. For the
 binary used in the publication, you can use the installation links and methods below or check out the source code from the [corresponding GitHub tag](https://github.com/jpfeuffer/OpenMS/tree/epifany_paper).
 
-<a href="https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">DOWNLOAD EPIFANY WITH OPENMS AS COMMAND LINE TOOL (EXPERIMENTAL BRANCH)</button></a>
+<a href="https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">DOWNLOAD EPIFANY WITH OpenMS AS COMMAND LINE TOOL (EXPERIMENTAL BRANCH)</button></a>
 
 Steps:
 1) Download the installer for your platform via the button above
