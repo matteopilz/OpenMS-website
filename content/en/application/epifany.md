@@ -6,7 +6,7 @@ sidebar: false
 <br>
 <center>{{< figure src="/images/content_images/epifany_factor_graph-wpcf_465x400.png" >}}</center>
 
-#### Introduction
+### Introduction
 
 _EPIFANY_  is a protein inference engine based on a Bayesian network. Currently, a similar model to
 Fido is used with the main parameters alpha (pep_emission), beta (pep_spurious_emission) and gamma (prot_prior).
@@ -30,12 +30,14 @@ between a peptide and its best producing group (after probabilistic inference). 
 is the last step of the analysis. A middle-ground between greedy resolution and standard (sum-product) inference is a regularized
 max-product inference (for this, set the regularize flag and choose a p-norm smaller than 0 [implying infinity]).
 
-#### Update (February 2020) – Now in OpenMS 2.5+
+### Update (February 2020) – Now in OpenMS 2.5+
 
 EPIFANY can now also be found in the official OpenMS 2.5 release (or later). We recommend using the version that ships with your OpenMS distribution of choice. For the
 binary used in the publication, you can use the installation links and methods below or check out the source code from the [corresponding GitHub tag](https://github.com/jpfeuffer/OpenMS/tree/epifany_paper).
 
-<a href="https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">DOWNLOAD EPIFANY WITH OpenMS AS COMMAND LINE TOOL (EXPERIMENTAL BRANCH)</button></a>
+{{< button download "https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/" >}}
+DOWNLOAD EPIFANY WITH OpenMS AS COMMAND LINE TOOL
+{{< /button >}}
 
 Steps:
 1) Download the installer for your platform via the button above
@@ -43,7 +45,9 @@ Steps:
 3) After installation and adding the TOPP tools (including EPIFANY) to your global Path environment,
 you can start scripting. Follow the instructions here for some introduction to scripting with OpenMS
 
-<a href="https://www.knime.com/downloads/download-knime"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">USE EPIFANY IN KNIME WORKFLOWS WITH GRAPHICAL USER INTERFACE</button></a>
+{{< button download "https://www.knime.com/downloads/download-knime" >}}
+USE EPIFANY IN KNIME WORKFLOWS WITH GRAPHICAL USER INTERFACE
+{{< /button >}}
 
 Steps:
 1) Download the KNIME installer for your platform via the button above
@@ -54,20 +58,20 @@ You can give it any name (e.g. OpenMS EPIFANY Update Site).
 4) You will then find EPIFANY (together with the other OpenMS nodes) in the node repository in the lower left of the program.
 5) You can create a new workflow with it or import the workflow for our example data. Don’t forget to configure Input File(s) to point to the files on your computer
 
-#### System Requirements:
+### System Requirements:
 
 Install or build OpenMS (see OpenMS’ requirements at the bottom of the page). You can do it either standalone or as a KNIME plugin.
 
-#### Command Line
+### Command Line
 
 Command line documentation of the tool can be found here (in the UTILS section of the OpenMS documentation under the tool’s name).
 
-#### Limitations
+### Limitations
 
 Contradicting connected components may dictate runtime in certain parameter settings.
 Extensive parameter grid search is computationally expensive (may be reduced if there are good estimates).
 
-#### Inputs
+### Inputs
 
 **Direct input for the tool**: An idXML file with indexed and target-decoy annotated proteins and peptides that carry probabilities (e.g. from OpenMS’ IDPosteriorProbability, Percolator, Peptide/iProphet…)
 
@@ -76,7 +80,7 @@ Inputs can be replicates and/or fractions. Depending on your goals you could als
 
 ***
 
-#### Download sources and example data
+### Download sources and example data
 
 **Publication:** J. Pfeuffer, T. Sachsenberg, T. M. Dijkstra, O. Serang, K. Reinert, and O. Kohlbacher, “EPIFANY-A method for efficient high-confidence protein inference,” Journal of proteome research, p. 734327, 2019.
 

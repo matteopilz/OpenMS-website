@@ -3,6 +3,7 @@ title: Applications
 sidebar: false
 ---
 
+
 OpenMS is a flexible codebase that can be tailored to many different applications ranging from the standard label free analysis to top down, metabolomics, crosslinking or DIA.
 
 Choose an application of OpenMS that you are interested in. The pages will provide explanations on how OpenMS can be used to solve your problems and link to workflows that allow you to apply the tools to your data.
@@ -16,7 +17,7 @@ If you cannot find your application in the menu on the left, more OpenMS tools c
 
 ### Intelligent data acquisition for top-down proteomics (FLASHIda)
 
-FLASHIda is an intelligent online data acquisition algorithm for top-down proteomics (TDP) that ensures the real-time selection of high-quality precursors of diverse proteoforms. FLASHIda combines fast decharging algorithms in FLASHDeconv and machine learning-based quality assessment to identify optimal precursors for fragmentation. Currently the c# source code and instruction of FLASHIda is available in here under a BSD three-clause license. We are working on merging FLASHIda into OpenMS.
+FLASHIda is an intelligent online data acquisition algorithm for top-down proteomics (TDP) that ensures the real-time selection of high-quality precursors of diverse proteoforms. FLASHIda combines fast decharging algorithms in <a href="/application/flashdeconv/">FLASHDeconv</a> and machine learning-based quality assessment to identify optimal precursors for fragmentation. Currently the c# source code and instruction of FLASHIda is available in <a href="https://github.com/caetera/FlashIda">here</a> under a BSD three-clause license. We are working on merging FLASHIda into OpenMS.
 
 {{< notice info >}}
 FLASHIda beta version (under construction)
@@ -27,7 +28,9 @@ FLASHIda beta version (under construction)
 
 Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics, is developed based on OpenMS and FLASHDeconv.
 
-<button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;" onclick="https://github.com/JeeH-K/OpenMS/tree/feature/FLASHDeconvQ">Check it out on Github!</button>
+{{< button normal "https://github.com/JeeH-K/OpenMS/tree/feature/FLASHDeconvQ">}}
+Check it out on Github!
+{{< /button >}}
 
 ***
 
@@ -37,7 +40,9 @@ Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics
 
 Based on OpenMS, a full SRM quantitation and quality control suite was developed by DTU BioSustain. It provides a standalone GUI for easy, fast, and scalable analysis of high-throughput metabolomics SRM experiments. It also added a set of state-of-the-art peak integration and peak alignment algorithms to the library.
 
-<button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;" onclick="https://github.com/dmccloskey/SmartPeak2">Check it out on Github!</button>
+{{< button normal "https://github.com/dmccloskey/SmartPeak2">}}
+Check it out on Github!
+{{< /button >}}
 
 ***
 
@@ -95,6 +100,8 @@ To read more about it, please click <a href="/application/nase/">here</a>.
 OpenPepXL is a protein-protein cross-link identification tool implemented in C++ as part of OpenMS. It works with all uncleavable labeled and label-free cross-linkers but not (yet) with cleavable ones.
 
 To read more about it, please click <a href="/application/openpepxl/">here</a>.
+
+***
 
 ### RNA-Protien Cross-Linking (RNPXL)
 
