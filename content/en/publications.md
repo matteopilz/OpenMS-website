@@ -61,16 +61,18 @@ publisher={Elsevier}
 - O. Alka, T. Sachsenberg, L. Bichmann, J. Pfeuffer, H. Weisser, S. Wein, E. Netz, M. Rurik, O. Kohlbacher, and H. Röst, “OpenMS and KNIME for Mass Spectrometry Data Processing,” in _Processing Metabolomics and Proteomics Data with Open Software_, , 2020, p. 201–231.
 
 <details>
-    <summary style="padding:0 0 0 25px">[Bibtex]</summary>
-    <pre><code>@incollection{alka2020openms,
-    title={OpenMS and KNIME for Mass Spectrometry Data Processing},
-    author={Alka, Oliver and Sachsenberg, Timo and Bichmann, Leon and Pfeuffer, Julianus and Weisser, Hendrik and Wein, Samuel and Netz, Eugen and Rurik, Marc and Kohlbacher, Oliver and R{\"o}st, Hannes},
-    booktitle={Processing Metabolomics and Proteomics Data with Open Software},
-    pages={201--231},
-    year={2020}
-    }
-    </code></pre>
-    </details>
+<summary style="padding:0 0 0 25px">[Bibtex]</summary>
+<pre><code>@incollection{alka2020openms,
+title={OpenMS and KNIME for Mass Spectrometry Data Processing},
+author={Alka, Oliver and Sachsenberg, Timo and Bichmann, Leon and Pfeuffer, Julianus and Weisser, Hendrik and Wein, Samuel and Netz, Eugen and Rurik, Marc and Kohlbacher, Oliver and R{\"o}st, Hannes},
+booktitle={Processing Metabolomics and Proteomics Data with Open Software},
+pages={201--231},
+year={2020}
+}
+</code></pre>
+</details>
+
+***
 
 - S. Wein, B. Andrews, T. Sachsenberg, H. Santos-Rosa, O. Kohlbacher, T. Kouzarides, B. A. Garcia, and H. Weisser, “A computational platform for high-throughput analysis of RNA sequences and modifications by mass spectrometry,” Nature communications, vol. 11, iss. 1, p. 1–12, 2020.
 
