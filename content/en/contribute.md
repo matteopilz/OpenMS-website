@@ -15,8 +15,7 @@ list](https://lists.sourceforge.net/lists/listinfo/open-ms-general/) or
 issue).
 
 Those are our preferred channels (open source is open by nature), but
-if you prefer to talk privately, contact our community coordinators at [mailing
-list](https://lists.sourceforge.net/lists/listinfo/open-ms-general/) or on [Gitter](https://gitter.im/OpenMS/OpenMS).
+if you prefer to talk privately, contact our community coordinators at [Gitter](https://gitter.im/OpenMS/OpenMS).
 
 If you only want to be informed of new versions of OpenMS, please subscribe to the mailing list [open-ms-announcements](https://lists.sourceforge.net/lists/listinfo/open-ms-announcements).
 
@@ -67,7 +66,7 @@ Please just dive in.
 
 We've just revamped our website, but we're far from done. If you love web
 development, these
-[issues](https://github.com/openms/openms.de)
+[issues](https://github.com/openms/openms.de/issues)
 list some of our unmet needs -- and feel free to share your own ideas.
 
 
