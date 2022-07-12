@@ -28,7 +28,7 @@ FLASHIda beta version (under construction)
 
 Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics, is developed based on OpenMS and FLASHDeconv.
 
-{{< button normal "https://github.com/JeeH-K/OpenMS/tree/feature/FLASHDeconvQ">}}
+{{< button github "https://github.com/JeeH-K/OpenMS/tree/feature/FLASHDeconvQ">}}
 Check it out on Github!
 {{< /button >}}
 
@@ -40,7 +40,7 @@ Check it out on Github!
 
 Based on OpenMS, a full SRM quantitation and quality control suite was developed by DTU BioSustain. It provides a standalone GUI for easy, fast, and scalable analysis of high-throughput metabolomics SRM experiments. It also added a set of state-of-the-art peak integration and peak alignment algorithms to the library.
 
-{{< button normal "https://github.com/dmccloskey/SmartPeak2">}}
+{{< button github "https://github.com/dmccloskey/SmartPeak2">}}
 Check it out on Github!
 {{< /button >}}
 
