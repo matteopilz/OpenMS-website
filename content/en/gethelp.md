@@ -13,11 +13,24 @@ overwhelming!
 **Development issues:** For OpenMS development-related matters (e.g. bug reports), please
 see [Community](/community).
 
+### [OpenMS mailing list](https://mail.python.org/mailman/listinfo/openms-discussion)
 
+This list is the main forum for longer-form discussions, like adding new features to openms, making changes to the OpenMS Roadmap, and all kinds of project-wide decision making.
 
-### [StackOverflow](https://stackoverflow.com/search?q=openms)
+Announcements about openms, such as for releases, developer meetings, sprints or
+conference talks are also made on this list.
 
-A forum for asking usage questions, e.g. "How do I do X in openms?”. Please [use the `#openms` tag](https://stackoverflow.com/help/tagging)
+On this list please use bottom posting, reply to the list (rather than to
+another sender), and don't reply to digests. A searchable archive of this list
+is available [here](https://lists.sourceforge.net/lists/listinfo/open-ms-general/).
+
+***
+
+### [GitHub issue tracker](https://github.com/openms/openms/issues)
+
+- For bug reports;
+- documentation issues (e.g. "I found this section unclear");
+- and feature requests (e.g. "I would like to have a new interpolation method in `spectrum.sortByPosition()`").
 
 ***
 

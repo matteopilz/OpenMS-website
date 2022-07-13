@@ -5,21 +5,21 @@ newsHeader: Latest News - OpenMS Made it to GSoD 22 🎉
 date:
 ---
 
-### SECOND OpenMS DOCUMENTATION UPDATE
+### Second OpenMS documentation update
 
 The OpenMS team has won a 2022 Google Season of Docs grant to update the OpenMS documentation. Combined with money from the University of Tübingen, a team of three technical writers will review and rewrite OpenMS documentation. The 2022 team consists of Rahul Agrawal, Christina Kumar and Tapasweni Pathak.
 
-### OpenMS DEVELOPERS’ MEETING 4-8 APRIL 2022 
+### OpenMS Developers’ meeting 4-8 April 2022 
 
 _Dec 31, 2021_ -- The OpenMS developer meeting brings bioinformaticians working in computational mass spectrometry together to shape the future development of OpenMS. It is targeted to core developers, new developers, and potential future contributors. Short talks, developer tutorials, and code sprints will be intertwined. Participants will have the opportunity to design custom tools and workflows together with instructors. External users are welcome to bring their own ideas and will receive detailed feedback as well as help getting started in OpenMS development. Progress will be tracked on our GitHub page with a resume of each day.
 
 For registration mail Timo Sachsenberg at  timo.sachsenberg@uni-tuebingen.de
 
-### OpenMS DOCUMENTATION UPDATE FUNDED BY GOOGLE SEASON OF DOC
+### OpenMS Documentation update funded by Google Season of Doc
 
 The OpenMS team has won a 2021 [Google Season of Docs](https://developers.google.com/season-of-docs/docs/participants) grant to update the OpenMS documentation. From 1 June until 30 September 2021, technical writer Rahul Agrawal will review and rewrite OpenMS documentation, with a focus on [pyOpenMS](https://pyopenms.readthedocs.io/en/latest/).
 
-### VIRTUAL OpenMS DEVELOPERS MEETING 15-16 APRIL 2021
+### Virtual OpenMS developers meeting 15-16 april 2021
 
 _April 15, 2021_ The OpenMS developer meeting brings bioinformaticians working in computational mass spectrometry together to shape the future development of OpenMS. It is targeted to core developers, new developers, and potential future contributors. Short talks, developer tutorials, and code sprints will be intertwined. Participants will have the opportunity to design custom tools and workflows together with instructors. External users are welcome to bring their own ideas and will receive detailed feedback as well as help getting started in OpenMS development. Progress will be tracked on our GitHub page with a resume of each day.
 
