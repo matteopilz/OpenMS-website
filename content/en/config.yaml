@@ -1,6 +1,6 @@
 languageName: English
 params:
-  description: Why OpenMS? Powerful n-dimensional arrays. Numerical computing tools. Interoperable. Performant. Open source.
+  description: Why OpenMS? Mass Spectrometry. Visualizations. Open source.
   navbarlogo:
     image: openms-logo.png
     link: /

@@ -1,5 +1,5 @@
 ---
-title: QUANTITATIVE DATA INDEPENDENT PROTEOMICS (DIAPROTEOMICS)
+title: Quantitative data independent proteomics (DIAPROTEOMICS)
 sidebar: false
 ---
 

@@ -40,3 +40,22 @@ A real-time chat room where users and community members help each other.
 
 ***
 
+### [OpenMS Documentation](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html)
+
+Documentation of the newest release including all classes and their functions and building instructions for several operating systems can be found [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html).
+
+An introduction to the core data structures and algorithms intended for new developers can be found [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/OpenMS_tutorial.html).
+
+***
+
+### [pyOpenMS Documentation](https://pyopenms.readthedocs.io/en/latest/)
+
+Documentation on how to use OpenMS in python can be found here: [pyOpenMS](https://pyopenms.readthedocs.io/en/latest/)
+
+***
+
+### OpenMS in KNIME
+
+An introductory tutorial for using OpenMS tools in workflows using KNIME can be found on the [tutorial](https://www.openms.de/tutorials/) page.
+
+A general quick start guide for KNIME can be found [here](https://tech.knime.org/files/KNIME_quickstart.pdf) and the documentation for the KNIME Analytics Platform [here](https://tech.knime.org/documentation). There is also a separate forum for our community nodes in the KNIME community forums [here](https://tech.knime.org/forum/openms).
