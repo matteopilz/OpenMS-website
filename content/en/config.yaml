@@ -23,7 +23,8 @@ params:
     image: pyopenms.png
 
   keyfeatures:
-    title: Features
+    title: What is OpenMS ?
+    subtitle: As part of the deNBI Center for integrative Bioinformatics, OpenMS offers an open-source software C++ library (+ python bindings) for LC/MS data management and analyses. It provides an infrastructure for the rapid development of mass spectrometry related software as well as a rich toolset built on top of it. OpenMS is free software available under the three clause BSD license and runs under Windows, macOS and Linux.
     features:
     - title: Proteomics
       text: Almost 200 ready-made and customisable tools for analysing your proteomics data. Combined in flexible workflows they provide solutions to a broad range of problems arising in proteomics labs.
