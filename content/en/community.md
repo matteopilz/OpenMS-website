@@ -11,6 +11,7 @@ We offer several communication channels to learn, share your knowledge and conne
 
 ### [GitHub issue tracker](https://github.com/openms/openms/issues)
 
+The issue tracker can be used for:
 - bug reports (e.g. "Filter doesn't work for 1D data");
 - documentation issues (e.g. "I found this section unclear");
 - and feature requests (e.g. "I would like to have a new interpolation method in `spectrum.sortByPosition()`").
@@ -21,7 +22,7 @@ Following repositories can be used for specific purposes:
 - [OpenMS.de](https://github.com/OpenMS/openms.de) (Any issue related to website)
 - [pyopenms-docs](https://github.com/OpenMS/pyopenms-docs) (Any issue related to pyopenms)
 
-In case if you are confused, please ask your query in [here](/help-request)
+In case if you are confused, please ask your query [here](/help-request)
 
 ***
 
@@ -39,7 +40,7 @@ Similar to Gitter, Discord allows the users to communicate in different channels
 
 ***
 
-### [OpenMS mailing list](https://lists.sourceforge.net/lists/listinfo/open-ms-general/)
+### [OpenMS mailing list](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements)
 
 This list is the main forum for longer-form discussions, like adding new features to OpenMS, making changes to the OpenMS Roadmap, and all kinds of project-wide decision making.
 
@@ -47,8 +48,7 @@ Announcements about OpenMS, such as for releases, developer meetings, sprints or
 conference talks are also made on this list.
 
 On this list please use bottom posting, reply to the list (rather than to
-another sender), and don't reply to digests. A searchable archive of this list
-is available [here](https://lists.sourceforge.net/lists/listinfo/open-ms-general/).
+another sender), and don't reply to digests.
 
 ## Join the OpenMS community
 
