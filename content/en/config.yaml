@@ -28,15 +28,15 @@ params:
     features:
     - title: Proteomics
       text: Almost 200 ready-made and customisable tools for analysing your proteomics data. Combined in flexible workflows they provide solutions to a broad range of problems arising in proteomics labs.
-      img: /images/content_images/keyfeatures/proteomics3.png
+      img: /images/content_images/keyfeatures/proteomics2.png
       url: /keyfeatures/proteomics
     - title: Metabolomics
       text: OpenMS provides a wide range of customisable tools, specifically designed for all steps in the analysis of your targeted and untargeted metabolomics data.
-      img: /images/content_images/keyfeatures/metabolomics3.png
+      img: /images/content_images/keyfeatures/metabolomics2.png
       url: /keyfeatures/metabolomics
     - title: Workflows
       text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
-      img: /images/content_images/keyfeatures/workflows3.png
+      img: /images/content_images/keyfeatures/workflows2.png
       url: /keyfeatures/workflows
   # tabs:
   #   title: ECOSYSTEM
