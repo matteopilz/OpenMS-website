@@ -22,12 +22,17 @@
 }
 
 .keyfeatures-box-content {
-    height: 450px;
+    height: 320px;
     min-width: 275px;
     width: 350px;
     margin: 30px auto;
     border-radius: 3px;
+    padding: 10px 5px;
 }
+
+.keyfeatures-box-content:hover {
+    box-shadow: 0 8px 16px 0 rgba(30, 17, 219, 0.459);
+  }
 
 .keyfeatures a {
     color: rgb(1, 50, 67) !important;
@@ -37,6 +42,7 @@
     margin: 15px;
     font-size: 16px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .keyfeatures-box-text {

@@ -1,6 +1,6 @@
 {{- $keyfeatures := .Site.Params.keyfeatures }}
-{{- $title    := index $keyfeatures "title" }}
-{{- $subtitle    := index $keyfeatures "subtitle" }}
+{{- $title := index $keyfeatures "title" }}
+{{- $subtitle := index $keyfeatures "subtitle" }}
 {{- $features := index $keyfeatures "features" }}
 <section class="keyfeatures">
     <div class="container">
@@ -9,9 +9,11 @@
         <div class="keyfeatures-box-container">
             {{- range $features }}
             <a class="keyfeatures-box-content keyfeatures-underline" href="{{ .url }}">
-                <div class="keyfeatures-box-title">{{ .title }}</div>
-                    <img src="{{ .img }}" alt="{{ .alttext }}">
-                <div class="keyfeatures-box-text">{{ .text | markdownify }}</div>
+                <center>
+                    <img src="{{ .img }}" alt="{{ .alttext }}" style="height: 100px;width: 110px;">
+                    <div class="keyfeatures-box-title">{{ .title }}</div>
+                    <div class="keyfeatures-box-text">{{ .text | markdownify }}</div>
+                </center>
             </a>
             {{- end }}
         </div>
