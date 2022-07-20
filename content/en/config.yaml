@@ -32,7 +32,7 @@ params:
       url: /keyfeatures/proteomics
     - title: Metabolomics
       text: OpenMS provides a wide range of customisable tools, specifically designed for all steps in the analysis of your targeted and untargeted metabolomics data.
-      img: /images/content_images/keyfeatures/metabolomics2.png
+      img: /images/content_images/keyfeatures/metabolomics4.png
       url: /keyfeatures/metabolomics
     - title: Workflows
       text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
