@@ -15,4 +15,4 @@ communities worldwide by building quality, open-source software.
 
 # Governance
 
-For the list of the Steering Council members, please see [here]({{< relref "/about" >}}).
+For information about the Executive Committee, please see [here]({{< relref "/about" >}}).
