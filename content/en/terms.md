@@ -98,7 +98,7 @@ We cannot guarantee the Site will be available at all times. We may experience h
 
 ## GOVERNING LAW
 
-These Terms of Use and your use of the Site are governed by and construed in accordance with the laws of the State of Texas applicable to agreements made and to be entirely performed within the Commonwealth of Pennsylvania, without regard to its conflict of law principles.  
+These Terms of Use and your use of the Site are governed by and construed in accordance with the laws of the  Commonwealth of Pennsylvania, without regard to its conflict of law principles.  
 
 
 ## CORRECTIONS
@@ -129,11 +129,6 @@ We will maintain certain data that you transmit to the Site for the purpose of m
 ## ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
 
 Visiting the Site, sending us emails, and completing online forms constitute electronic communications. You consent to receive electronic communications, and you agree that all agreements, notices, disclosures, and other communications we provide to you electronically, via email and on the Site, satisfy any legal requirement that such communication be in writing. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means. 
-
-
-## CALIFORNIA USERS AND RESIDENTS
-
-If any complaint with us is not satisfactorily resolved, you can contact the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) 952-5210 or (916) 445-1254.
 
 
 ## MISCELLANEOUS
