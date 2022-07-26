@@ -50,7 +50,7 @@ When a member of the Code of Conduct Committee becomes aware of a clear and seve
 
 When a report is sent to the Committee they will immediately reply to the reporter to confirm receipt. This reply must be sent within 72 hours, and the group should strive to respond much quicker than that.
 
-If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Steering Council’s behalf in contacting any individuals involved to get a more complete account of events.
+If a report doesn’t contain enough information, the Committee will obtain all relevant data before acting. The Committee is empowered to act on the Executive Committee’s behalf in contacting any individuals involved to get a more complete account of events.
 
 The Committee will then review the incident and determine, to the best of their ability:
 
@@ -61,14 +61,14 @@ The Committee will then review the incident and determine, to the best of their 
 
 This information will be collected in writing, and whenever possible the group’s deliberations will be recorded and retained (i.e. chat transcripts, email discussions, recorded conference calls, summaries of voice conversations, etc).
 
-It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Steering Council upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
+It is important to retain an archive of all activities of this Committee to ensure consistency in behavior and provide institutional memory for the project. To assist in this, the default channel of discussion for this Committee will be a private mailing list accessible to current and future members of the Committee as well as members of the Executive Committee upon justified request. If the Committee finds the need to use off-list communications (e.g. phone calls for early/rapid response), it should in all cases summarize these back to the list so there’s a good record of the process.
 
 The Code of Conduct Committee should aim to have a resolution agreed upon within two weeks. In the event that a resolution can’t be determined in that time, the Committee will respond to the reporter(s) with an update and projected timeline for resolution.
 
 
 ## Resolutions
 
-The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Steering Council for resolution.
+The Committee must agree on a resolution by consensus. If the group cannot reach consensus and deadlocks for over a week, the group will turn the matter over to the Executive Committee for resolution.
 
 Possible responses may include:
 
@@ -85,9 +85,9 @@ Possible responses may include:
 
 Once a resolution is agreed upon, but before it is enacted, the Committee will contact the original reporter and any other affected parties and explain the proposed resolution. The Committee will ask if this resolution is acceptable, and must note feedback for the record.
 
-Finally, the Committee will make a report to the OpenMS Steering Council (as well as the OpenMS core team in the event of an ongoing resolution, such as a ban).
+Finally, the Committee will make a report to the OpenMS Executive Committee (as well as the OpenMS core team in the event of an ongoing resolution, such as a ban).
 
-The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the OpenMS Steering Council.
+The Committee will never publicly discuss the issue; all public statements will be made by the chair of the Code of Conduct Committee or the OpenMS Executive Committee.
 
 
 ## Conflicts of Interest
