@@ -20,7 +20,7 @@ params:
     subtitle: Python Folks 🐍 ! Get Started With pyOpenMS.
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
-    image: pyopenms.png
+    image: pyopenms3.png
 
   keyfeatures:
     title: What is OpenMS ?
