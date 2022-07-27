@@ -42,13 +42,13 @@ Similar to Gitter, Discord allows the users to communicate in different channels
 
 ### [OpenMS mailing list](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements)
 
+
 This list is the main forum for longer-form discussions, like adding new features to OpenMS, making changes to the OpenMS Roadmap, and all kinds of project-wide decision making.
 
-Announcements about OpenMS, such as for releases, developer meetings, sprints or
-conference talks are also made on this list.
+There are two mailing list currently:
+- [open-ms-announcements](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements/) - Announcements about OpenMS, such as for releases, developer meetings, sprints or conference talks are made on this list.
 
-On this list please use bottom posting, reply to the list (rather than to
-another sender), and don't reply to digests.
+- [open-ms-general](https://sourceforge.net/p/open-ms/mailman/open-ms-general/) - For addressing any queries or suggestion from the users.
 
 ## Join the OpenMS community
 
