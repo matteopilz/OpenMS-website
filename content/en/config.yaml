@@ -17,13 +17,13 @@ params:
     image: openms-logo.png
   pyopenms:
     title: Python Bindings
-    subtitle: Python Folks 🐍 ! Get Started With pyOpenMS.
+    subtitle: Python Folks 🐍 ! Get Started With pyOpenMS
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: pyopenms4.png
   applyWorkflows:
     title: Existing workflows
-    subtitle: Apply different tools and run existing workflows.
+    subtitle: Apply different tools and run existing workflows
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: knime-analytics.png
@@ -39,6 +39,12 @@ params:
     subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
+  largeDatasets:
+    title: Large Datasets
+    subtitle: Run workflows on very large datasets on powerful compute infrastructure
+    buttontext: Get Started
+    buttonlink: "/install/#pyopenms-installation"
+    image: nf-core-logo.png
 
   keyfeatures:
     title: What is OpenMS ?
