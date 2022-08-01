@@ -5,9 +5,15 @@
 {{- $buttonLink := index $pyopenms "buttonlink" }}
 {{- $image      := index $pyopenms "image" }}
 
-<div class="hero-body">
+<div class="hero-body" style="padding: 2rem 2rem; background: cornsilk;">
   <div class="container is-max-widescreen">
     <div class="columns is-vcentered">
+      <div class="column is-5 is-offset-1 hide-mobile">
+        <figure class="image is-4by3">
+          <img class="pyopenms-img" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
+          <!-- <div class="logo-pyopenms"><b>p<span>yO</span>pe<span>n</span>MS</b></div> -->
+        </figure>
+      </div>
       <div class="column is-5 is-offset-1 landing-caption">
         <h1 class="title is-1 is-bold is-spaced">
           {{ $title }}
@@ -20,12 +26,6 @@
         <div class="hero-cta">
             <a href="{{ $buttonLink }}"><button class="cta-button">{{ $buttonText }}</button></a>
         </div>
-      </div>
-      <div class="column is-5 is-offset-1">
-        <figure class="image is-4by3">
-          <img class="pyopenms-img" src="{{ printf "/images/%s" $image | relURL }}" alt="Description">
-          <!-- <div class="logo-pyopenms"><b>p<span>yO</span>pe<span>n</span>MS</b></div> -->
-        </figure>
       </div>
     </div>
   </div>

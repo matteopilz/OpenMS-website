@@ -20,7 +20,25 @@ params:
     subtitle: Python Folks 🐍 ! Get Started With pyOpenMS.
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
-    image: pyopenms3.png
+    image: pyopenms4.png
+  applyWorkflows:
+    title: Existing workflows
+    subtitle: Apply different tools and run existing workflows.
+    buttontext: Get Started
+    buttonlink: "/install/#pyopenms-installation"
+    image: knime-analytics.png
+  createWorkflows:
+    title: Create workflows
+    subtitle: Modify and create own workflows.
+    buttontext: Get Started
+    buttonlink: "/install/#pyopenms-installation"
+    image: knime-edit.png
+
+  highPerformanceAlgorithms:
+    title: Create high-performance tools
+    subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
+    buttontext: Get Started
+    buttonlink: "/install/#pyopenms-installation"
 
   keyfeatures:
     title: What is OpenMS ?
@@ -41,6 +59,19 @@ params:
   # tabs:
   #   title: ECOSYSTEM
   section5: false
+  casestudies:
+    title: Users
+    features:
+    - title: Apply tools and run existing workflows
+      text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
+      img: /images/content_images/keyfeatures/proteomics.jpeg
+      alttext: First image of a black hole. It is an orange circle in a black background.
+      url: /case-studies/blackhole-image
+    - title: Modify and create own workflows
+      text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
+      img: /images/content_images/keyfeatures/proteomics.jpeg
+      alttext: Two orbs orbiting each other. They are displacing gravity around them.
+      url: /case-studies/gw-discov
 
 
 navbar:
