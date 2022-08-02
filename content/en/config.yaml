@@ -16,8 +16,8 @@ params:
     # Hero image (from static/images/___)
     image: openms-logo.png
   pyopenms:
-    title: Python Bindings
-    subtitle: Python Folks 🐍 ! Get Started With pyOpenMS
+    title: Python Bindings 🐍
+    subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: pyopenms4.png
@@ -40,7 +40,7 @@ params:
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
   largeDatasets:
-    title: Large Datasets
+    title: Large dataset computation
     subtitle: Run workflows on very large datasets on powerful compute infrastructure
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
