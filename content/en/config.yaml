@@ -15,14 +15,8 @@ params:
     buttonlink: "/install"
     # Hero image (from static/images/___)
     image: openms-logo.png
-  pyopenms:
-    title: Python Bindings 🐍
-    subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
-    buttontext: Get Started
-    buttonlink: "/install/#pyopenms-installation"
-    image: pyopenms4.png
   applyWorkflows:
-    title: Existing workflows
+    title: Run existing workflows
     subtitle: Apply different tools and run existing workflows
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
@@ -33,6 +27,12 @@ params:
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: knime-edit.png
+  pyopenms:
+    title: Execute python bindings 🐍
+    subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
+    buttontext: Get Started
+    buttonlink: "/install/#pyopenms-installation"
+    image: pyopenms4.png
 
   highPerformanceAlgorithms:
     title: Create high-performance tools
