@@ -3,13 +3,25 @@ title: Community
 sidebar: false
 ---
 
+**Welcome to @OpenMS!**
+
+@OpenMS is an open-source C++ software library for LC-MS data management and analysis with python wrappers, a large modular toolset and workflows for e.g., Galaxy, KNIME and nextflow. 
+
 OpenMS is a community-driven open source project developed by a diverse group of [contributors](/teams/). The OpenMS leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [OpenMS Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+
+Here's how to get started:
+
+- 📚 Browse through the main library code under [OpenMS/OpenMS](https://github.com/openms/openms/issues)
+- 👩‍💻 Check out the [documentation](https://www.openms.de/documentation).
+- 🙋‍♀️ Come and say hi on our [Discord](https://discord.gg/wcWETcAkvS)!
+- 🍿 Tune in for news about developer/user meetings and events, [get involved](/training-events)!
+- 🌈 Please abide by our [community code of conduct](https://github.com/OpenMS/OpenMS/blob/develop/CODE_OF_CONDUCT.md)
 
 We offer several communication channels to learn, share your knowledge and connect with others within the OpenMS community.
 
 ***
 
-### [GitHub issue tracker](https://github.com/openms/openms/issues)
+### <a class="button cta rounded primary-btn raised" href="https://github.com/openms/openms/issues">GitHub issue tracker</a>
 
 The issue tracker can be used for:
 - bug reports (e.g. "Filter doesn't work for 1D data");
@@ -26,7 +38,7 @@ In case if you are confused, please ask your query [here](/help-request)
 
 ***
 
-### [Gitter](https://gitter.im/OpenMS/OpenMS)
+### <a class="button cta rounded primary-btn raised" href="https://gitter.im/OpenMS/OpenMS">Gitter</a>
 
 A real-time chat room to ask questions about _contributing_ to OpenMS.
 This is a private space, specifically meant for people who are hesitant to
@@ -34,13 +46,13 @@ bring up their questions or ideas on a large public mailing list or GitHub.
 
 ***
 
-### [Discord](https://discord.gg/aJyWqf6uCn)
+### <a class="button cta rounded primary-btn raised" href="https://discord.gg/aJyWqf6uCn">Discord</a>
 
 Similar to Gitter, Discord allows the users to communicate in different channels, publicly as well as privately
 
 ***
 
-### [OpenMS mailing list](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements)
+### <a class="button cta rounded primary-btn raised" href="https://sourceforge.net/p/open-ms/mailman/open-ms-announcements">OpenMS mailing list</a>
 
 
 This list is the main forum for longer-form discussions, like adding new features to OpenMS, making changes to the OpenMS Roadmap, and all kinds of project-wide decision making.
