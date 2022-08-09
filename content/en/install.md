@@ -9,7 +9,7 @@ Here you can select the operating system of your choce and follow the installati
 
 ### Installation on GNU/Linux
 
-#### Install Debian package
+#### ➤ Install Debian package
 
 If you are using a Debian-based Linux we suggest to use the deb-package provided by us in our [archive](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/latest). It is most easily installed with "gdebi" which automatically resolves the dependencies if they are available in your repositories.
 
@@ -26,7 +26,7 @@ export OPENMS_DATA_PATH=/usr/share/OpenMS
 
 Once the path is exported, close the current terminal and open a new one.
 
-#### Install via package managers
+#### ➤ Install via package managers
 
 Currently there are also packaged versions of OpenMS provided for Fedora, OpenSUSE, Debian, and Ubuntu [available in the corresponding package managers](https://pkgs.org/search/openms) of these distributions (they might require a lookup in thirdparty "science" repositories). For other GNU/Linux distributions or to obtain the most recent version of the library you need to build your own OpenMS.
 
@@ -47,7 +47,7 @@ source ${OPENMS_TOPP_PATH}/.TOPP_bash_profile
 
 ---
 
-#### Known Issues:
+#### Known Issues: 🥲
 
 Since macOS Catalina (maybe also Mojave) notarized apps and executables are mandatory. Although we put a lot of effort in signing and notarizing everything, it seems like our software still lands in quarantine on the abovementioned systems, after installation of the DMG (when downloading it from a browser). Therefore, to have a streamlined experience without blocking popups, we recommend to remove the quarantine flag manually. For this, open the Terminal.app and type the following (replace the first line with the actual installation directory):
 
@@ -70,7 +70,7 @@ If you are running Win8 or later, windows will report an error while installing 
 
 ---
 
-#### Known Issues:
+#### Known Issues: 🥲
 
 **Problem**
 During installation, an error message pops up, saying *"The installation of the Microsoft .NET 3.5 SP1' package failed! You must download and install it manually in order for Proteowizard to work."*
