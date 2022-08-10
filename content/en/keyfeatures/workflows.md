@@ -3,7 +3,7 @@ title: "OpenMS For Workflows"
 sidebar: true
 ---
 
-## OpenMS IN KNIME
+## OpenMS In KNIME
 
 As part of the Center for Integrative Bioinformatics (CiBi) in the German Network for Bioinformatics ([deNBI](http://www.denbi.de/)), we are currently focusing our development efforts on the integration of OpenMS into KNIME. KNIME is a well-established data analysis framework that supports the generation of workflows for data analysis. Using a Common Tool Description ([CTD](https://github.com/WorkflowConversion/CTDSchema)) file which is writeable by every TOPP tool and a node generator program ([Generic Knime Nodes](https://github.com/genericworkflownodes/GenericKnimeNodes)), all TOPP tools can be made available to run in KNIME.
 
@@ -56,9 +56,32 @@ See the more advanced instructions on our [Getting Started](/getting-started/dev
 
 Please click on the [link here](/knime-example-workflows) to check some emxaple workflows.
 
-## OpenMS IN GALAXY
+## OpenMS In GALAXY
 
 Nodes for OpenMS tools have been kindly made available via the PROTEOMICS, METABOLOMICS, CHEMISTRY section at https://usegalaxy.eu/ and can be browsed by searching for OpenMS in the tools search box.
 
 <center>{{< figure src="/images/content_images/galaxy_eu.png" >}}</center>
 
+## OpenMS In Nextflow
+
+**SCALABLE [NF-CORE](https://nf-co.re/) COMPATIBLE [NEXTFLOW](https://nextflow.io/) PIPELINES**
+
+Click on “Launch” to configure the pipeline for your data online and launch it via nextflow’s [tower app](https://tower.nf/) (by registering a compute environment there) or by copying a configuration token for your local computer or HPC head node.
+
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/quantms" data-gmc-theme="gh_recommendation"></script>
+
+{{< button rocket "https://nf-co.re/launch?pipeline=quantms">}}
+Launch
+{{< /button >}}
+
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/mhcquant" data-gmc-theme="gh_recommendation"></script>
+
+{{< button rocket "https://nf-co.re/launch?pipeline=mhcquant">}}
+Launch
+{{< /button >}}
+
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/diaproteomics" data-gmc-theme="gh_recommendation"></script>
+
+{{< button rocket "https://nf-co.re/launch?pipeline=diaproteomics">}}
+Launch
+{{< /button >}}
