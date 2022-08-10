@@ -68,20 +68,22 @@ Nodes for OpenMS tools have been kindly made available via the PROTEOMICS, METAB
 
 Click on “Launch” to configure the pipeline for your data online and launch it via nextflow’s [tower app](https://tower.nf/) (by registering a compute environment there) or by copying a configuration token for your local computer or HPC head node.
 
+***
 <script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/quantms" data-gmc-theme="gh_recommendation"></script>
 
 {{< button rocket "https://nf-co.re/launch?pipeline=quantms">}}
 Launch
 {{< /button >}}
-
+***
 <script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/mhcquant" data-gmc-theme="gh_recommendation"></script>
 
 {{< button rocket "https://nf-co.re/launch?pipeline=mhcquant">}}
 Launch
 {{< /button >}}
-
+***
 <script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/diaproteomics" data-gmc-theme="gh_recommendation"></script>
 
 {{< button rocket "https://nf-co.re/launch?pipeline=diaproteomics">}}
 Launch
 {{< /button >}}
+***
