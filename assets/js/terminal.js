@@ -1,22 +1,23 @@
 $(function() {
     var data = [
-    { 
-      action: 'type',
-      strings: ["pip install -g pyOpenMS^400"],
-      output: '<span class="gray">+pyOpenMS@2.8.0 installed</span><br>&nbsp;',
-      postDelay: 1000
-    },
-    { 
-      action: 'type',
-      strings: ["cd tests^400"],
-      output: ' ',
-      postDelay: 1000
-    },
+    // { 
+    //   action: 'type',
+    //   strings: ["FileInfo -in example.mzML^400"],
+    //   output: '<span class="gray">+pyOpenMS@2.8.0 installed</span><br>&nbsp;',
+    //   postDelay: 1000
+    // },
+    // { 
+    //   action: 'type',
+    //   strings: ["cd tests^400"],
+    //   output: ' ',
+    //   postDelay: 1000
+    // },
     { 
       action: 'type',
       //clear: true,
-      strings: ['pyOpenMS run^400'],
-      output: $('.mimik-run-output').html()
+      strings: ['FileInfo -in example.mzML^400'],
+      output: $('.mimik-run-output').html(),
+      postDelay: 1000
     },
     { 
       action: 'type',
