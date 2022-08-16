@@ -17,13 +17,13 @@ params:
     image: openms-logo.png
   applyWorkflows:
     title: Run existing workflows
-    subtitle: Apply different tools and run existing workflows
+    subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: knime-analytics.png
   createWorkflows:
     title: Create workflows
-    subtitle: Modify and create own workflows.
+    subtitle: Modify and create your own OpenMS workflows in KNIME.
     buttontext: Get Started
     buttonlink: "/install/#pyopenms-installation"
     image: knime-edit.png

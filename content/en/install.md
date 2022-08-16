@@ -5,6 +5,116 @@ sidebar: false
 
 ## Installation instructions:
 
+### Installing OpenMS in KNIME
+
+Installation of OpenMS in KNIME is very easy and platform-independent across Windows, MacOSX and Linux. Download the latest KNIME release from the [KNIME website](http://www.knime.org/). If you choose the full install of KNIME you most likely can skip the following installation routine since all required plugins should be installed by default.
+If you chose the standard (core) installation, follow the instructions here or in the extended User [Tutorial](https://github.com/OpenMS/Tutorials) :
+
+1. In KNIME click on Help 
+2. Install new Software.
+
+<center>{{< figure src="/images/content_images/kf/KNIME_Install.png" caption="**Example workflow in KNIME**" alt="Example workflow in KNIME" >}}</center>
+
+3. Install the required KNIME File Handling nodes from the official KNIME Update Site (a standard entry in the update sites). Choose the update site from the “Work with:” dropdown menu.
+
+Name: KNIME Analytics Platform ${YOUR_KNIME_VERSION} Update Site
+Location: [http://update.knime.org/analytics-platform/${YOUR_KNIME_VERSION}](http://update.knime.org/analytics-platform/${YOUR_KNIME_VERSION})
+
+Filter the results for “File handling” and select the KNIME File Handling Nodes. Click Next and install.
+
+Next, we will install the actual OpenMS plugin. Next to the “Work with:” dropdown menu, click on “Add…”.
+
+<center>{{< figure src="/images/content_images/kf/KNIME_update_site.jpeg" alt="Example workflow in KNIME" >}}</center>
+
+In the opening dialog fill in at least one of the following additional Update Sites (if not already present):
+
+---
+
+## Installation of pyOpenMS
+
+pyOpenMS is a python library for Liquid Chromatography-Mass Spectrometry (LC-MS) data analysis. It can be seen as an extension of OpenMS that offers almost all the features in python.
+
+{{< notice note >}} 
+This introduction is aimed at users new to the field of LC-MS data analysis and will introduce some basics terms and concepts. How to handle the data analysis, available data structures, algorithms and more are covered in the various subsections of this documentation.
+{{< /notice >}} 
+
+**CONDA**
+
+If you use `conda`, you can install pyOpenMS from the `defaults` or `conda-forge`
+channels:
+
+```bash
+# Best practice, use an environment rather than install in the base env
+conda create -n my-env
+conda activate my-env
+# If you want to install from conda-forge
+conda config --env --add channels conda-forge
+# The actual install command
+conda install -c bioconda -c conda-forge pyopenms
+```
+
+**PIP**
+
+If you use `pip`, you can install pyOpenMS with:
+
+```bash
+pip install pyopenms
+```
+Also when using pip, it's good practice to use a virtual environment -
+see  [Reproducible Installs](#reproducible-installs) below for why, and
+[this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)
+for details on using virtual environments.
+
+<a name="python-openms-install-guide"></a>
+# Python and OpenMS installation guide
+
+Installing and managing packages in Python is complicated, there are a
+number of alternative solutions for most tasks. This guide tries to give the
+reader a sense of the best (or most popular) solutions, and give clear
+recommendations. It focuses on users of Python, openms, and the PyData (or
+numerical computing) stack on common operating systems and hardware.
+
+### Pip & conda
+
+The two main tools that install Python packages are `pip` and `conda`. Their
+functionality partially overlaps (e.g. both can install `openms`), however, they
+can also work together. We'll discuss the major differences between pip and
+conda here - this is important to understand if you want to manage packages
+effectively.
+
+The first difference is that conda is cross-language and it can install Python,
+while pip is installed for a particular Python on your system and installs other
+packages to that same Python install only. This also means conda can install
+non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
+pip can't.
+
+The second difference is that pip installs from the Python Packaging Index
+(PyPI), while conda installs from its own channels (typically "defaults" or
+"conda-forge"). PyPI is the largest collection of packages by far, however, all
+popular packages are available for conda as well.
+
+The third difference is that conda is an integrated solution for managing
+packages, dependencies and environments, while with pip you may need another
+tool (there are many!) for dealing with environments or complex dependencies.
+
+### Reproducible installs
+
+As libraries get updated, results from running your code can change, or your
+code can break completely. It's important to be able to reconstruct the set
+of packages and versions you're using. Best practice is to:
+
+1. use a different environment per project you're working on,
+2. record package names and versions using your package installer;
+   each has its own metadata format for this:
+   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
+  [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
+   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
+
+--- 
+
+## Installation of OpenMS binaries
+
 Here you can select the operating system of your choce and follow the installation instructions.
 
 ### Installation on GNU/Linux
@@ -91,86 +201,48 @@ For some messages we have a recipe:
 
 ---
 
-## pyOpenMS installation
+## Installation of OpenMS in Galaxy or NextFlow
 
-pyOpenMS is a python library for Liquid Chromatography-Mass Spectrometry (LC-MS) data analysis. It can be seen as an extension of OpenMS that offers almost all the features in python.
+### OpenMS on Galaxy 🌌
 
-{{< notice note >}} 
-This introduction is aimed at users new to the field of LC-MS data analysis and will introduce some basics terms and concepts. How to handle the data analysis, available data structures, algorithms and more are covered in the various subsections of this documentation.
-{{< /notice >}} 
+Galaxy is an open-source web platform designed for processing and analyzing large quantities of biomedical data.
 
-**CONDA**
+TOPP tools have been integrated into Galaxy to facilitate the creation and execution of workflows.
 
-If you use `conda`, you can install pyOpenMS from the `defaults` or `conda-forge`
-channels:
+To use TOPP tools on Galaxy:
 
-```bash
-# Best practice, use an environment rather than install in the base env
-conda create -n my-env
-conda activate my-env
-# If you want to install from conda-forge
-conda config --env --add channels conda-forge
-# The actual install command
-conda install -c bioconda -c conda-forge pyopenms
-```
+1. Go to the [website](https://usegalaxy.eu/).
+2. Create an account.
+3. Go to **Tools** on the far left and scroll down.
+4. Search for "OpenMS".
+5. You will see a list of TOPP tools.
 
-**PIP**
+<center>{{< figure src="/images/content_images/topp-tool-list.png" caption="**Example workflow in Galaxy**" alt="Example workflow in Galaxy" >}}</center>
 
-If you use `pip`, you can install pyOpenMS with:
+Choose one of the TOPP tools from the list. You will be able to run it in isolation or use it to create a workflow.
 
-```bash
-pip install pyopenms
-```
-Also when using pip, it's good practice to use a virtual environment -
-see  [Reproducible Installs](#reproducible-installs) below for why, and
-[this guide](https://dev.to/bowmanjd/python-tools-for-managing-virtual-environments-3bko#howto)
-for details on using virtual environments.
+### OpenMS In Nextflow
 
+**SCALABLE [NF-CORE](https://nf-co.re/) COMPATIBLE [NEXTFLOW](https://nextflow.io/) PIPELINES**
 
-<a name="python-openms-install-guide"></a>
-# Python and OpenMS installation guide
+Click on “Launch” to configure the pipeline for your data online and launch it via nextflow’s [tower app](https://tower.nf/) (by registering a compute environment there) or by copying a configuration token for your local computer or HPC head node.
 
-Installing and managing packages in Python is complicated, there are a
-number of alternative solutions for most tasks. This guide tries to give the
-reader a sense of the best (or most popular) solutions, and give clear
-recommendations. It focuses on users of Python, openms, and the PyData (or
-numerical computing) stack on common operating systems and hardware.
+***
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/quantms" data-gmc-theme="gh_recommendation"></script>
 
-### Pip & conda
+{{< button rocket "https://nf-co.re/launch?pipeline=quantms">}}
+Launch
+{{< /button >}}
+***
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/mhcquant" data-gmc-theme="gh_recommendation"></script>
 
-The two main tools that install Python packages are `pip` and `conda`. Their
-functionality partially overlaps (e.g. both can install `openms`), however, they
-can also work together. We'll discuss the major differences between pip and
-conda here - this is important to understand if you want to manage packages
-effectively.
+{{< button rocket "https://nf-co.re/launch?pipeline=mhcquant">}}
+Launch
+{{< /button >}}
+***
+<script async src="https://cdn.rawgit.com/tsucres/GithubManyfacedCards/0.3.0/dist/gmc-loader.min.js" data-gmc-repo="nf-core/diaproteomics" data-gmc-theme="gh_recommendation"></script>
 
-The first difference is that conda is cross-language and it can install Python,
-while pip is installed for a particular Python on your system and installs other
-packages to that same Python install only. This also means conda can install
-non-Python libraries and tools you may need (e.g. compilers, CUDA, HDF5), while
-pip can't.
-
-The second difference is that pip installs from the Python Packaging Index
-(PyPI), while conda installs from its own channels (typically "defaults" or
-"conda-forge"). PyPI is the largest collection of packages by far, however, all
-popular packages are available for conda as well.
-
-The third difference is that conda is an integrated solution for managing
-packages, dependencies and environments, while with pip you may need another
-tool (there are many!) for dealing with environments or complex dependencies.
-
-
-### Reproducible installs
-
-As libraries get updated, results from running your code can change, or your
-code can break completely. It's important to be able to reconstruct the set
-of packages and versions you're using. Best practice is to:
-
-1. use a different environment per project you're working on,
-2. record package names and versions using your package installer;
-   each has its own metadata format for this:
-   - Conda: [conda environments and environment.yml](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-   - Pip: [virtual environments](https://docs.python.org/3/tutorial/venv.html) and
-  [requirements.txt](https://pip.readthedocs.io/en/latest/user_guide/#requirements-files)
-   - Poetry: [virtual environments and pyproject.toml](https://python-poetry.org/docs/basic-usage/)
-
+{{< button rocket "https://nf-co.re/launch?pipeline=diaproteomics">}}
+Launch
+{{< /button >}}
+***
