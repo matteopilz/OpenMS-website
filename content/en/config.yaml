@@ -15,26 +15,8 @@ params:
     buttonlink: "/install"
     # Hero image (from static/images/___)
     image: openms-logo.png
-  applyWorkflows:
-    title: Run existing workflows
-    subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
-    buttontext: Get Started
-    buttonlink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
-    image: knime-analytics.png
-  createWorkflows:
-    title: Create workflows
-    subtitle: Modify and create your own OpenMS workflows in KNIME.
-    buttontext: Get Started
-    buttonlink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
-    image: knime-edit.png
-  pyopenms:
-    title: Execute python bindings 🐍
-    subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
-    buttontext: Get Started
-    buttonlink: "https://pyopenms.readthedocs.io/en/latest/"
-    image: pyopenms4.png
 
-  heroGroupUsers:
+  heroGroup:
   - title: OpenMS allows users to:-
     bgColor: ECF2F9
     heroItems:
@@ -56,18 +38,21 @@ params:
       imgClass: pyopenms-img
       buttonText: Get Started
       buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
-
-  highPerformanceAlgorithms:
-    title: Create high-performance tools
-    subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
-    buttontext: Get Started
-    buttonlink: "https://openms.readthedocs.io/en/latest/develop-with-openms/openms-core-cplusplus-library.html"
-  largeDatasets:
-    title: Analyze large datasets
-    subtitle: Run workflows on very large datasets on powerful compute infrastructure
-    buttontext: Get Started
-    buttonlink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
-    image: nf-core-logo.png
+  - title: Advanced users can use OpenMS to:-
+    bgColor: FFF1E0
+    heroItems:
+    - title: Create high-performance tools
+      subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
+      terminal: true
+      buttonText: Get Started
+      buttonLink: "https://openms.readthedocs.io/en/latest/develop-with-openms/openms-core-cplusplus-library.html"
+    - title: Analyze large datasets
+      subtitle: Run workflows on very large datasets on powerful compute infrastructure
+      leftAlign: true
+      imgClass: nfcore-img
+      image: nf-core-logo.png
+      buttonText: Get Started
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
 
   keyfeatures:
     title: What is OpenMS ?
@@ -88,19 +73,19 @@ params:
   # tabs:
   #   title: ECOSYSTEM
   section5: false
-  casestudies:
-    title: Users
-    features:
-    - title: Apply tools and run existing workflows
-      text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
-      img: /images/content_images/keyfeatures/proteomics.jpeg
-      alttext: First image of a black hole. It is an orange circle in a black background.
-      url: /case-studies/blackhole-image
-    - title: Modify and create own workflows
-      text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
-      img: /images/content_images/keyfeatures/proteomics.jpeg
-      alttext: Two orbs orbiting each other. They are displacing gravity around them.
-      url: /case-studies/gw-discov
+  # casestudies:
+  #   title: Users
+  #   features:
+  #   - title: Apply tools and run existing workflows
+  #     text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
+  #     img: /images/content_images/keyfeatures/proteomics.jpeg
+  #     alttext: First image of a black hole. It is an orange circle in a black background.
+  #     url: /case-studies/blackhole-image
+  #   - title: Modify and create own workflows
+  #     text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
+  #     img: /images/content_images/keyfeatures/proteomics.jpeg
+  #     alttext: Two orbs orbiting each other. They are displacing gravity around them.
+  #     url: /case-studies/gw-discov
 
 
 navbar:

@@ -1,12 +1,10 @@
-{{- $heroGroupUsers := .Site.Params.heroGroupUsers }}
-{{- $title := index $heroGroupUsers "title" }}
-{{- $bgColor := index $heroGroupUsers "bgColor" }}
-{{- $heroItems := index $heroGroupUsers "heroItems" }}
-
+{{- $heroGroup := .Site.Params.heroGroup }}
+{{- range $heroGroup }}
+{{- $bgColor := .bgColor }}
 <center>
-    <h1 class="title is-3 is-bold is-spaced heroItemTitle" style="background-color: #{{- $bgColor }};"> {{- $title }} </h1>
+    <h1 class="title is-3 is-bold is-spaced heroItemTitle" style="background-color: #{{- $bgColor }};"> {{ .title }} </h1>
 </center>
-{{- range $heroItems }}
+{{- range .heroItems }}
 <div class="hero-body" style="padding: 2rem 2rem; background-color: #{{- $bgColor }};">
     <div class="container is-max-widescreen">
         <div class="columns is-vcentered">
@@ -30,14 +28,21 @@
                     <a href="{{ .buttonLink }}"><button class="cta-button">{{ .buttonText }}</button></a>
                 </div>
             </div>
-            {{- if not .leftAlign }}
+            {{- if and (not .leftAlign) (not .terminal) }}
             <div class="column is-5 is-offset-1 hide-mobile">
                 <figure class="image is-4by3">
                     <img src="{{ printf "/images/%s" .image | relURL }}" alt="Description">
                 </figure>
             </div>
             {{- end }}
+            {{- if .terminal }}
+            <div class="column is-5 is-offset-1 hide-mobile">
+                {{ partial "terminal.html" . }}
+              </div>
+            {{- end }}
         </div>
     </div>
 </div>
+{{- end }}
+<br>
 {{- end }}
