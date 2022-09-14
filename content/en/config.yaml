@@ -34,6 +34,29 @@ params:
     buttonlink: "https://pyopenms.readthedocs.io/en/latest/"
     image: pyopenms4.png
 
+  heroGroupUsers:
+  - title: OpenMS allows users to:-
+    bgColor: ECF2F9
+    heroItems:
+    - title: Run existing workflows
+      subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
+      leftAlign: true
+      image: knime-analytics.png
+      buttonText: Get Started
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
+    - title: Create workflows
+      subtitle: Modify and create your own OpenMS workflows in KNIME.
+      image: knime-edit.png
+      buttonText: Get Started
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
+    - title: Execute python bindings 🐍
+      subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
+      leftAlign: true
+      image: pyopenms4.png
+      imgClass: pyopenms-img
+      buttonText: Get Started
+      buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
+
   highPerformanceAlgorithms:
     title: Create high-performance tools
     subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
