@@ -17,7 +17,7 @@ params:
     image: openms-logo.png
 
   heroGroup:
-  - title: OpenMS allows users to:-
+  - title: "OpenMS allows users to:"
     bgColor: ECF2F9
     heroItems:
     - title: Run existing workflows
@@ -36,9 +36,10 @@ params:
       leftAlign: true
       image: pyopenms4.png
       imgClass: pyopenms-img
+      bottomBorderRadius: true
       buttonText: Get Started
       buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
-  - title: Advanced users can use OpenMS to:-
+  - title: "Advanced users can use OpenMS to:"
     bgColor: FFF1E0
     heroItems:
     - title: Create high-performance tools
@@ -51,6 +52,7 @@ params:
       leftAlign: true
       imgClass: nfcore-img
       image: nf-core-logo.png
+      bottomBorderRadius: true
       buttonText: Get Started
       buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
 

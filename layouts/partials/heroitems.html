@@ -2,10 +2,10 @@
 {{- range $heroGroup }}
 {{- $bgColor := .bgColor }}
 <center>
-    <h1 class="title is-3 is-bold is-spaced heroItemTitle" style="background-color: #{{- $bgColor }};"> {{ .title }} </h1>
+    <h1 class="title is-1 is-bold is-spaced heroItemTitle" style="background-color: #{{- $bgColor }};"> {{ .title }} </h1>
 </center>
 {{- range .heroItems }}
-<div class="hero-body" style="padding: 2rem 2rem; background-color: #{{- $bgColor }};">
+<div class="hero-body {{- if .bottomBorderRadius }} heroBottomRadius {{- end}}" style="padding: 2rem 2rem; background-color: #{{- $bgColor }};">
     <div class="container is-max-widescreen">
         <div class="columns is-vcentered">
             {{- if .leftAlign }}
@@ -16,7 +16,7 @@
             </div>
             {{- end}}
             <div class="column is-5 is-offset-1 landing-caption">
-                <h1 class="title is-1 is-bold is-spaced">
+                <h1 class="title is-2 is-bold is-spaced">
                     {{ .title }}
                 </h1>
                 {{- with .subtitle }}
