@@ -18,9 +18,6 @@ params:
   images:
   - /images/logo.svg
   navColor: blue
-  font:
-    name: "Lato"
-    sizes: [400,900]
   plausible:
     dataDomain: openms.org
 languages:
