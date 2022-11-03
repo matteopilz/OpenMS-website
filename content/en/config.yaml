@@ -123,7 +123,7 @@ footer:
     icon: github
   # - link: https://www.youtube.com/channel/
   #   icon: youtube
-  - link: https://twitter.com/OpenMS_team
+  - link: https://twitter.com/OpenMSTeam
     icon: twitter
   quicklinks:
     column1:
@@ -132,7 +132,7 @@ footer:
         - text: Install
           link: /install
         - text: Documentation
-          link: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/nightly/html/index.html
+          link: https://openms.readthedocs.io/en/latest/
         - text: Citing OpenMS
           link: /citing-openms
 
