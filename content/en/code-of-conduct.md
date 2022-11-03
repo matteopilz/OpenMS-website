@@ -5,49 +5,67 @@ aliases:
     - /conduct.html
 ---
 
-### Introduction
+### Code of Conduct (Summary View)
 
-This Code of Conduct applies to all spaces managed by the OpenMS project, including all public and private mailing lists, issue trackers, wikis, blogs, Twitter, and any other communication channel used by our community. The OpenMS project does not organise in-person events, however events related to our community should have a code of conduct similar in spirit to this one.
+We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. By participating in this community, participants accept to abide by OpenMS' Code of Conduct and accept the procedures by which any Code of Conduct incidents are resolved. Any form of behaviour to exclude, intimidate, or cause discomfort is a violation of the Code of Conduct. In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all platforms and events:
 
-This Code of Conduct should be honored by everyone who participates in the OpenMS community formally or informally, or claims any affiliation with the project, in any project-related activities and especially when representing the project, in any role.
+- Use welcoming and inclusive language
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show courtesy and respect towards other community members
 
-This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative, shared environment and goals. Please try to follow this code in spirit as much as in letter, to create a friendly and productive environment that enriches the surrounding community.
+If you believe someone is violating the Code of Conduct, we ask that you report it to the Code of Conduct Committee, who will take the appropriate action to address the situation.
 
-### Specific Guidelines
+### Code of Conduct (Detailed View)
 
-We strive to:
+#### Part 1 - Introduction
 
-1. **Be open** We invite anyone to participate in our community. We prefer to use public methods of communication for project-related messages, unless discussing something sensitive. This applies to messages for help or project-related support, too; not only is a public support request much more likely to result in an answer to a question, it also ensures that any inadvertent mistakes in answering are more easily detected and corrected.
-2. **Be empathetic**, welcoming, friendly, and patient. We work together to resolve conflict, and assume good intentions. We may all experience some frustration from time to time, but we do not allow frustration to turn into a personal attack. A community where people feel uncomfortable or threatened is not a productive one.
-3. **Be collaborative**. Our work will be used by other people, and in turn we will depend on the work of others. When we make something for the benefit of the project, we are willing to explain to others how it works, so that they can build on the work to make it even better. Any decision we make will affect users and colleagues, and we take those consequences seriously when making decisions.
-4. **Be inquisitive**. Nobody knows everything! Asking questions early avoids many problems later, so we encourage questions, although we may direct them to the appropriate forum. We will try hard to be responsive and helpful.
-5. **Be careful** in the words that we choose. We are careful and respectful in our communication, and we take responsibility for our own speech. Be kind to others. Do not insult or put down other participants. We will not accept harassment or other exclusionary behaviour, such as:
-    * **Violent threats or language directed against another person.**
-    * **Sexist, racist, or otherwise discriminatory jokes and language.**
-    * **Posting sexually explicit or violent material.**
-    * **Posting (or threatening to post) other people’s personally identifying information (“doxing”).**
-    * **Sharing private content, such as emails sent privately or non-publicly, or unlogged forums such as IRC channel history, without the sender’s consent.**
-    * **Personal insults, especially those using racist or sexist terms.**
-    * **Unwelcome sexual attention.**
-    * **Excessive profanity. Please avoid swearwords; people differ greatly in their sensitivity to swearing.**
-    * **Repeated harassment of others. In general, if someone asks you to stop, then stop.**
-    * **Advocating for, or encouraging, any of the above behaviour.**
+OpenMS is a community-led project. We value the involvement of everyone in the community. We are committed to creating a friendly and respectful place for learning, teaching and contributing. All participants in our events and communications are expected to show respect and courtesy to others.
 
-### Diversity Statement
+To make clear what is expected, everyone participating in OpenMS activities is required to conform to the Code of Conduct. This Code of Conduct applies to all spaces managed by OpenMS including, but not limited to, workshops, email lists, and online forums such as GitHub, Slack and Twitter. Workshop hosts are expected to assist with the enforcement of the Code of Conduct.
 
-The OpenMS project welcomes and encourages participation by everyone. We are committed to being a community that everyone enjoys being part of. Although we may not always be able to accommodate each individual’s preferences, we try our best to treat everyone kindly.
+The OpenMS Code of Conduct Committee is responsible for enforcing the Code of Conduct. It can be contacted by emailing open-ms-c_o_c@lists.sourceforge.net. All reports will be reviewed by the Code of Conduct Committee and will be kept confidential.
 
-No matter how you identify yourself or how others perceive you: we welcome you. Though no list can hope to be comprehensive, we explicitly honour diversity in: age, culture, ethnicity, genotype, gender identity or expression, language, national origin, neurotype, phenotype, political beliefs, profession, race, religion, sexual orientation, socioeconomic status, subculture and technical ability, to the extent that these do not conflict with this code of conduct.
+#### Part 2 - OpenMS Code of Conduct
 
-Though we welcome people fluent in all languages, OpenMS development is conducted in English.
+OpenMS is dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. As such, we do not tolerate behaviour that is disrespectful to our teachers or learners or that excludes, intimidates, or causes discomfort to others. We do not tolerate discrimination or harassment based on characteristics that include, but are not limited to, gender identity and expression, sexual orientation, disability, physical appearance, body size, citizenship, nationality, ethnic or social origin, pregnancy, familial status, veteran status, genetic information, religion or belief (or lack thereof), membership of a national minority, property, age, education, socio-economic status, technical choices, and experience level.
 
-Standards for behaviour in the OpenMS community are detailed in the Code of Conduct above. Participants in our community should uphold these standards in all their interactions and help others to do so as well (see next section).
+Everyone who participates in OpenMS activities is required to conform to this Code of Conduct. It applies to all spaces managed by OpenMS including, but not limited to, workshops, email lists, and online forums such as GitHub, Gitter and Twitter. Workshop hosts are expected to assist with the enforcement of the Code of Conduct. By participating, participants indicate their acceptance of the procedures by which OpenMS resolves any Code of Conduct incidents, which may include storage and processing of their personal information.
 
-### Reporting Guidelines
+#### Part 2.1 - Expected behaviour
 
-We know that it is painfully common for internet communication to start at or devolve into obvious and flagrant abuse. We also recognize that sometimes people may have a bad day, or be unaware of some of the guidelines in this Code of Conduct. Please keep this in mind when deciding on how to respond to a breach of this Code.
+All participants in our events and communications are expected to show respect and courtesy to others. All interactions should be professional regardless of platform: either online or in-person. In order to foster a positive and professional learning environment we encourage the following kinds of behaviours in all OpenMS events and platforms:
 
-For clearly intentional breaches, report those to the Code of Conduct Committee (see below). For possibly unintentional breaches, you may reply to the person and point out this code of conduct (either in public or in private, whatever is most appropriate). If you would prefer not to do that, please feel free to report to the Code of Conduct Committee directly, or ask the Committee for advice, in confidence.
+- Use welcoming and inclusive language
+- Be respectful of different viewpoints and experiences
+- Gracefully accept constructive criticism
+- Focus on what is best for the community
+- Show courtesy and respect towards other community members
+
+Note: See the four [social rules](https://www.recurse.com/manual#sub-sec-social-rules) for further recommendations.
+
+#### Part 2.2 - Unacceptable behaviour
+
+Examples of unacceptable behaviour by participants at any OpenMS event/platform include:
+
+- written or verbal comments which have the effect of excluding people on the basis of membership of any specific group
+- causing someone to fear for their safety, such as through stalking, following, or intimidation
+- violent threats or language directed against another person
+- the display of sexual or violent images
+- unwelcome sexual attention
+- nonconsensual or unwelcome physical contact
+- sustained disruption of talks, events or communications
+- insults or put downs
+- sexist, racist, homophobic, transphobic, ableist, or exclusionary jokes
+- excessive swearing
+- incitement to violence, suicide, or self-harm
+- continuing to initiate interaction (including photography or recording) with someone after being asked to stop
+- publication of private communication without consent
+
+#### Part 2.3 Consequences of Unacceptable behaviour
+
+Participants who are asked to stop any inappropriate behaviour are expected to comply immediately. This applies to any OpenMS events and platforms, either online or in-person. If a participant engages in behaviour that violates this code of conduct, the organisers may warn the offender, ask them to leave the event or platform (without refund), or engage OpenMS Code of Conduct Committee to investigate the Code of Conduct violation and impose appropriate sanctions.
 
 ### Incident reporting resolution & Code of Conduct enforcement
 
@@ -65,3 +83,9 @@ In cases not involving clear severe and obvious breaches of this Code of Conduct
 4. Enforcement via transparent decision (see [Resolutions](/report-handling-manual/#resolutions)) by the Code of Conduct Committee.
 
 The Committee will respond to any report as soon as possible, and at most within 72 hours.
+
+### About this Document
+
+This document is adapted from guidelines written by the [The Carpentries Project](https://github.com/carpentries/handbook/blob/master/topic_folders/policies/code-of-conduct.md), which was itself based on the [Django Project](https://www.djangoproject.com/conduct/enforcement-manual/) and [Ada Initiative](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Responding_to_reports) template and the [PyCon 2013 Procedure for Handling Harassment Incidents](https://us.pycon.org/2013/about/code-of-conduct/harassment-incidents/).
+
+[licensed CC BY 3.0](http://creativecommons.org/licenses/by/3.0/)
