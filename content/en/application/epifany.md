@@ -35,7 +35,7 @@ max-product inference (for this, set the regularize flag and choose a p-norm sma
 EPIFANY can now also be found in the official OpenMS 2.5 release (or later). We recommend using the version that ships with your OpenMS distribution of choice. For the
 binary used in the publication, you can use the installation links and methods below or check out the source code from the [corresponding GitHub tag](https://github.com/jpfeuffer/OpenMS/tree/epifany_paper).
 
-{{< button download "https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/" >}}
+{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq/" >}}
 DOWNLOAD EPIFANY WITH OpenMS AS COMMAND LINE TOOL
 {{< /button >}}
 
@@ -52,8 +52,8 @@ USE EPIFANY IN KNIME WORKFLOWS WITH GRAPHICAL USER INTERFACE
 Steps:
 1) Download the KNIME installer for your platform via the button above
 2) Install KNIME
-3) After installation follow this small [video tutorial](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Videos/installOpenMSKNIMEplugin.mp4) to install the OpenMS plugin. Use the following update site URL for
-the copy-paste step in the video: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq
+3) After installation follow this small [video tutorial](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Videos/installOpenMSKNIMEplugin.mp4) to install the OpenMS plugin. Use the following update site URL for
+the copy-paste step in the video: https://abibuilder.cs.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq
 You can give it any name (e.g. OpenMS EPIFANY Update Site).
 4) You will then find EPIFANY (together with the other OpenMS nodes) in the node repository in the lower left of the program.
 5) You can create a new workflow with it or import the workflow for our example data. Don’t forget to configure Input File(s) to point to the files on your computer
@@ -84,13 +84,13 @@ Inputs can be replicates and/or fractions. Depending on your goals you could als
 
 **Publication:** J. Pfeuffer, T. Sachsenberg, T. M. Dijkstra, O. Serang, K. Reinert, and O. Kohlbacher, “EPIFANY-A method for efficient high-confidence protein inference,” Journal of proteome research, p. 734327, 2019.
 
-Experimental **installer downloads** until it is merged into the OpenMS Release: [OpenMS experimental archive](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq)
+Experimental **installer downloads** until it is merged into the OpenMS Release: [OpenMS experimental archive](https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/proteomic_lfq)
 
-**Example Data**: You can use the converted mzMLs on our [server](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/) as direct input to the KNIME workflow that is also linked there. The data comes from the [iPRG2016](https://www.ebi.ac.uk/pride/archive/projects/PXD008425) study (sample “B”). You can also use the merged idXML on the server for a direct input to EPIFANY.
+**Example Data**: You can use the converted mzMLs on our [server](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/) as direct input to the KNIME workflow that is also linked there. The data comes from the [iPRG2016](https://www.ebi.ac.uk/pride/archive/projects/PXD008425) study (sample “B”). You can also use the merged idXML on the server for a direct input to EPIFANY.
 
-**Large-scale Example Data**: An example for larger scale data can be found on the same [server](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/) (bigDataProbabilities.idXML). Its raw files/mzMLs will be referenced after the dataset is published.
+**Large-scale Example Data**: An example for larger scale data can be found on the same [server](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/) (bigDataProbabilities.idXML). Its raw files/mzMLs will be referenced after the dataset is published.
 
-**Example KNIME Workflow**: Workflows implemented in [KNIME](http://www.knime.com/) are also found on the [server](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/). The outputs of the workflow are compatible with the evaluation script of the [iPRG2016](https://github.com/statisticalbiotechnology/proteoform-standard) study. Experimental update site for the plugin installation in KNIME (copy-paste when adding a new update site under Help->Install New Software): [https://abibuilder.informatik.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq)
+**Example KNIME Workflow**: Workflows implemented in [KNIME](http://www.knime.com/) are also found on the [server](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/iPRG2016/). The outputs of the workflow are compatible with the evaluation script of the [iPRG2016](https://github.com/statisticalbiotechnology/proteoform-standard) study. Experimental update site for the plugin installation in KNIME (copy-paste when adding a new update site under Help->Install New Software): [https://abibuilder.cs.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq](https://abibuilder.cs.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/experimental/feature/proteomic_lfq)
 
 OpenMS implementation **sources**: [github.com](https://github.com/OpenMS/OpenMS/tree/feature/proteomic_lfq) (Epifany.cpp and BayesianProteinInferenceAlgorithm class)
 

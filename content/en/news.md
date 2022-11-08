@@ -27,7 +27,7 @@ For registration mail Timo Sachsenberg at sachsenb@informatik.uni-tuebingen.de
 
 ### OpenMS 2.6.0 RELEASED
 
-We are proud to announce the release of OpenMS 2.6.0. Grab it [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/2.6.0)
+We are proud to announce the release of OpenMS 2.6.0. Grab it [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/2.6.0)
 
 - source + conda release only. This means installers, workflows and GUI are untested.
 - Restructuring of Imported CMake targets and pyOpenMS CMake

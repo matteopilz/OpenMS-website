@@ -40,11 +40,11 @@ A real-time chat room where users and community members help each other.
 
 ***
 
-### [OpenMS Documentation](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html)
+### [OpenMS Documentation](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html)
 
-Documentation of the newest release including all classes and their functions and building instructions for several operating systems can be found [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html).
+Documentation of the newest release including all classes and their functions and building instructions for several operating systems can be found [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/index.html).
 
-An introduction to the core data structures and algorithms intended for new developers can be found [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/OpenMS_tutorial.html).
+An introduction to the core data structures and algorithms intended for new developers can be found [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/OpenMS_tutorial.html).
 
 ***
 

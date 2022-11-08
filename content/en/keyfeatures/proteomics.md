@@ -42,7 +42,7 @@ These TOPP tools can roughly be categorised based on their applicability to cert
 
 - Support for data independent acquisition via OpenSWATH integration
 
-A full list of the tools can be found in our documentation [here](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/TOPP_documentation.html)
+A full list of the tools can be found in our documentation [here](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/TOPP_documentation.html)
 
 #### NOT ENOUGH?
 

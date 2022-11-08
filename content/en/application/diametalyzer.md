@@ -16,8 +16,8 @@ If you would like to try the DIAMetAlyzer workflow, you will need to install **K
 **Steps:**
 1) Download the KNIME installer for your platform via the button above
 2) Install KNIME
-3) After installation follow this small [video tutorial](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Videos/installOpenMSKNIMEplugin.mp4) to install the OpenMS plugin. Use the following update site URL for
-the copy-paste step in the video: https://abibuilder.informatik.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/release/latest/
+3) After installation follow this small [video tutorial](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Videos/installOpenMSKNIMEplugin.mp4) to install the OpenMS plugin. Use the following update site URL for
+the copy-paste step in the video: https://abibuilder.cs.uni-tuebingen.de/archive/openms/knime-plugin/updateSite/release/latest/
 You can give it any name (e.g. OpenMS latest Update Site).
 
 Additional prerequisites are Python 3.x as well as the following packages:

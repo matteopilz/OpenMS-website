@@ -121,7 +121,7 @@ Here you can select the operating system of your choce and follow the installati
 
 #### ➤ Install Debian package
 
-If you are using a Debian-based Linux we suggest to use the deb-package provided by us in our [archive](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/latest). It is most easily installed with "gdebi" which automatically resolves the dependencies if they are available in your repositories.
+If you are using a Debian-based Linux we suggest to use the deb-package provided by us in our [archive](https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/latest). It is most easily installed with "gdebi" which automatically resolves the dependencies if they are available in your repositories.
 
 ```bash
 sudo apt-get install gdebi
@@ -146,7 +146,7 @@ Please note that these packages are not directly maintained by us and we can not
 
 ### Installation on MacOS
 
-Simply download and install the MacOS drag-and-drop installer for your system from our archive. After double-clicking, accepting the "downloaded App warning" and mounting the dmg image, drag the [OpenMS](https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/namespaceOpenMS.html) folder into your Applications folder as advised.
+Simply download and install the MacOS drag-and-drop installer for your system from our archive. After double-clicking, accepting the "downloaded App warning" and mounting the dmg image, drag the [OpenMS](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/namespaceOpenMS.html) folder into your Applications folder as advised.
 
 To use TOPP as regular apps in your shell just add the following lines to your ~/.profile file. Please adapt the first line to point to the folder where you installed OpenMS (e.g., /Applications/OpenMS-2.3.0)
 

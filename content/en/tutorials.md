@@ -5,11 +5,11 @@ sidebar: true
 
 ## User Tutorials
 
-{{< button download "https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
+{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
 DOWNLOAD PDF
 {{< /button >}}
 <br><br>
-{{< button download "https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Data/latest/" >}}
+{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/latest/" >}}
 DOWNLOAD EXAMPLE DATA
 {{< /button >}}
 <br><br>
@@ -34,7 +34,7 @@ We will release new versions on our [GitHub page for Tutorials](https://github.c
 
 ## TOPP/TOPPVIEW TUTORIAL
 
-{{< button download "https://abibuilder.informatik.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
+{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
 DOWNLOAD PDF
 {{< /button >}}
 
