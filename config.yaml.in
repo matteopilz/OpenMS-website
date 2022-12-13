@@ -1,4 +1,4 @@
-baseURL: https://openms.org/
+baseURL: https://openms.de/
 languageCode: en-us
 theme: scientific-python-hugo-theme
 disableKinds: ["taxonomy", "term"]
@@ -11,7 +11,7 @@ markup:
 
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
-# them to openms.org immediately.
+# them to openms.de immediately.
 disableLanguages: []
 
 params:
@@ -19,10 +19,10 @@ params:
   - /images/logo.svg
   navColor: blue
   plausible:
-    dataDomain: openms.org
+    dataDomain: openms.de
 languages:
   en:
-    title: openms
+    title: OpenMS
     weight: 1
     contentDir: content/en
     < content/en/config.yaml >
