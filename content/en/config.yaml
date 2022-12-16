@@ -30,8 +30,8 @@ params:
       subtitle: Modify and create your own OpenMS workflows in KNIME.
       image: knime-edit.png
       buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
-    - title: Execute python bindings 🐍
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
+    - title: Execute python bindings
       subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
       leftAlign: true
       image: pyopenms4.png
@@ -50,11 +50,11 @@ params:
     - title: Analyze large datasets
       subtitle: Run workflows on very large datasets on powerful compute infrastructure
       leftAlign: true
-      imgClass: nfcore-img
-      image: nf-core-logo.png
+      imgClass: workflows-logos-img
+      image: workflows-logos.png
       bottomBorderRadius: true
       buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
 
   keyfeatures:
     title: What is OpenMS ?
@@ -148,8 +148,8 @@ footer:
           link: /code-of-conduct
     column3:
       links:
-        - text: Get help
-          link: /gethelp
+        - text: Help
+          link: /help
         - text: Terms of use
           link: /terms
         - text: Privacy

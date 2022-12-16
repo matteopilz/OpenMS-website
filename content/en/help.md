@@ -1,5 +1,5 @@
 ---
-title: Get Help
+title: Help
 sidebar: false
 ---
 
