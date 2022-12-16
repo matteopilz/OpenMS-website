@@ -21,28 +21,15 @@ We offer several communication channels to learn, share your knowledge and conne
 
 ***
 
-### <a class="button cta rounded primary-btn raised" href="https://gitter.im/OpenMS/OpenMS">Gitter</a> 
-
-A real-time chat room to ask questions about _contributing_ to OpenMS.
-This is a private space, specifically meant for people who are hesitant to
-bring up their questions or ideas on a large public mailing list or GitHub.
-
-***
-
 ### <a class="button cta rounded primary-btn raised" href="https://discord.gg/aJyWqf6uCn">Discord</a>
 
-Similar to Gitter, Discord allows the users to communicate in different channels, publicly as well as privately
+Discord allows the users to communicate in different channels, publicly as well as privately
 
 ***
 
-### <a class="button cta rounded primary-btn raised" href="https://github.com/openms/openms/issues">GitHub issue tracker</a>
+### <a class="button cta rounded primary-btn raised" href="https://github.com/openms">GitHub</a>
 
-The issue tracker can be used for:
-- bug reports (e.g. "Filter doesn't work for 1D data");
-- documentation issues (e.g. "I found this section unclear");
-- and feature requests (e.g. "I would like to have a new interpolation method in `spectrum.sortByPosition()`").
-
-Following repositories can be used for specific purposes:
+Following repositories can be used:
 - [OpenMS](https://github.com/OpenMS/OpenMS) (Bug Reports, Feature requests)
 - [OpenMS-docs](https://github.com/OpenMS/OpenMS-docs) (Documentation related issues)
 - [OpenMS.de](https://github.com/OpenMS/openms.de) (Any issue related to website)
@@ -52,18 +39,49 @@ In case if you are confused, please ask your query [here](/help-request)
 
 ***
 
+### <a class="button cta rounded primary-btn raised" href="https://github.com/openms/openms/issues">GitHub issue tracker</a>
+
+The issue tracker can be used for:
+
+OpenMS
+- [Bug reports](https://github.com/OpenMS/OpenMS/labels/bug) (e.g. "Filter doesn't work for 1D data")
+- [Feature requests](https://github.com/OpenMS/OpenMS/labels/enhancement)
+- [TOPP](https://github.com/OpenMS/OpenMS/issues?q=is%3Aopen+is%3Aissue+label%3ATOPP) (**T**he **O**penMS **P**i**p**eline)
+- [TOPPView](https://github.com/OpenMS/OpenMS/labels/TOPPView)
+
+Documentation
+- [Bug reports](https://github.com/OpenMS/OpenMS-docs/labels/bug)
+- [Feature requests](https://github.com/OpenMS/OpenMS-docs/labels/enhancement)
+
+***
+
+### <a class="button cta rounded primary-btn raised" href="https://gitter.im/OpenMS/OpenMS">Gitter</a>
+
+A real-time chat room to ask questions about _contributing_ to OpenMS.
+This is a private space, specifically meant for people who are hesitant to
+bring up their questions or ideas on a large public mailing list or GitHub.
+
+***
+
 ### <a class="button cta rounded primary-btn raised" href="https://sourceforge.net/p/open-ms/mailman/open-ms-announcements">OpenMS mailing list</a>
 
 
-This list is the main forum for longer-form discussions, like adding new features to OpenMS, making changes to the OpenMS Roadmap, and all kinds of project-wide decision making.
+These lists are the main form of receiving OpenMS related updates, like new features, changes to the roadmap, and all kinds of project-wide decision making.
 
 There are two mailing list currently:
 - [open-ms-announcements](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements/) - Announcements about OpenMS, such as for releases, developer meetings, sprints or conference talks are made on this list.
-
 - [open-ms-general](https://sourceforge.net/p/open-ms/mailman/open-ms-general/) - For addressing any queries or suggestion from the users.
+
+***
+
+### <a class="button cta rounded primary-btn raised" href="https://twitter.com/openmsteam">Twitter</a> 
+
+Contact us or just follow the latest OpenMS news on Twitter.
+
+***
 
 ## Join the OpenMS community
 
-To thrive, the OpenMS project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to openms.
+To thrive, the OpenMS project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to OpenMS.
 
 If you are interested in becoming a OpenMS contributor (yay!) we recommend checking out our [Contribute](/contribute) page.
