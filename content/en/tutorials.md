@@ -5,7 +5,7 @@ sidebar: true
 
 ## User Tutorials
 
-{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
+{{< button download "https://openms.readthedocs.io/en/latest/tutorials-and-quickstart-guides/openms-user-tutorial.html" >}}
 DOWNLOAD PDF
 {{< /button >}}
 <br><br>
@@ -34,7 +34,7 @@ We will release new versions on our [GitHub page for Tutorials](https://github.c
 
 ## TOPP/TOPPVIEW TUTORIAL
 
-{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
+{{< button download "https://openms.readthedocs.io/en/latest/openms-applications-and-tools/visualize-with-openms.html" >}}
 DOWNLOAD PDF
 {{< /button >}}
 
