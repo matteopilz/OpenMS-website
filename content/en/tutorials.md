@@ -6,15 +6,15 @@ sidebar: true
 ## User Tutorials
 
 {{< button download "https://openms.readthedocs.io/en/latest/tutorials-and-quickstart-guides/openms-user-tutorial.html" >}}
-DOWNLOAD PDF
+Tutorial
 {{< /button >}}
 <br><br>
 {{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/latest/" >}}
-DOWNLOAD EXAMPLE DATA
+EXAMPLE DATA
 {{< /button >}}
 <br><br>
 {{< button download "https://github.com/OpenMS/Tutorials/tree/master/Workflows" >}}
-DOWNLOAD FULL WORKFLOWS (SOLUTIONS)
+FULL WORKFLOWS (SOLUTIONS)
 {{< /button >}}
 
 This tutorial was designed to guide you through the use of our Community Contributions to the KNIME workflow system. It contains:
