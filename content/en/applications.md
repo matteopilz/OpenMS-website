@@ -24,13 +24,11 @@ FLASHIda beta version (under construction)
 {{< /notice >}}
 ***
 
-### Feature level label-free quantification algorithm for top-down proteomics (FLASHDECONVQ)
+### Quantification for Top-down Proteomics (FLASHDECONVQ)
 
-Prototype of FLASHDeconvQ, a feature level LFQ algorithm for top-down proteomics, is developed based on OpenMS and FLASHDeconv.
+FLASHDeconvQ performs MS1-level label-free quantification data analysis in top-down proteomics with an automatic coeluting proteoform resolution method. 
 
-{{< button github "https://github.com/JeeH-K/OpenMS/tree/feature/FLASHDeconvQ">}}
-Check it out on Github!
-{{< /button >}}
+To read more about it, please click <a href="/application/flashdeconvq/">here</a>.
 
 ***
 
