@@ -5,16 +5,16 @@ sidebar: true
 
 ## User Tutorials
 
-{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
-DOWNLOAD PDF
+{{< button download "https://openms.readthedocs.io/en/latest/tutorials-and-quickstart-guides/openms-user-tutorial.html" >}}
+Tutorial
 {{< /button >}}
 <br><br>
 {{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Data/latest/" >}}
-DOWNLOAD EXAMPLE DATA
+EXAMPLE DATA
 {{< /button >}}
 <br><br>
 {{< button download "https://github.com/OpenMS/Tutorials/tree/master/Workflows" >}}
-DOWNLOAD FULL WORKFLOWS (SOLUTIONS)
+FULL WORKFLOWS (SOLUTIONS)
 {{< /button >}}
 
 This tutorial was designed to guide you through the use of our Community Contributions to the KNIME workflow system. It contains:
@@ -34,7 +34,7 @@ We will release new versions on our [GitHub page for Tutorials](https://github.c
 
 ## TOPP/TOPPVIEW TUTORIAL
 
-{{< button download "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Tutorials/Handout/master/handout.pdf" >}}
+{{< button download "https://openms.readthedocs.io/en/latest/openms-applications-and-tools/visualize-with-openms.html" >}}
 DOWNLOAD PDF
 {{< /button >}}
 

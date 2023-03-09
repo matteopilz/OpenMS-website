@@ -1,1 +1,4 @@
-https://openms.netlify.app/* https://openms.org/*
+# https://openms.netlify.app/* https://openms.org/*
+/documentation/* https://openms.readthedocs.io/en/latest/:splat  200
+https://openms.de/documentation/* https://openms.readthedocs.io/en/latest/:splat 200
+https://cdash.openms.de/* https://cdash.seqan.de/:splat 301!
