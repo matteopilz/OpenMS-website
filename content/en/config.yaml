@@ -31,7 +31,7 @@ params:
       image: knime-edit.png
       buttonText: Get Started
       buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
-    - title: Execute python bindings
+    - title: Use OpenMS in python
       subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
       leftAlign: true
       image: pyopenms4.png
