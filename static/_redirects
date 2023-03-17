@@ -1,11 +1,15 @@
 # https://openms.netlify.app/* https://openms.org/*
-/documentation* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/:splat  200
-/download* https://github.com/OpenMS/OpenMS/releases/:splat  200
-/cd* /getting-started/proteome-and-compound-discoverer-integration/:splat  200
-/pd* /download/proteomediscoverer-plugin/:splat  200
-/xml-stylesheet* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/XSL/:splat  200
+# :splat means a wildcard, so if you type openms.de/xml-schema/abc.xml it will redirect to https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/SCHEMAS/abc.xml
 /xml-schema* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/SCHEMAS/:splat  200
+/xml-stylesheet* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/XSL/:splat  200
+/download* https://github.com/OpenMS/OpenMS/releases/:splat  200
+/cd* /getting-started/proteome-and-compound-discoverer-integration/  200 
+/pd* /download/proteomediscoverer-plugin/ 200
+/documentation* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/:splat  200
+/current_doxygen*  https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/:splat  200
 /develop_doxygen* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/:splat  200
 /doxygen* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/:splat  200
-/current_doxygen* http://ftp.mi.fu-berlin.de/pub/OpenMS/release-documentation/:splat  200
+/team/ /teams/ 200
 # https://openms.de/documentation/* https://openms.readthedocs.io/en/latest/:splat 200
+
+
