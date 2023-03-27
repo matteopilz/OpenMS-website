@@ -3,11 +3,11 @@ title: Installation Guide
 sidebar: false
 ---
 
-# OpenMS
+## OpenMS
 
-## GNU/Linux
+### GNU/Linux
 
-### Debian package
+#### Debian package
 
 If you are using a Debian-based Linux we suggest you use the deb-package from our [archive](https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/latest). Installing with "gdebi" then automatically resolves all dependencies.
 
@@ -22,7 +22,7 @@ To ensure the tool functionality please add the OPENMS_DATA_PATH variable to you
 export OPENMS_DATA_PATH=/usr/share/OpenMS 
 ```
 
-### Package Manager
+#### Package Manager
 
 Currently there are also packaged versions of OpenMS provided for Fedora, OpenSUSE, Debian, and Ubuntu [available in the corresponding package managers](https://pkgs.org/search/openms) of these distributions (they might require a lookup in thirdparty "science" repositories). For other GNU/Linux distributions or to obtain the most recent version of the library you need to build your own OpenMS.
 
@@ -32,7 +32,7 @@ Please note that these packages are not directly maintained by us and we can not
 
 ---
 
-## MacOS
+### MacOS
 
 Download and install the MacOS drag-and-drop installer for your system from our archive. Accept the "downloaded App warning" and mount the dmg image. Then drag the [OpenMS](https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/namespaceOpenMS.html) folder into your Applications folder as advised.
 
@@ -43,7 +43,7 @@ export OPENMS_TOPP_PATH=<OpenMS-PATH>
 source ${OPENMS_TOPP_PATH}/.TOPP_bash_profile
 ```
 
-#### Known Issues
+##### Known Issues
 
 Since macOS Catalina notarized apps and executables are mandatory. Although we put a lot of effort in signing and notarizing everything, it seems like our software still lands in quarantine on these systems after installation of the DMG (when downloading it from a browser). Therefore, to have a streamlined experience without blocking popups, we recommend to remove the quarantine flag manually. For this, open the Terminal.app and type the following (replace the first line with the actual installation directory):
 
@@ -56,7 +56,7 @@ There is also a known bug with running Java based thirdparty tools (like MSGFPlu
 
 ---
 
-## Windows
+### Windows
 
 In order to install the binary package of OpenMS & TOPP, download and execute the installer from OpenMS.de and follow its instructions. Install OpenMS for the intended user account - do not install using your admin account! You will be asked for an admin authentification, but only after you start the installer as normal user. The windows binary version works with most versions of windows from Win7 to Win10 (older versions might still work but are untested).
 
@@ -65,7 +65,7 @@ If you are running Win8 or later, windows will report an error while installing 
 {{< /notice >}}
 
 
-#### Known Issues
+##### Known Issues
 
 **Issue**
 During installation, an error message pops up, saying *"The installation of the Microsoft .NET 3.5 SP1' package failed! You must download and install it manually in order for Proteowizard to work."*
@@ -86,9 +86,9 @@ During installation, an error message pops up, saying *"The installation of the 
 
 ---
 
-## Workflow Integration
+### Workflow Integration
 
-### KNIME
+#### KNIME
 
 Installation of OpenMS in KNIME is very easy and platform-independent across Windows, MacOSX and Linux. Download the latest KNIME release from the [KNIME website](http://www.knime.org/). If you choose the full install of KNIME you most likely can skip the following installation routine since all required plugins should be installed by default.
 If you chose the standard (core) installation, follow the instructions here or in the extended User [Tutorial](https://github.com/OpenMS/Tutorials) :
@@ -110,7 +110,7 @@ From the selections open "KNIME Community Extensions - Bioinformatics & NGS". Th
 
 ---
 
-### Nextflow/nf-core
+#### Nextflow/nf-core
 
 **SCALABLE [NF-CORE](https://nf-co.re/) COMPATIBLE [NEXTFLOW](https://nextflow.io/) PIPELINES**
 
@@ -138,7 +138,7 @@ Launch
 
 ---
 
-### Galaxy
+#### Galaxy
 
 Galaxy is an open-source web platform designed for processing and analyzing large quantities of biomedical data.
 
@@ -158,7 +158,7 @@ Choose one of the TOPP tools from the list. You will be able to run it in isolat
 
 ---
 
-# pyOpenMS
+## pyOpenMS
 
 [pyOpenMS](https://pyopenms.readthedocs.io/en/latest/introduction.html) is a python library for Liquid Chromatography-Mass Spectrometry (LC-MS) data analysis. It can be seen as an extension of OpenMS that offers almost all the features in python.
 
@@ -168,7 +168,7 @@ This introduction is aimed at users new to the field of LC-MS data analysis and 
 {{< /notice >}} 
 --->
 
-## Conda
+### Conda
 
 If you use `conda`, you can install pyOpenMS from the `defaults` or `conda-forge`
 channels:
@@ -183,7 +183,7 @@ conda config --env --add channels conda-forge
 conda install -c bioconda -c conda-forge pyopenms
 ```
 
-## PIP
+### PIP
 
 If you use `pip`, you can install pyOpenMS with:
 

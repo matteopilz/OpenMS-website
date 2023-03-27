@@ -3,6 +3,8 @@ title: Community
 sidebar: false
 ---
 
+## Communication
+
 **Welcome to @OpenMS!**
 
 @OpenMS is an open-source C++ software library for LC-MS data management and analysis with python wrappers, a large modular toolset and workflows for e.g., Galaxy, KNIME and nextflow. 
