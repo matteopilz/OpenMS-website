@@ -14,7 +14,8 @@
 /xml-stylesheet/* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/XSL/:splat  200
 /xml-schema/* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/SCHEMAS/:splat  200
 # publication related links go here
-/epifany /application/epifany
-/FLASHDeconv /application/FLASHDeconv
-/FLASHIda /application/FLASHIda
-/openpepxl /application/openpepxl
+/epifany /application/epifany 200
+/FLASHDeconv /application/FLASHDeconv 200
+/FLASHIda /application/FLASHIda 200
+/openpepxl /application/openpepxl 200
+/nase /application/nase 200
