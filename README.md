@@ -1,4 +1,6 @@
-# openms.org
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27d12e04-2f3d-4b06-b08c-106244fd37e2/deploy-status)](https://app.netlify.com/sites/openms/deploys)
+
+# Code for openms.de/openms.org
 
 ## Getting Started
 
