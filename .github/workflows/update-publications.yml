@@ -9,13 +9,14 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
+        with:
+          path: OpenMS-website
       - name: Install Dependencies
         run: |
           pip3 install --upgrade pip
           pip3 install biopython
-          pwd
       - name: Run Script
-        run: python3 update-publications.py
+        run: python3 .github/scripts/update-publications.py
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
