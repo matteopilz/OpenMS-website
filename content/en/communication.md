@@ -3,20 +3,18 @@ title: Community
 sidebar: false
 ---
 
-## Communication
-
-**Welcome to @OpenMS!**
+## Welcome to OpenMS!
 
 @OpenMS is an open-source C++ software library for LC-MS data management and analysis with python wrappers, a large modular toolset and workflows for e.g., Galaxy, KNIME and nextflow. 
 
-OpenMS is a community-driven open source project developed by a diverse group of [contributors](/teams/). The OpenMS leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [OpenMS Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
+OpenMS is a community-driven open source project developed by a diverse group of [contributors](/contributors). The OpenMS leadership has made a strong commitment to creating an open, inclusive, and positive community. Please read the [OpenMS Code of Conduct](/code-of-conduct) for guidance on how to interact with others in a way that makes the community thrive.
 
 Here's how to get started:
 
 - 📚 Browse through the main library code under [OpenMS/OpenMS](https://github.com/openms/openms/issues)
 - 👩‍💻 Check out the [documentation](https://www.openms.de/documentation).
 - 🙋‍♀️ Come and say hi on our [![Discord Shield](https://img.shields.io/discord/832282841836159006?style=flat-square&message=Discord&color=5865F2&logo=Discord&logoColor=FFFFFF&label=Discord)](https://discord.gg/4TAGhqJ7s5) or [![Gitter](https://img.shields.io/static/v1?style=flat-square&message=on%20Gitter&color=ED1965&logo=Gitter&logoColor=FFFFFF&label=Chat)](https://gitter.im/OpenMS/OpenMS?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) channels.
-- 🍿 Tune in for news about developer/user meetings and events, [get involved](/training-events)!
+- 🍿 Tune in for news about developer/user meetings and events, [get involved](/news)!
 - 🌈 Please abide by our [community code of conduct](https://github.com/OpenMS/OpenMS/blob/develop/CODE_OF_CONDUCT.md)
 
 We offer several communication channels to learn, share your knowledge and connect with others within the OpenMS community.
@@ -82,7 +80,7 @@ Contact us or just follow the latest OpenMS news on Twitter.
 
 ***
 
-## Join the OpenMS community
+## Join the OpenMS Community
 
 To thrive, the OpenMS project needs your expertise and enthusiasm. Not a coder? Not a problem! There are many ways to contribute to OpenMS.
 

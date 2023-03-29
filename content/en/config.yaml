@@ -91,18 +91,28 @@ params:
 
 
 navbar:
+  - title: News
+    url: /news
   - title: Install
     url: /install
   - title: Documentation
     url: https://openms.readthedocs.io/en/latest/
-  - title: Training
-    url: /training
+  - title: Tutorials
+    url: /tutorials
   - title: Community
+    sublinks:
+      - title: Communication
+        url: /communication
+      - title: Contribute
+        url: /contribute
     url: /community
   - title: About Us
+    sublinks:
+      - title: OpenMS Project
+        url: /about
+      - title: Contributors
+        url: /contributors
     url: /about
-  - title: Contribute
-    url: /contribute
   - title: Use Cases
     url: /publications
     sublinks:

@@ -26,13 +26,9 @@ This tutorial was designed to guide you through the use of our Community Contrib
 - a guide to the Python bindings pyOpenMS and DIA with OpenSWATH
 - a small “OpenMS in KNIME” Troubleshooting guide with an FAQ
 
-### Old versions
-
-We will release new versions on our [GitHub page for Tutorials](https://github.com/OpenMS/Tutorials/releases). Older versions can be found there. It also contains releases for the versions used in different hands-on workshops (if you want to replicate it at home). The repository does not include data. Unless otherwise noted, the tutorials use the same (or a subset) of the tutorial data above.
-
 ***
 
-## TOPP/TOPPVIEW TUTORIAL
+## TOPP/TOPPView Tutorial
 
 {{< button download "https://openms.readthedocs.io/en/latest/openms-applications-and-tools/visualize-with-openms.html" >}}
 DOWNLOAD PDF
@@ -40,5 +36,14 @@ DOWNLOAD PDF
 
 For use with the binary installers of OpenMS. It describes how to use the OpenMS TOPP tools from the command line and has an extensive tutorial on visualisation with TOPPView. You need your own data to work through it. In case you do not have any, have a look at the data from the User Tutorial above.
 
-### Old versions
-Old versions are available in the documentation of older OpenMS releases [here](http://ftp.mi.fu-berlin.de/pub/OpenMS/).
+## Additional Resources
+
+### Tutorials Archive
+We will release new versions on our [GitHub page for Tutorials](https://github.com/OpenMS/Tutorials/releases). Older versions can be found there. It also contains releases for the versions used in different hands-on workshops (if you want to replicate it at home). The repository does not include data. Unless otherwise noted, the tutorials use the same (or a subset) of the tutorial data above.
+
+### Documentations Archive
+https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/
+
+### Proteomics & Metabolomics Background Material
+- A list of educational materials around computational mass spectrometry can be found on the website of the Computational Mass Spectrometry initiative at [compms.org](http://www.compms.org/educational-materials)
+- An online video lecture on computational proteomics and metabolomics by Oliver Kohlbacher, Knut Reinert and Sven Nahnsen is available for free on the [media server of University of Tübingen](http://timms.uni-tuebingen.de/List/List?id=UT_201%5B45%5D_____00%5B12%5D_cpm_000_&Headline=Computational%20Proteomics%20and%20Metabolomics).

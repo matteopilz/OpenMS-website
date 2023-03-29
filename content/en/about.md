@@ -75,16 +75,6 @@ Core Developers:
 
 Core developers are people who are active and key participants in the project. The addition of new core developers shall be made by a simple majority vote of a quorum of the executive committee. Removal of core developers may be made (either due to inactivity, or violation of the code-of-conduct) by a 2/3 majority vote of a quorum of the executive committee, or by request of the member themself.
 
-## Teams
-
-The OpenMS project is growing! &#127881; We have teams for:
-
-- Core 🏆
-- Documentation 📄
-- Funding and grants 💰
-
-See the [Team]({{< relref "/teams" >}}) page for individual team members.
-
 ## Sponsors
 
 OpenMS receives direct funding from the following sources:
