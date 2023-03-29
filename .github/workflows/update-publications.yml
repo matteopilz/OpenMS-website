@@ -9,8 +9,6 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
-        with:
-          path: OpenMS-website
       - name: Install Dependencies
         run: |
           pip3 install --upgrade pip
