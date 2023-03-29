@@ -30,7 +30,7 @@ for pub_id in id_list:
     pub_dict[pub_year].append(pub_entry)
 
 # Write list of publications to markdown file
-with open("../../content/en/publications.md", "w") as file:
+with open("content/en/publications.md", "w") as file:
     file.write(f"# List of OpenMS Publications\n\n")
     for key, value in pub_dict.items():
         file.write(f"## {key}\n")
