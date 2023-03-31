@@ -23,6 +23,21 @@ _1 Sep 2022_ The OpenMS team is proud to present a new OpenMS manual at openms.r
 
 _14 Apr 2022_ The OpenMS team has won a 2022 Google Season of Docs grant to update the OpenMS documentation. Combined with money from the University of Tübingen and from the Chan-Zuckerberg Initiative, a team of three technical writers will review and rewrite OpenMS documentation. The 2022 team consists of Rahul Agrawal, Christina Kumar and Tapasweni Pathak.
 
+### Summary of the OpenMS developer meeting 2022
+
+The OpenMS developer meeting 2022 near Corinth, Greece was a highly successful gathering of OpenMS developers and those interested in becoming one. The meeting was filled with insightful presentations, productive breakout sessions, and engaging social events.
+
+<center>{{< figure src="/images/news_images/devmeeting2022.jpg" caption="**Developer Meeting 2022**" alt="Developer Meeting 2022" >}}</center>
+
+One of the highlights of the meeting was a presentation by Timo Sachsenberg, who provided an update on the current state of OpenMS and gave attendees a sneak peek into upcoming developments. Julianus Pfeuffer's presentation on OpenMS workflows in the workflow managers KNIME and nextflow was also highly informative. He also discussed the CI/CD architecture and build system of OpenMS, providing valuable insights into the project's development process.
+
+The rest of the week was dedicated to a variety of breakout sessions that provided developers with the opportunity to participate in little developer tutorials, documentation tasks, smaller development tasks, and discussions about the future of OpenMS. These sessions were highly productive and allowed developers to exchange ideas, discuss potential issues, and develop new features for the platform.
+
+In addition to the work-related activities, attendees were also treated to several social events, including a trip to the ancient amphitheater in Epidaurus, a visit to the ancient city of Mykene, and a dinner in Nafplio. These events allowed attendees to network and build relationships with their peers in a relaxed and enjoyable environment.
+
+Overall, the OpenMS developer meeting 2022 near Corinth, Greece was a highly successful event that provided attendees with valuable insights into the current state of OpenMS and the direction in which it is headed. The breakout sessions and social events were equally productive and enjoyable, making the meeting a valuable experience for all who attended.
+
+
 ### OpenMS developers meeting 4-8 April 2022 near Corinth, Greece
 
 _31 Dec 2021_ The OpenMS developers meeting brings bioinformaticians working in computational mass spectrometry together to shape the future development of OpenMS. It is targeted to core developers, new developers, and potential future contributors. Short talks, developer tutorials, and code sprints will be intertwined. Participants will have the opportunity to design custom tools and workflows together with instructors. External users are welcome to bring their own ideas and will receive detailed feedback as well as help getting started in OpenMS development. Progress will be tracked on our GitHub page with a resume of each day.
