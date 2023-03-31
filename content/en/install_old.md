@@ -152,7 +152,7 @@ To use TOPP tools on Galaxy:
 4. Search for "OpenMS".
 5. You will see a list of TOPP tools.
 
-<center>{{< figure src="/images/content_images/topp-tool-list.png" caption="**Example workflow in Galaxy**" alt="Example workflow in Galaxy" >}}</center>
+< figure src="/images/content_images/topp-tool-list.png" caption="**Example workflow in Galaxy**" alt="Example workflow in Galaxy" >
 
 Choose one of the TOPP tools from the list. You will be able to run it in isolation or use it to create a workflow.
 
