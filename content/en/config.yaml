@@ -20,17 +20,17 @@ params:
   - title: "OpenMS allows users to:"
     bgColor: ECF2F9
     heroItems:
-    - title: Run existing workflows
+    - title: Run existing workflows with KNIME
       subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
       leftAlign: true
       image: knime-analytics.png
       buttonText: Get Started
-      buttonLink: "https://hub.knime.com/search?type=Workflow&tag=OpenMS&sort=maxKudos"
-    - title: Create workflows
-      subtitle: Modify and create your own OpenMS workflows in KNIME.
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
+    - title: Create your own workflows
+      subtitle: Modify and create your own OpenMS workflows in Galaxy, KNIME and Nextflow.
       image: knime-edit.png
       buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-knime.html"
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
     - title: Use OpenMS in Python
       subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
       leftAlign: true
@@ -39,22 +39,22 @@ params:
       bottomBorderRadius: true
       buttonText: Get Started
       buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
-  - title: "Advanced users can use OpenMS to:"
+  - title: "Advanced users / developers can use OpenMS to:"
     bgColor: FFF1E0
     heroItems:
+    - title: Analyze large datasets
+      subtitle: Run workflows on very large datasets on powerful compute infrastructure
+      leftAlign: true
+      imgClass: nfcore-img
+      image: nf-core-logo.png
+      buttonText: Get Started
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
     - title: Create high-performance tools
       subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
       terminal: true
       buttonText: Get Started
-      buttonLink: "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/OpenMS_tutorial.html"
-    - title: Analyze large datasets
-      subtitle: Run workflows on very large datasets on powerful compute infrastructure
-      leftAlign: true
-      imgClass: workflows-logos-img
-      image: workflows-logos.png
       bottomBorderRadius: true
-      buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
+      buttonLink: "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/OpenMS_tutorial.html"
 
   keyfeatures:
     title: What is OpenMS ?
@@ -94,9 +94,9 @@ navbar:
   - title: News
     url: /news
   - title: Install
-    url: /install
+    url: https://openms.readthedocs.io/en/latest/introduction/installation.html
   - title: Documentation
-    url: https://openms.readthedocs.io/en/latest/
+    url: https://openms.readthedocs.io/en/latest/index.html
   - title: Tutorials
     url: /tutorials
   - title: Community

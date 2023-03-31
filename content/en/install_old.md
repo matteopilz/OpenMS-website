@@ -96,7 +96,7 @@ If you chose the standard (core) installation, follow the instructions here or i
 1. In KNIME click on Help 
 2. Install new Software.
 
-<center>{{< figure src="/images/content_images/kf/KNIME_Install.png" caption="**Example workflow in KNIME**" alt="Example workflow in KNIME" >}}</center>
+< figure src="/images/content_images/kf/KNIME_Install.png" caption="**Example workflow in KNIME**" alt="Example workflow in KNIME" >
 
 3. Install the required KNIME File Handling nodes from the official KNIME Update Site (a standard entry in the update sites). Choose the update site from the “Work with:” dropdown menu.
 
