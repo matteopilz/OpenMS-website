@@ -24,7 +24,7 @@ for pub_id in id_list:
     pub_year = pub_record["PubDate"].split()[0]
     pub_url = f"https://www.ncbi.nlm.nih.gov/pubmed/%7Bpub_id%7D"
     pub_entry = (
-        f"- {pub_authors}. {pub_title}. {pub_journal}. {pub_year}. [Link]({pub_url})"
+        f"- {pub_authors}. *{pub_title}*. {pub_journal}. {pub_year}. [Link]({pub_url})"
     )
     pub_dict[pub_year].append(pub_entry)
 
