@@ -6,6 +6,9 @@ import collections
 # Search query
 search_query = "OpenMS"
 
+# Set email address (required by NCBI)
+Entrez.email = "your_email@domain.com"
+
 # Search PubMed
 handle = Entrez.esearch(db="pubmed", term=search_query, retmax=1000)
 record = Entrez.read(handle)
