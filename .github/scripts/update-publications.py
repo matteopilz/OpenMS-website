@@ -2,7 +2,6 @@ from Bio import Entrez
 import collections
 
 # Set email address (required by NCBI)
-Entrez.email = "your_email@domain.com"
 
 # Search query
 search_query = "OpenMS"
