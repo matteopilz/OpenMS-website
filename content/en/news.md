@@ -29,7 +29,7 @@ The OpenMS developer meeting 2022 near Corinth, Greece was a highly successful g
 
 <center>{{< figure src="/images/news_images/devmeeting2022.jpg" caption="**Developer Meeting 2022**" alt="Developer Meeting 2022" >}}</center>
 
-One of the highlights of the meeting was a presentation by Timo Sachsenberg, who provided an update on the current state of OpenMS and gave attendees a sneak peek into upcoming developments. Julianus Pfeuffer's presentation on OpenMS workflows in the workflow managers KNIME and nextflow was also highly informative. He also discussed the CI/CD architecture and build system of OpenMS, providing valuable insights into the project's development process.
+One of the highlights of the meeting was a presentation by Timo Sachsenberg, who provided an update on the current state of OpenMS and gave attendees a sneak peek into upcoming developments. Julianus Pfeuffer's (ZIB) presentation on OpenMS workflows developed as part of the MODAL project, in the workflow managers KNIME and nextflow was also highly informative. He also discussed the CI/CD architecture and build system of OpenMS, providing valuable insights into the project's development process.
 
 The rest of the week was dedicated to a variety of breakout sessions that provided developers with the opportunity to participate in little developer tutorials, documentation tasks, smaller development tasks, and discussions about the future of OpenMS. These sessions were highly productive and allowed developers to exchange ideas, discuss potential issues, and develop new features for the platform.
 
