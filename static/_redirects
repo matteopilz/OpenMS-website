@@ -1,19 +1,35 @@
 # OpenMS web site redirect file for Netlify
-# Version 1.1 by Rahul Agrawal, Juliuanus Pfeuffer and Tjeerd Dijkstra
+# Version 1.1 by Rahul Agrawal, Julianus Pfeuffer and Tjeerd Dijkstra
+
+# Redirects to the API and developer documentation
+# For an explanation of the hack with the addSlash function for redirects without trailing slash, see https://answers.netlify.com/t/bug-in-non-trailing-slash-rewrite/452/39
+
+/current_doxygen    /.netlify/functions/addSlash  200
 /current_doxygen/*  https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/:splat  200
-/develop_doxygen/* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/:splat  200
-/doxygen/* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/:splat  200
-#
+
+/develop_doxygen    /.netlify/functions/addSlash  200
+/develop_doxygen/*  https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/:splat  200
+
+/documentation      /.netlify/functions/addSlash  200
+/documentation/*    https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/:splat  200
+
+## should never be called as openms.de/doxygen. Only to be used as openms.de/doxygen/release/2.9.0 for example.
+/doxygen/*          https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/:splat  200
+
+# The new user documentation based on ReadTheDocs
 /rtd_documentation/* https://openms.readthedocs.io/en/latest/:splat 200
-/documentation/ https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/  200
-/documentation/* https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/html/:splat  200
-#
+
+# Links to the latest release on GitHub. Be careful if you ever create a page for downloads and call it download.
 /download https://github.com/OpenMS/OpenMS/releases/latest  200
-#
+
+# For backwards-compatibility with the old website
 /team /teams/ 200
-#
+
+# For a stable reference in XML files, such that parsers and IDEs can download the stylesheets on the fly
+# and validate
 /xml-stylesheet/* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/XSL/:splat  200
 /xml-schema/* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/SCHEMAS/:splat  200
+
 # publication related links go here
 /epifany /application/epifany 200
 /FLASHDeconv /application/FLASHDeconv 200
