@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 exports.handler = function (event, context, callback) {
-  if (event.path.endsWith("documentation/") || event.path.endsWith("current_doxygen/")) {
+  if (event.path.endsWith("documentation/") || event.path.endsWith("current_doxygen/")) {
     // Return the page root
     fetch("https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/latest/")
       .then((response) => response.text())
