@@ -94,7 +94,7 @@ navbar:
   - title: Install
     url: /install
   - title: Documentation
-    url: https://openms.readthedocs.io/en/latest/
+    url: /documentation/
   - title: Training
     url: /training
   - title: Community
