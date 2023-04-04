@@ -94,7 +94,7 @@ navbar:
   - title: Install
     url: /install
   - title: Documentation
-    url: openms.de/documentation/
+    url: https://openms.de/documentation/
   - title: Training
     url: /training
   - title: Community
