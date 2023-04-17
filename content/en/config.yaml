@@ -94,7 +94,7 @@ navbar:
   - title: News
     url: /news
   - title: Install
-    url: https://openms.readthedocs.io/en/latest/introduction/installation.html
+    url: https://openms.readthedocs.io/en/latest/openms-applications-and-tools/installation.html
   - title: Documentation
     url: https://openms.readthedocs.io/en/latest/index.html
   - title: Tutorials
