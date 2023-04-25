@@ -29,9 +29,9 @@ Discord allows the users to communicate in different channels, publicly as well 
 
 ### <a class="button cta rounded primary-btn raised" href="https://github.com/openms">GitHub</a>
 
-Following repositories can be used:
+The following repositories can be used:
 - [OpenMS](https://github.com/OpenMS/OpenMS) (Bug Reports, Feature requests)
-- [OpenMS-docs](https://github.com/OpenMS/OpenMS-docs) (Documentation related issues)
+- [OpenMS-docs](https://github.com/OpenMS/OpenMS-docs) (Documentation-related issues)
 - [OpenMS.de](https://github.com/OpenMS/openms.de) (Any issue related to website)
 - [pyopenms-docs](https://github.com/OpenMS/pyopenms-docs) (Any issue related to pyopenms)
 
@@ -66,7 +66,7 @@ bring up their questions or ideas on a large public mailing list or GitHub.
 ### <a class="button cta rounded primary-btn raised" href="https://sourceforge.net/p/open-ms/mailman/open-ms-announcements">OpenMS mailing list</a>
 
 
-These lists are the main form of receiving OpenMS related updates, like new features, changes to the roadmap, and all kinds of project-wide decision making.
+These lists are the main form of receiving OpenMS-related updates, like new features, changes to the roadmap, and all kinds of project-wide decision making.
 
 There are two mailing list currently:
 - [open-ms-announcements](https://sourceforge.net/p/open-ms/mailman/open-ms-announcements/) - Announcements about OpenMS, such as for releases, developer meetings, sprints or conference talks are made on this list.
