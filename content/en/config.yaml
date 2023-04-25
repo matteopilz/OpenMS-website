@@ -20,7 +20,7 @@ params:
   - title: "OpenMS allows users to:"
     bgColor: ECF2F9
     heroItems:
-    - title: Run existing workflows with KNIME
+    - title: Run existing workflows
       subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
       leftAlign: true
       image: knime-analytics.png
