@@ -12,7 +12,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "/install"
+    buttonlink: https://openms.readthedocs.io/en/latest/openms-applications-and-tools/installation.html
     # Hero image (from static/images/___)
     image: openms-logo.png
 
@@ -30,7 +30,7 @@ params:
       subtitle: Modify and create your own OpenMS workflows in Galaxy, KNIME and Nextflow.
       image: knime-edit.png
       buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/overview.html"
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/recommended-workflow-systems.html"
     - title: Use OpenMS in Python
       subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
       leftAlign: true
@@ -48,7 +48,7 @@ params:
       imgClass: nfcore-img
       image: nf-core-logo.png
       buttonText: Get Started
-      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-on-galaxy.html"
+      buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-nextflow.html"
     - title: Create high-performance tools
       subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
       terminal: true
@@ -72,23 +72,7 @@ params:
       text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
       img: /images/content_images/keyfeatures/workflows2.png
       url: /keyfeatures/workflows
-  # tabs:
-  #   title: ECOSYSTEM
   section5: false
-  # casestudies:
-  #   title: Users
-  #   features:
-  #   - title: Apply tools and run existing workflows
-  #     text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
-  #     img: /images/content_images/keyfeatures/proteomics.jpeg
-  #     alttext: First image of a black hole. It is an orange circle in a black background.
-  #     url: /case-studies/blackhole-image
-  #   - title: Modify and create own workflows
-  #     text: Dummy text refers to the bits of content that are used to fill a website mock-up. This text helps web designers better envision how the website will look as a finished product. It is important to understand that dummy text has no meaning whatsoever.
-  #     img: /images/content_images/keyfeatures/proteomics.jpeg
-  #     alttext: Two orbs orbiting each other. They are displacing gravity around them.
-  #     url: /case-studies/gw-discov
-
 
 navbar:
   - title: News
@@ -131,8 +115,6 @@ footer:
   socialmedia:
   - link: https://github.com/OpenMS/OpenMS
     icon: github
-  # - link: https://www.youtube.com/channel/
-  #   icon: youtube
   - link: https://twitter.com/OpenMSTeam
     icon: twitter
   quicklinks:
@@ -140,7 +122,7 @@ footer:
       title: ""
       links:
         - text: Install
-          link: /install
+          link: https://openms.readthedocs.io/en/latest/openms-applications-and-tools/installation.html
         - text: Documentation
           link: https://openms.readthedocs.io/en/latest/
         - text: Citing OpenMS

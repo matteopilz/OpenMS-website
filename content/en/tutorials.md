@@ -30,19 +30,10 @@ This tutorial was designed to guide you through the use of our Community Contrib
 
 ## TOPP/TOPPView Tutorial
 
-{{< button download "https://openms.readthedocs.io/en/latest/openms-applications-and-tools/visualize-with-openms.html" >}}
-DOWNLOAD PDF
-{{< /button >}}
-
 For use with the binary installers of OpenMS. It describes how to use the OpenMS TOPP tools from the command line and has an extensive tutorial on visualisation with TOPPView. You need your own data to work through it. In case you do not have any, have a look at the data from the User Tutorial above.
+https://openms.readthedocs.io/en/latest/openms-applications-and-tools/visualize-with-openms.html
 
 ## Additional Resources
-
-### Tutorials Archive
-We will release new versions on our [GitHub page for Tutorials](https://github.com/OpenMS/Tutorials/releases). Older versions can be found there. It also contains releases for the versions used in different hands-on workshops (if you want to replicate it at home). The repository does not include data. Unless otherwise noted, the tutorials use the same (or a subset) of the tutorial data above.
-
-### Documentations Archive
-https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/release/
 
 ### Proteomics & Metabolomics Background Material
 - A list of educational materials around computational mass spectrometry can be found on the website of the Computational Mass Spectrometry initiative at [compms.org](http://www.compms.org/educational-materials)

@@ -46,7 +46,7 @@ The issue tracker can be used for:
 OpenMS
 - [Bug reports](https://github.com/OpenMS/OpenMS/labels/bug) (e.g. "Filter doesn't work for 1D data")
 - [Feature requests](https://github.com/OpenMS/OpenMS/labels/enhancement)
-- [TOPP](https://github.com/OpenMS/OpenMS/issues?q=is%3Aopen+is%3Aissue+label%3ATOPP) (**T**he **O**penMS **P**i**p**eline)
+- [Tools](https://github.com/OpenMS/OpenMS/issues?q=is%3Aopen+is%3Aissue+label%3ATOPP) (**T**he **O**penMS **P**i**p**eline - TOPP)
 - [TOPPView](https://github.com/OpenMS/OpenMS/labels/TOPPView)
 
 Documentation
@@ -57,9 +57,7 @@ Documentation
 
 ### <a class="button cta rounded primary-btn raised" href="https://gitter.im/OpenMS/OpenMS">Gitter</a>
 
-A real-time chat room to ask questions about _contributing_ to OpenMS.
-This is a private space, specifically meant for people who are hesitant to
-bring up their questions or ideas on a large public mailing list or GitHub.
+A real-time chat room to ask questions about OpenMS.
 
 ***
 

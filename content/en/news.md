@@ -1,8 +1,8 @@
 ---
 title: News
 sidebar: false
-newsHeader: Latest News - OpenMS developers meeting March 27-31 2023 on Kaprije island, Croatia
-date:
+#newsHeader: Latest News - OpenMS developers meeting March 27-31 2023 on Kaprije island, Croatia
+#date:
 ---
 
 ## 2023
