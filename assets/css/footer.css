@@ -1,0 +1,9 @@
+@media (max-width: 850px){
+    .footer-column > ul.link-list {
+        padding-left: unset;
+    }
+
+    .footer-column {
+        padding-left: unset;
+    }
+}
