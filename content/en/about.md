@@ -5,7 +5,7 @@ sidebar: false
 
 _Some information about the OpenMS project and community_
 
-OpenMS is an open-source software C++ library for LC-MS data management and analyses. It offers an infrastructure for rapid development of mass spectrometry related software. OpenMS is free software available under the three clause BSD license and runs under Windows, macOS, and Linux. OpenMS will always be 100% open source software, free for all to use and released under the liberal terms of the [modified BSD license](https://github.com/openms/openms/blob/main/License.txt).
+OpenMS is an open-source software C++ library for LC-MS data management and analyses. It offers an infrastructure for rapid development of mass spectrometry related software. OpenMS is available under a modified three clause [BSD license](https://github.com/openms/openms/blob/main/License.txt) and runs under Windows, macOS, and Linux.
 
 With pyOpenMS, OpenMS offers Python bindings to a large part of the OpenMS API to enable rapid algorithm development. OpenMS supports the Proteomics Standard Initiative (PSI) formats for MS data. The main contributors of OpenMS are currently the Eberhard-Karls-Universität in Tübingen, the Freie Universität Berlin, and the ETH Zürich.
 
@@ -74,16 +74,6 @@ Removal:
 Core Developers:
 
 Core developers are people who are active and key participants in the project. The addition of new core developers shall be made by a simple majority vote of a quorum of the executive committee. Removal of core developers may be made (either due to inactivity, or violation of the code-of-conduct) by a 2/3 majority vote of a quorum of the executive committee, or by request of the member themself.
-
-## Teams
-
-The OpenMS project is growing! &#127881; We have teams for:
-
-- Core 🏆
-- Documentation 📄
-- Funding and grants 💰
-
-See the [Team]({{< relref "/teams" >}}) page for individual team members.
 
 ## Sponsors
 
