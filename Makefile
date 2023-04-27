@@ -16,7 +16,6 @@ help:   ## show this help
 
 prepare:
 	git submodule update --init
-	python gen_config.py
 
 TEAMS_DIR = static/gallery
 TEAMS = emeritus-maintainers maintainers docs-team triage-team survey-team web-team
