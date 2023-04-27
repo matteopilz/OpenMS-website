@@ -29,7 +29,6 @@ make serve
 
 If you don't have `make` available (e.g., on Windows), use this instead:
 ```bash
-python gen_config.py
 hugo server
 ```
 
