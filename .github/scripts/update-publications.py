@@ -25,7 +25,7 @@ for pub_id in id_list:
     pub_authors = ", ".join(pub_record["AuthorList"])
     pub_journal = pub_record["FullJournalName"]
     pub_year = pub_record["PubDate"].split()[0]
-    pub_url = f"https://www.ncbi.nlm.nih.gov/pubmed/%7Bpub_id%7D"
+    pub_url = f"https://www.ncbi.nlm.nih.gov/pubmed/{pub_id}"
     pub_entry = (
         f"- {pub_authors}. *{pub_title}*. {pub_journal}. {pub_year}. [Link]({pub_url})"
     )
