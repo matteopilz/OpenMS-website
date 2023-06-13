@@ -46,4 +46,4 @@ A full list of the tools can be found in our documentation [here](https://abibui
 
 #### NOT ENOUGH?
 
-If you do not find what you are looking for and you have some experience in developing C++, you can adapt, extend as well as add new tools by contributing to our library or using the library in your own project (see our [“Getting Started for developers”](https://www.openms.de/getting-started/develop-your-own-openms-tools/)).
+If you do not find what you are looking for and you have some experience in developing C++, you can adapt, extend as well as add new tools by contributing to our library or using the library in your own project (see our [“Getting Started for developers”]({{< ref "getting-started/develop-your-own-openms-tools.md" >}})).
