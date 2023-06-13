@@ -15,6 +15,9 @@ markup:
 disableLanguages: []
 
 params:
+  font:
+    name: null
+    sizes: null
   images:
   - /images/logo.svg
   navColor: blue
@@ -61,8 +64,8 @@ languages:
         - title: Use OpenMS in Python
           subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
           leftAlign: true
-          image: pyopenms4.png
-          imgClass: pyopenms-img
+          image: pyopenms-logo.png
+          imgClass: img-fit
           bottomBorderRadius: true
           buttonText: Get Started
           buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
@@ -72,7 +75,7 @@ languages:
         - title: Analyze large datasets
           subtitle: Run workflows on very large datasets on powerful compute infrastructure
           leftAlign: true
-          imgClass: nfcore-img
+          imgClass: img-fit
           image: nf-core-logo.png
           buttonText: Get Started
           buttonLink: "https://openms.readthedocs.io/en/latest/run-workflows-with-openms-tools/openms-in-nextflow.html"
