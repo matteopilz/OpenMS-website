@@ -14,3 +14,7 @@
     display: inherit;
     justify-content: center;
 }
+
+.subtitle.is-5 {
+    text-transform: none;
+}
