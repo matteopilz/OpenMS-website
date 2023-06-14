@@ -8,6 +8,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  highlight:
+      guessSyntax: true
 
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
@@ -15,9 +17,6 @@ markup:
 disableLanguages: []
 
 params:
-  font:
-    name: null
-    sizes: null
   images:
   - /images/logo.svg
   navColor: blue
