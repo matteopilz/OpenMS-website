@@ -33,6 +33,10 @@
 # publication related links go here
 /epifany /application/epifany 200
 /FLASHDeconv /application/FLASHDeconv 200
+/flashdeconv /application/FLASHDeconv 200
+/FlashDeconv /application/FLASHDeconv 200
 /FLASHIda /application/FLASHIda 200
+/flashida /application/FLASHIda 200
+/FlashIda /application/FLASHIda 200
 /openpepxl /application/openpepxl 200
 /nase /application/nase 200
