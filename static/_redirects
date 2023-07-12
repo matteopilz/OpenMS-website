@@ -32,7 +32,12 @@
 
 # publication related links go here
 /epifany /application/epifany 200
-/FLASHDeconv /application/FLASHDeconv 200
-/FLASHIda /application/FLASHIda 200
+/FLASHDeconv /application/flashdeconv 200
+/flashdeconv /application/flashdeconv 200
+/FlashDeconv /application/flashdeconv 200
+/FLASHIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
+/flashida /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
+/FlashIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
+/flashquant /application/flashquant 200
 /openpepxl /application/openpepxl 200
 /nase /application/nase 200
