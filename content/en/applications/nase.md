@@ -1,5 +1,6 @@
 ---
-title: Nucleic acid search engine (NASE)
+title: NASE
+subtitle: Nucleic acid search engine
 sidebar: false
 ---
 

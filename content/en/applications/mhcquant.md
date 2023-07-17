@@ -1,5 +1,6 @@
 ---
-title: Quantification and identification of mhc peptides (MHCQUANT)
+title: MHCquant
+subtitle: Quantification and identification workflow for MHC peptides
 sidebar: false
 ---
 

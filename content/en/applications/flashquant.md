@@ -1,5 +1,6 @@
 ---
-title: QUANTIFICATION FOR TOP-DOWN PROTEOMICS
+title: FlashQuant
+subtitle: Quantification for top-down proteomics
 sidebar: false
 ---
 

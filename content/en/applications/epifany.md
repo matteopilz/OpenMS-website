@@ -1,10 +1,20 @@
 ---
-title: Efficient bayesian protein inference (EPIFANY)
+title: EPIFANY
 sidebar: false
+summaryImage: /images/content_images/epifany_factor_graph-wpcf_465x400.png
+subtitle: Efficient bayesian protein inference
+authors: ["Julianus Pfeuffer"]
 ---
 
 <br>
 <center>{{< figure src="/images/content_images/epifany_factor_graph-wpcf_465x400.png" >}}</center>
+
+_EPIFANY_ is a tool for efficient bayesian protein inference. It is included in OpenMS since 2.5.
+It takes one or more peptide database search engine results (in OpenMS' idXML format) that were post-processed
+by the PercolatorAdapter or IDPosteriorErrorProbability tool and adds posterior probabilities and/or
+false discovery rates for each protein or protein group to it.
+
+<!--more-->
 
 ### Introduction
 

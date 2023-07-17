@@ -1,5 +1,6 @@
 ---
-title: Protein-protein cross-linking (OPENPEPXL)
+title: OpenPepXL
+subtitle: Protein-protein cross-linking
 sidebar: false
 ---
 

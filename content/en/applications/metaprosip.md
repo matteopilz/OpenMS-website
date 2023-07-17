@@ -1,5 +1,6 @@
 ---
-title: STABLE ISOTOPE PROBING (METAPROSIP)
+title: MetaProSIP
+subtitle: Stable isotope probing
 sidebar: false
 ---
 

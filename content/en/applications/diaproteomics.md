@@ -1,5 +1,6 @@
 ---
-title: Quantitative data independent proteomics (DIAPROTEOMICS)
+title: DIAproteomics
+subtitle: Quantitative data independent proteomics workflow
 sidebar: false
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: RNA-PROTIEN CROSS-LINKING (RNPXL)
+title: RNPxl
+subtitle: RNA-Protein cross-linking
 sidebar: false
 ---
 

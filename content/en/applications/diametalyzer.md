@@ -1,5 +1,6 @@
 ---
-title: Data-independent acquisition metabolomics analyzer (DIAMETALYZER)
+title: DIAMetAlyzer
+subtitle: Data-independent acquisition metabolomics analyzer workflow
 sidebar: false
 ---
 

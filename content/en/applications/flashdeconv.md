@@ -1,5 +1,6 @@
 ---
-title: ULTRA-FAST MS1/MS2 DECONVOLUTION FOR TOP-DOWN PROTEOMICS
+title: FLASHDeconv
+subtitle: Ultra-fast MS1/MS2 deconvolution for top-down proteomics
 sidebar: false
 ---
 
