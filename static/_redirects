@@ -31,13 +31,40 @@
 /xml-schema/* https://raw.githubusercontent.com/OpenMS/OpenMS/develop/share/OpenMS/SCHEMAS/:splat  200
 
 # publication related links go here
-/epifany /application/epifany 200
-/FLASHDeconv /application/flashdeconv 200
-/flashdeconv /application/flashdeconv 200
-/FlashDeconv /application/flashdeconv 200
+/diametalyzer /applications/diametalyzer 200
+/DIAMetalzyer /applications/diametalyzer 200
+
+/diaproteomics /applications/diaproteomics 200
+/DIAProteomics /applications/diaproteomics 200
+
+/epifany /applications/epifany 200
+
+/FLASHDeconv /applications/flashdeconv 200
+/flashdeconv /applications/flashdeconv 200
+/FlashDeconv /applications/flashdeconv 200
+
+/FLASHQuant /applications/flashquant 200
+/flashquant /applications/flashquant 200
+/FlashQuant /applications/flashquant 200
+
+/metaprosip /applications/metaprosip 200
+
+/mhcquant /applications/mhcquant 200
+/MHCQuant /applications/mhcquant 200
+
+/nase /applications/nase 200
+/NASE /applications/nase 200
+
+/openpepxl /applications/openpepxl 200
+/OpenpepXL /applications/openpepxl 200
+
+/rnpxl /applications/rnpxl 200
+/RNPxl /applications/rnpxl 200
+
 /FLASHIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
 /flashida /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
 /FlashIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
-/flashquant /application/flashquant 200
-/openpepxl /application/openpepxl 200
-/nase /application/nase 200
+
+
+
+
