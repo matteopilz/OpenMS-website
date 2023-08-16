@@ -1,5 +1,5 @@
 ---
-title: FLASHIca
+title: FLASHIda
 subtitle: Intelligent data acquisition for top-down proteomics
 sidebar: false
 ---
