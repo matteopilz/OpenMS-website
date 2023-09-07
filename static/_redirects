@@ -61,9 +61,9 @@
 /rnpxl /applications/rnpxl 200
 /RNPxl /applications/rnpxl 200
 
-/FLASHIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
-/flashida /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
-/FlashIda /applications/#intelligent-data-acquisition-for-top-down-proteomics-flashida 200
+/FLASHIda /applications/flashida 200
+/flashida /applications/flashida 200
+/FlashIda /applications/flashida 200
 
 
 
