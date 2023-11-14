@@ -23,4 +23,4 @@ FLASHQuant runs per scan; thus, we provide an additional simple tool for detecti
 FLASHQuant and (consecutive) TopDownConsensusFeatureGroup can be executed easily with GUI, **FLASHQuantWizard**.
 <center>{{< figure src="/images/content_images/FLASHQuantWizard.png" >}}</center>
 
-To learn how to run the programs, please check <a href="/application/flashdeconv/">FLASHDeconv</a> page for details.
+To learn how to run the programs, please check <a href="/applications/flashdeconv/">FLASHDeconv</a> page for details.
