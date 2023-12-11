@@ -10,10 +10,8 @@ FLASHQuant performs MS1-level label-free quantification data analysis in top-dow
 Check it out on Github!
 {{< /button >}}
 
-Now <u>binary installer files for all platforms</u> are available here: (Please use the latest version) 
-{{< button normal "https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/FLASHQuantDevelop/">}}
-Download Page
-{{< /button >}}
+Now <u>binary installer files for all platforms</u> are available here: (Please use the latest version) \
+<a href="https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/experimental/feature/FLASHQuantDevelop/"><button name="button" style = "color: white;background: black;border-radius: 10px;font-size: large;font-weight: bold;">Download page</button></a>
 
 ### Input/Output
 - Input: Centroided MS1 scans (*.mzML)
