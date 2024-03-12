@@ -10,6 +10,9 @@ OpenMS Inc. LLC
 Erie, PA 16502 USA
 
 <br>
+Samuel Wein, CEO
+
+<br><br>
 Contact:
 
 webmaster@openms.de
