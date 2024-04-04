@@ -1,5 +1,5 @@
 ---
-title: OpenMS Summer 2024 Fellowship
+title: OpenMS Summer 2024 Fellowship Application
 authors: ["Mohammed Alhigaylan, Matteo Pilz"]
 date: 2024-04-01
 summary: The OpenMS fellowship aims to increase diversity within the computational mass spectrometry field by recruiting scientists from underrepresented backgrounds to join an immersive in-person mentorship program.

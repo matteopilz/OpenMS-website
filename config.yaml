@@ -161,6 +161,8 @@ languages:
             url: /communication
           - title: Contribute
             url: /contribute
+          - title: Awards
+            url: /news/fellowship2024
         url: /community
       - title: About Us
         sublinks:
