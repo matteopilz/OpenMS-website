@@ -86,23 +86,17 @@ If you have questions — please email us at edi@openms.org
    Windows, MacOS and Linux. The OpenMS members have a strong commitment to creating an
    open, inclusive, and positive community in the computational mass spectrometry field.
 
-<br>
- <div class="row">
-  <div class="column">
-    <img src="/images/logos/OpenMS.svg" alt="OpenMS" style="width:50%">
-  </div>
-  <div class="column">
-    <img src="/images/logos/CZI.svg" alt="CZI" style="width:50%">
-  </div>
-</div> 
-
-<br>
+<p align="left">
+  <img alt="OpenMS" src="/images/logos/OpenMS.svg" width="15%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="CZI" src="/images/logos/CZI.svg" width="15%">
+</p>
 
 # Supporting Society
    Females in Mass Spectrometry (FeMS) is a community-led initiative to create a network of
    support for women in the field of mass spectrometry. Our goal is to bring together, encourage,
    empower and facilitate viability of women in mass spectrometry - and to create connectivity
-   between all members of the mass spectrometry com![OpenMS.svg](..%2F..%2F..%2F..%2F..%2FDownloads%2FOpenMS.svg)munity.
+   between all members of the mass spectrometry community.
    We strive to engage our entire community: women in mass spectrometry and their supporters -
    to hear and learn from all perspectives. As a global initiative FeMS support all related events
    where women working the MS field gather.
