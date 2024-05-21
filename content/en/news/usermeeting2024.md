@@ -5,9 +5,9 @@ date: 2024-05-21
 summary: We are organizing a users meeting in Berlin, Germany! Click the header above for more information.
 ---
 
-We are pleased to announce the 2024 OpenMS User Meeting.
-When:  17 and 18 October 2024
-Where: KNIME GmbH, Körtestr. 10, 10967 Berlin, Germany
+We are pleased to announce the 2024 OpenMS User Meeting.<br>
+When:  17 and 18 October 2024<br>
+Where: KNIME GmbH, Körtestr. 10, 10967 Berlin, Germany<br>
 What:
 1.	Basic Introduction to Data Analysis with OpenMS (2 days, 17-18 Oct) led by Sam Wein
 2.	Advanced Tutorial: programming with pyOpenMS (1 day, 17 Oct) led by Matteo Pilz
