@@ -5,6 +5,18 @@ date: 2024-05-21
 summary: We are organizing a users meeting in Berlin, Germany! Click the header above for more information.
 ---
 
-The OpenMS developers conference brings together people working in computational mass spectrometry to shape the future development of OpenMS. It is targeted to core developers, new developers, and potential future contributors. Short talks, developer tutorials, and code sprints will be intertwined. Participants will have the opportunity to design custom tools and workflows together with instructors. New developers will receive help getting started in OpenMS development. Progress will be tracked on our GitHub page with a resume of each day. For more details ping Tjeerd Dijkstra or Timo Sachsenberg on discord or by email.
+We are pleased to announce the 2024 OpenMS User Meeting.
+When:  17 and 18 October 2024
+Where: KNIME GmbH, Körtestr. 10, 10967 Berlin, Germany
+What:
+1.	Basic Introduction to Data Analysis with OpenMS (2 days, 17-18 Oct) led by Sam Wein
+2.	Advanced Tutorial: programming with pyOpenMS (1 day, 17 Oct) led by Matteo Pilz
+3.	Advanced Tutorial: web-apps with OpenMS (1 day, 18 Oct) led by Axel Walter
+4.	Advanced Tutorial: top-down proteomics with OpenMS (1 day, 17 Oct) led by Kyowon Jeong
+5.	Advanced Tutorial: DIA Proteomics with OpenSwath/OpenMS (1 day, 18 Oct) led by Joshua Charkow
+
+Registration is 200 Euros for Thursday the 17th (including coffee/tea, lunch, dinner and poster session), 150 Euros for Friday the 18th (including coffee/tea and lunch) and 300 Euros for both days combined.
+The Meeting is planned such that one can attend the OpenMS User Meeting in Berlin 17-18 October and [HUPO](https://2024.hupo.org) in Dresden 20-24 October 2024
+Registration form is here: https://docs.google.com/forms/d/1hGBNNXHtxGyk6MO6EiKHNhbrPbklLhBnAqKwZ2O-ZuU
 <br><br>
 ![denbi](/images/logos/denbi.jpeg)
