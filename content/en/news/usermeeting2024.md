@@ -17,6 +17,6 @@ What:
 
 Registration is 200 Euros for Thursday the 17th (including coffee/tea, lunch, dinner and poster session), 150 Euros for Friday the 18th (including coffee/tea and lunch) and 300 Euros for both days combined.
 The Meeting is planned such that one can attend the OpenMS User Meeting in Berlin 17-18 October and [HUPO](https://2024.hupo.org) in Dresden 20-24 October 2024
-Registration form is here: https://docs.google.com/forms/d/1hGBNNXHtxGyk6MO6EiKHNhbrPbklLhBnAqKwZ2O-ZuU
++[Click here to register](https://docs.google.com/forms/d/1hGBNNXHtxGyk6MO6EiKHNhbrPbklLhBnAqKwZ2O-ZuU)
 <br><br>
 ![denbi](/images/logos/denbi.jpeg)
