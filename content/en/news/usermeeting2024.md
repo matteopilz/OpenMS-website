@@ -22,4 +22,4 @@ The meeting is planned such that one can attend the OpenMS user meeting in Berli
 <br><br>
 ![denbi](/images/logos/denbi.jpeg) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![elixir](/images/logos/Elixir.png)
 <br><br>
-![hupo](/images/logos/HUPO-2024.jpeg)
+![hupo](/images/logos/HUPO-2024.jpg)
