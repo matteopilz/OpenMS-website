@@ -1,6 +1,9 @@
 # OpenMS web site redirect file for Netlify
 # Version 1.1 by Rahul Agrawal, Julianus Pfeuffer and Tjeerd Dijkstra
 
+# Restore cdash redirect. NFI how it got clobber, or why it's taken a year to break.
+https://cdash.openms.de/* https://cdash.seqan.de/:splat 301!
+
 # Redirects to the API and developer documentation
 # For an explanation of the hack with the addSlash function for redirects without trailing slash, see https://answers.netlify.com/t/bug-in-non-trailing-slash-rewrite/452/39
 
