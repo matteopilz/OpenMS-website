@@ -20,6 +20,6 @@ The meeting is planned such that one can attend the OpenMS user meeting in Berli
 <br>
 [Click here to register](https://docs.google.com/forms/d/1hGBNNXHtxGyk6MO6EiKHNhbrPbklLhBnAqKwZ2O-ZuU)
 <br><br>
-![denbi](/images/logos/denbi.jpeg) ![elixir](/images/logos/elixir.png)
+![denbi](/images/logos/denbi.jpeg) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ![elixir](/images/logos/Elixir.png)
 <br><br>
-![denbi](/images/logos/HUPO-2024.jpeg)
+![hupo](/images/logos/HUPO-2024.jpeg)
