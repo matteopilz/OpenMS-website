@@ -69,6 +69,12 @@ https://cdash.openms.de/* https://cdash.seqan.de/:splat 301!
 /flashida /applications/flashida 200
 /FlashIda /applications/flashida 200
 
+#SPW: Add NASEWEIS redirect to ABI-services
+
+/NASEWEIS https://abi-services.cs.uni-tuebingen.de/naseweis/ 200
+/naseweis https://abi-services.cs.uni-tuebingen.de/naseweis/ 200
+/nase-weis https://abi-services.cs.uni-tuebingen.de/naseweis/ 200
+/NASE-WEIS https://abi-services.cs.uni-tuebingen.de/naseweis/ 200
 
 
 
