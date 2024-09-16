@@ -14,7 +14,6 @@ What:
 3.	Advanced Tutorial: top-down proteomics with OpenMS (1 day, 17 Oct) led by Kyowon Jeong.
 4.	Advanced Tutorial: DIA proteomics with OpenSwath/OpenMS (1 day, 18 Oct) led by Joshua Charkow.
 
-Registration is 200 Euros for Thursday the 17th (including coffee/tea, lunch, dinner and poster session), 150 Euros for Friday the 18th (including coffee/tea and lunch) and 300 Euros for both days combined.<br>
 The meeting is planned such that one can attend the OpenMS user meeting in Berlin 17-18 October and [HUPO](https://2024.hupo.org) in Dresden 20-24 October 2024. Note that HUPO requires separate registration.
 <br>
 [Click here to register](https://docs.google.com/forms/d/1hGBNNXHtxGyk6MO6EiKHNhbrPbklLhBnAqKwZ2O-ZuU)
