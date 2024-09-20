@@ -1,3 +1,10 @@
+---
+title: OpenMS 3.2 Released
+authors: ["Samuel Wein"]
+date: 2024-09-20
+summary: We have just release OpenMS 3.2 click here to see changes and improvements
+---
+
 Dear OpenMS-Users,
 
 we are proud to announce the release of OpenMS 3.2. Grab it <a href="https://abibuilder.cs.uni-tuebingen.de/archive/openms/OpenMSInstaller/release/3.2">here</a>
