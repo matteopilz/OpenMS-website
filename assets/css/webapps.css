@@ -20,13 +20,13 @@
 
 .swiper-slide {
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 
 .swiper-wrapper .swiper-slide {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
     height: 60%;
     border: 1px solid lightgray;
@@ -99,4 +99,27 @@
     color: #000080;
     position: absolute;
     top: 40%;
+}
+
+@media (max-width: 1349px) {
+    .swiper {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 999px) {
+    .swiper {
+        width: 700px;
+    }
+}
+
+@media (max-width: 699px) {
+    .swiper {
+        width: 350px;
+    }
+  
+    .swiper-slide p {
+        font-size: 15px;
+    }
+
 }
