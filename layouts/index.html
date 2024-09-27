@@ -18,6 +18,8 @@
     {{ if .Site.Params.keyfeatures }}
     {{ partial "keyfeatures.html" . }}
     {{ end }}
+
+    {{partial "webapps.html" . }}
     
     {{ if .Site.Params.heroGroup }}
     {{ partial "heroitems.html" . }}
@@ -33,7 +35,7 @@
     {{ partial "tabs.html" . }}
     {{ end }}
 
-    <!-- {{ if .Site.Params.casestudies }}
+    {{ if .Site.Params.casestudies }}
     {{ partial "casestudies.html" . }}
-    {{ end }} -->
+    {{ end }}
 {{ end }}
