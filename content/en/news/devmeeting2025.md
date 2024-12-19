@@ -9,4 +9,4 @@ The OpenMS developers conference brings together people working in computational
 <br>
 [Click here for more details and registration](https://docs.google.com/forms/d/1rQi2QdYjpTTqLUwcU98qJ0sArVff-pn09wYJNgvBfGI/edit)
 <br><br>
-![denbi](/static/images/logos/denbi.jpeg)
+![denbi](/images/logos/denbi.jpeg)
