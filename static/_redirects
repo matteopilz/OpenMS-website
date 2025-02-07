@@ -93,5 +93,17 @@ https://cdash.openms.de/* https://cdash.seqan.de/:splat 301!
 /FLASH-viewer https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
 /flash-viewer https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
 
+/FLASHApp https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FLASHapp https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FlashApp https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FLASHAPP https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/flashapp https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FLASH-App https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/Flash-App https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FLASH-app https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/flash-app https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+/FLASHApp/ https://abi-services.cs.uni-tuebingen.de/flashviewer/ 301
+
+
 # Redirects for WebApps
 /webapps/* https://abi-services.cs.uni-tuebingen.de/:splat 301
