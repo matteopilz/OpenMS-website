@@ -134,8 +134,8 @@ languages:
         socialmedia:
         - link: https://github.com/OpenMS/OpenMS
           icon: github
-        - link: https://twitter.com/OpenMSTeam
-          icon: twitter
+        - link: https://x.com/OpenMSTeam
+          icon: x
         quicklinks:
           column1:
             links:
