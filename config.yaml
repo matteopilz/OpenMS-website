@@ -9,7 +9,7 @@ markup:
     renderer:
       unsafe: true
   highlight:
-      guessSyntax: true
+    guessSyntax: true
 
 # Uncomment this to disable the translations for the specified languages.
 # This may be useful to be able to merge partial translations without deploying
@@ -18,7 +18,7 @@ disableLanguages: []
 
 params:
   images:
-  - /images/logo.svg
+    - /images/logo.svg
   navColor: blue
   plausible:
     dataDomain: openms.de
@@ -31,7 +31,7 @@ languages:
     params:
       description: Why OpenMS? Mass Spectrometry. Visualizations. Open source.
       navbarlogo:
-        image: openms-logo.png
+        image: OpenMS_transparent_blackFont.png
         link: /
       hero:
         # Main hero title
@@ -43,99 +43,99 @@ languages:
         # Where the main hero button links to
         buttonlink: https://openms.readthedocs.io/en/latest/about/installation.html
         # Hero image (from static/images/___)
-        image: openms-logo.png
+        image: OpenMS_transparent_blackFont.png
 
       heroGroup:
         - title: "OpenMS allows users to:"
           bgColor: ECF2F9
           heroItems:
-          - title: Run existing workflows
-            subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
-            leftAlign: true
-            image: knime-analytics.png
-            buttonText: Get Started
-            buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/knime-get-started.html"
-          - title: Create your own workflows
-            subtitle: Modify and create your own OpenMS workflows in Galaxy, KNIME and Nextflow.
-            image: knime-edit.png
-            buttonText: Get Started
-            buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/workflows.html"
-          - title: Use OpenMS in Python
-            subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
-            leftAlign: true
-            image: pyopenms-logo.png
-            imgClass: img-fit
-            bottomBorderRadius: true
-            buttonText: Get Started
-            buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
+            - title: Run existing workflows
+              subtitle: Run existing workflows for proteomics and metabolomics with OpenMS in KNIME.
+              leftAlign: true
+              image: knime-analytics.png
+              buttonText: Get Started
+              buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/knime-get-started.html"
+            - title: Create your own workflows
+              subtitle: Modify and create your own OpenMS workflows in Galaxy, KNIME and Nextflow.
+              image: knime-edit.png
+              buttonText: Get Started
+              buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/workflows.html"
+            - title: Use OpenMS in Python
+              subtitle: Enhance workflows with pyOpenMS scripts or develop novel methods using pyOpenMS
+              leftAlign: true
+              image: pyopenms-logo.png
+              imgClass: img-fit
+              bottomBorderRadius: true
+              buttonText: Get Started
+              buttonLink: "https://pyopenms.readthedocs.io/en/latest/"
         - title: "Advanced users / developers can use OpenMS to:"
           bgColor: FFF1E0
           heroItems:
-          - title: Analyze large datasets
-            subtitle: Run workflows on very large datasets on powerful compute infrastructure
-            leftAlign: true
-            imgClass: img-fit
-            image: nf-core-logo.png
-            buttonText: Get Started
-            buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/nextflow-get-started.html"
-          - title: Create high-performance tools
-            subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
-            terminal: true
-            buttonText: Get Started
-            bottomBorderRadius: true
-            buttonLink: "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/OpenMS_tutorial.html"
-    
+            - title: Analyze large datasets
+              subtitle: Run workflows on very large datasets on powerful compute infrastructure
+              leftAlign: true
+              imgClass: img-fit
+              image: nf-core-logo.png
+              buttonText: Get Started
+              buttonLink: "https://openms.readthedocs.io/en/latest/getting-started/nextflow-get-started.html"
+            - title: Create high-performance tools
+              subtitle: Develop high-performance tools or algorithms with the C++ OpenMS library
+              terminal: true
+              buttonText: Get Started
+              bottomBorderRadius: true
+              buttonLink: "https://abibuilder.cs.uni-tuebingen.de/archive/openms/Documentation/nightly/html/OpenMS_tutorial.html"
+
       keyfeatures:
         title: What is OpenMS ?
         subtitle: OpenMS offers an open-source C++ library (+ Python bindings) for LC/MS data management, analysis and visualization. It empowers rapid development of mass spectrometry related software. OpenMS is freely  available under the three clause BSD license and runs under Windows, macOS and Linux.  The OpenMS members have a strong commitment to creating an open, inclusive, and positive community. Please read the OpenMS Code of Conduct for guidance on how to interact with others in a way that makes the community thrive.
         features:
-        - title: Proteomics
-          text: Almost 200 ready-made and customisable tools for analysing your proteomics data. Combined in flexible workflows they provide solutions to a broad range of problems arising in proteomics labs.
-          img: /images/content_images/keyfeatures/proteomics2.png
-          url: /keyfeatures/proteomics
-        - title: Metabolomics
-          text: OpenMS provides a wide range of customisable tools, specifically designed for all steps in the analysis of your targeted and untargeted metabolomics data.
-          img: /images/content_images/keyfeatures/metabolomics4.png
-          url: /keyfeatures/metabolomics
-        - title: Workflows
-          text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
-          img: /images/content_images/keyfeatures/workflows2.png
-          url: https://openms.readthedocs.io/en/latest/getting-started/workflows.html
+          - title: Proteomics
+            text: Almost 200 ready-made and customisable tools for analysing your proteomics data. Combined in flexible workflows they provide solutions to a broad range of problems arising in proteomics labs.
+            img: /images/content_images/keyfeatures/proteomics2.png
+            url: /keyfeatures/proteomics
+          - title: Metabolomics
+            text: OpenMS provides a wide range of customisable tools, specifically designed for all steps in the analysis of your targeted and untargeted metabolomics data.
+            img: /images/content_images/keyfeatures/metabolomics4.png
+            url: /keyfeatures/metabolomics
+          - title: Workflows
+            text: Every tool that is developed within OpenMS is available on flexible, scalable and easy-to-use workflow engines (such as KNIME, Galaxy, and nextflow) facilitating reproducible science.
+            img: /images/content_images/keyfeatures/workflows2.png
+            url: https://openms.readthedocs.io/en/latest/getting-started/workflows.html
 
       webapps:
-      - index: 0
-        url: https://abi-services.cs.uni-tuebingen.de/umetaflow/
-        logo: /images/webapp/logo/umetaflow-logo.png
-        description: This app offers the powerful UmetaFlow pipeline for untargeted metabolomics in an accessible user interface.
-      - index: 1
-        url: https://abi-services.cs.uni-tuebingen.de/nuxl/
-        logo: /images/webapp/logo/NuXL_logo.png
-        description: NuXL is a dedicated software package designed for the analysis of XL-MS (cross-linking mass spectrometry)...<br>    
-      - index: 2
-        logo: /images/webapp/logo/naseweis.png
-        url: https://abi-services.cs.uni-tuebingen.de/naseweis/
-        description: NASEWEIS is webapp version of the NucleicAcidSearch<br>Engine, it is a tool to do library searching of Oligonucleotide
-      - index: 3
-        url: https://abi-services.cs.uni-tuebingen.de/flashtaggerviewer/
-        logo: /images/webapp/logo/FLASH_TnT.png
-        description: FLASHTaggerviewer visualize output from FLASH* tools. FLASH* tools can deconvolute your Topdown data very...
-      - index: 4
-        url: https://abi-services.cs.uni-tuebingen.de/SagePTMScanner/
-        logo: /images/webapp/logo/SagePTMScannerlogo.png
-        description: Sage search engine is a fast and reliable proteomics search engine for the anaylsis of MS data...
+        - index: 0
+          url: https://abi-services.cs.uni-tuebingen.de/umetaflow/
+          logo: /images/webapp/logo/umetaflow-logo.png
+          description: This app offers the powerful UmetaFlow pipeline for untargeted metabolomics in an accessible user interface.
+        - index: 1
+          url: https://abi-services.cs.uni-tuebingen.de/nuxl/
+          logo: /images/webapp/logo/NuXL_logo.png
+          description: NuXL is a dedicated software package designed for the analysis of XL-MS (cross-linking mass spectrometry)...<br>
+        - index: 2
+          logo: /images/webapp/logo/naseweis.png
+          url: https://abi-services.cs.uni-tuebingen.de/naseweis/
+          description: NASEWEIS is webapp version of the NucleicAcidSearch<br>Engine, it is a tool to do library searching of Oligonucleotide
+        - index: 3
+          url: https://abi-services.cs.uni-tuebingen.de/flashtaggerviewer/
+          logo: /images/webapp/logo/FLASH_TnT.png
+          description: FLASHTaggerviewer visualize output from FLASH* tools. FLASH* tools can deconvolute your Topdown data very...
+        - index: 4
+          url: https://abi-services.cs.uni-tuebingen.de/SagePTMScanner/
+          logo: /images/webapp/logo/SagePTMScannerlogo.png
+          description: Sage search engine is a fast and reliable proteomics search engine for the anaylsis of MS data...
 
       section5: false
 
       footer:
         title: OpenMS
         deployedBy: /images/deployed-by-netlify.png
-        logo: 
+        logo:
         socialmediatitle: ""
         socialmedia:
-        - link: https://github.com/OpenMS/OpenMS
-          icon: github
-        - link: https://twitter.com/OpenMSTeam
-          icon: twitter
+          - link: https://github.com/OpenMS/OpenMS
+            icon: github
+          - link: https://twitter.com/OpenMSTeam
+            icon: twitter
         quicklinks:
           column1:
             links:
@@ -205,6 +205,3 @@ languages:
       - title: Help Request
         url: /help-request
         button: true
-
-    
-  
