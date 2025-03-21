@@ -32,8 +32,8 @@ with open("content/en/publications.md", "w") as file:
     file.write(f"# List of OpenMS Publications\n\n")
     for year, year_citations in citations.groupby('Year', sort=False):
         year = int(year)
-        file.write(f"## {year}\n")
+        file.write("## {year}\n")
         for _, citation in year_citations.sort_values('Title').iterrows():
-            entry = f"- {citation['Authors']}. *{citation['Title']}*. {citation['Publication']}. {year}{citation['url']})"
+            entry = f"- {citation['Authors']}. *{citation['Title']}*. {citation['Publication']}. {year}{citation['url']}"
             file.write("\n\n" + entry)
         file.write("\n***\n")
