@@ -36,4 +36,4 @@ with open("content/en/publications.md", "w") as file:
         for _, citation in year_citations.sort_values('Title').iterrows():
             entry = f"- {citation['Authors']}. *{citation['Title']}*. {citation['Publication']}. {year}{citation['url']})"
             file.write("\n\n" + entry)
-            file.write("\n***\n")
+        file.write("\n***\n")
