@@ -1,152 +1,237 @@
 # List of OpenMS Publications
 
+## 2025
+
+
+- Müller, Tom David; Siraj, Arslan; Walter, Axel; Kim, Jihyung; Wein, Samuel; von Kleist, Johannes; Feroz, Ayesha; Pilz, Matteo; Jeong, Kyowon; Sing, Justin Cyril;  *OpenMS WebApps: Building User-Friendly Solutions for MS Analysis*. Journal of Proteome Research. 2025. [Link](https://www.ncbi.nlm.nih.gov/pubmed/39881492)
+
+- Sing, Justin Cyril; Charkow, Joshua; Walter, Axel; Gao, Mingxuan; Muller, Tom David; Bittremieux, Wout; Sachsenberg, Timo; Röst, Hannes Luc;  *pyOpenMS-viz: Streamlining Mass Spectrometry Data Visualization with pandas*. Journal of Proteome Research. 2025. [Link](https://www.ncbi.nlm.nih.gov/pubmed/40019346)
+***
+## 2024
+
+
+- Kim, Jihyung; Jeong, Kyowon; Kaulich, Philipp T; Winkels, Konrad; Tholey, Andreas; Kohlbacher, Oliver;  *FLASHQuant: a fast algorithm for proteoform quantification in top-down proteomics*. Analytical Chemistry. 2024. [Link](https://www.ncbi.nlm.nih.gov/pubmed/39424290)
+
+- Siraj, Arslan; Bouwmeester, Robbin; Declercq, Arthur; Welp, Luisa; Chernev, Aleksandar; Wulf, Alexander; Urlaub, Henning; Martens, Lennart; Degroeve, Sven; Kohlbacher, Oliver;  *Intensity and retention time prediction improves the rescoring of protein‐nucleic acid cross‐links*. Proteomics. 2024. [Link](https://www.ncbi.nlm.nih.gov/pubmed/38629965)
+
+- Pfeuffer, Julianus; Bielow, Chris; Wein, Samuel; Jeong, Kyowon; Netz, Eugen; Walter, Axel; Alka, Oliver; Nilse, Lars; Colaianni, Pasquale Domenico; McCloskey, Douglas;  *OpenMS 3 enables reproducible analysis of large-scale mass spectrometry data*. Nature methods. 2024. [Link](https://www.ncbi.nlm.nih.gov/pubmed/38366242)
+
+- Dai, Chengxin; Pfeuffer, Julianus; Wang, Hong; Zheng, Ping; Käll, Lukas; Sachsenberg, Timo; Demichev, Vadim; Bai, Mingze; Kohlbacher, Oliver; Perez-Riverol, Yasset;  *quantms: a cloud-based pipeline for quantitative proteomics enables the reanalysis of public proteomics data*. Nature Methods. 2024. [Link](https://www.ncbi.nlm.nih.gov/pubmed/38965444)
+***
 ## 2023
-- Lei Y, Chen X, Shi J, Liu Y, Xu YJ. *Development and application of a data processing method for food metabolomics analysis.*. Molecular omics. 2023. [Link](https://www.ncbi.nlm.nih.gov/pubmed/37139637)
 
-- Guo J, Huan T. *Mechanistic Understanding of the Discrepancies between Common Peak Picking Algorithms in Liquid Chromatography-Mass Spectrometry-Based Metabolomics.*. Analytical chemistry. 2023. [Link](https://www.ncbi.nlm.nih.gov/pubmed/36972195)
 
-- Wein S. *Analysis of RNA Sequences and Modifications Using NASE.*. Methods in molecular biology (Clifton, N.J.). 2023. [Link](https://www.ncbi.nlm.nih.gov/pubmed/36723819)
+- Kontou, Eftychia E; Walter, Axel; Alka, Oliver; Pfeuffer, Julianus; Sachsenberg, Timo; Mohite, Omkar S; Nuhamunada, Matin; Kohlbacher, Oliver; Weber, Tilmann;  *UmetaFlow: an untargeted metabolomics workflow for high-throughput data processing and analysis*. Journal of Cheminformatics. 2023. [Link](https://www.ncbi.nlm.nih.gov/pubmed/37173725)
+
+- Bittremieux, Wout; Levitsky, Lev; Pilz, Matteo; Sachsenberg, Timo; Huber, Florian; Wang, Mingxun; Dorrestein, Pieter C;  *Unified and standardized mass spectrometry data processing in Python using spectrum_utils*. Journal of proteome research. 2023. [Link](https://www.ncbi.nlm.nih.gov/pubmed/36688502)
 ***
 ## 2022
-- Uszkoreit J, Barkovits K, Pacharra S, Pfeiffer K, Steinbach S, Marcus K, Eisenacher M. *Dataset containing physiological amounts of spike-in proteins into murine C2C12 background as a ground truth quantitative LC-MS/MS reference.*. Data in brief. 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35845101)
 
-- Jeong K, Kim J, Kohlbacher O. *Mass Deconvolution of Top-Down Mass Spectrometry Datasets by FLASHDeconv.*. Methods in molecular biology (Clifton, N.J.). 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35657592)
 
-- Sénécaut N, Poulain P, Lignières L, Terrier S, Legros V, Chevreux G, Lelandais G, Camadro JM. *Quantitative Proteomics in Yeast : From bSLIM and Proteome Discoverer Outputs to Graphical Assessment of the Significance of Protein Quantification Scores.*. Methods in molecular biology (Clifton, N.J.). 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35524123)
+- Luo, Xiyang; Bittremieux, Wout; Griss, Johannes; Deutsch, Eric W; Sachsenberg, Timo; Levitsky, Lev I; Ivanov, Mark V; Bubis, Julia A; Gabriels, Ralf; Webel, Henry;  *A comprehensive evaluation of consensus spectrum generation methods in proteomics*. Journal of proteome research. 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35549218)
+
+- Jeong, Kyowon; Babović, Maša; Gorshkov, Vladimir; Kim, Jihyung; Jensen, Ole N; Kohlbacher, Oliver;  *FLASHIda enables intelligent data acquisition for top–down proteomics to boost proteoform identification counts*. Nature communications. 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35906205)
+
+- Umer, Husen M; Audain, Enrique; Zhu, Yafeng; Pfeuffer, Julianus; Sachsenberg, Timo; Lehtiö, Janne; Branca, Rui M; Perez-Riverol, Yasset;  *Generation of ENSEMBL-based proteogenomics databases boosts the identification of non-canonical peptides*. Bioinformatics. 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/34904638)
+
+- Jeong, Kyowon; Kim, Jihyung; Kohlbacher, Oliver;  *Mass Deconvolution of Top-Down Mass Spectrometry Datasets by FLASHDeconv*. Proteoform Identification: Methods and Protocols. 2022. [Link](https://www.ncbi.nlm.nih.gov/pubmed/35657592)
 ***
 ## 2021
-- Delabriere A, Warmer P, Brennsteiner V, Zamboni N. *SLAW: A Scalable and Self-Optimizing Processing Workflow for Untargeted LC-MS.*. Analytical chemistry. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/34735114)
 
-- Svecla M, Garrone G, Faré F, Aletti G, Norata GD, Beretta G. *DDASSQ: An open-source, multiple peptide sequencing strategy for label free quantification based on an OpenMS pipeline in the KNIME analytics platform.*. Proteomics. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/34312990)
 
-- Bichmann L, Gupta S, Rosenberger G, Kuchenbecker L, Sachsenberg T, Ewels P, Alka O, Pfeuffer J, Kohlbacher O, Röst H. *DIAproteomics: A Multifunctional Data Analysis Pipeline for Data-Independent Acquisition Proteomics and Peptidomics.*. Journal of proteome research. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/34153189)
+- Dai, Chengxin; Füllgrabe, Anja; Pfeuffer, Julianus; Solovyeva, Elizaveta M; Deng, Jingwen; Moreno, Pablo; Kamatchinathan, Selvakumar; Kundu, Deepti Jaiswal; George, Nancy; Fexova, Silvie;  *A proteomics sample metadata representation for multiomics integration and big data analysis*. Nature Communications. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/34615866)
 
-- Reutrakul S, Chen H, Chirakalwasan N, Charoensri S, Wanitcharoenkul E, Amnakkittikul S, Saetung S, Layden BT, Chlipala GE. *Metabolomic profile associated with obstructive sleep apnoea severity in obese pregnant women with gestational diabetes mellitus: A pilot study.*. Journal of sleep research. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33792106)
+- Bichmann, Leon; Gupta, Shubham; Rosenberger, George; Kuchenbecker, Leon; Sachsenberg, Timo; Ewels, Phil; Alka, Oliver; Pfeuffer, Julianus; Kohlbacher, Oliver; Rost, Hannes;  *DIAproteomics: A multifunctional data analysis pipeline for data-independent acquisition proteomics and peptidomics*. Journal of proteome research. 2021
 
-- Sénécaut N, Alves G, Weisser H, Lignières L, Terrier S, Yang-Crosson L, Poulain P, Lelandais G, Yu YK, Camadro JM. *Novel Insights into Quantitative Proteomics from an Innovative Bottom-Up Simple Light Isotope Metabolic (bSLIM) Labeling Data Processing Strategy.*. Journal of proteome research. 2021. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33573382)
+- Marcu, Ana; Bichmann, Leon; Kuchenbecker, Leon; Kowalewski, Daniel Johannes; Freudenmann, Lena Katharina; Backert, Linus; Mühlenbruch, Lena; Szolek, András; Lübke, Maren; Wagner, Philipp;  *HLA Ligand Atlas: a benign reference of HLA-presented peptides to improve T-cell-based cancer immunotherapy*. Journal for immunotherapy of cancer. 2021
 ***
 ## 2020
-- Netz E, Dijkstra TMH, Sachsenberg T, Zimmermann L, Walzer M, Monecke T, Ficner R, Dybkov O, Urlaub H, Kohlbacher O. *OpenPepXL: An Open-Source Tool for Sensitive Identification of Cross-Linked Peptides in XL-MS.*. Molecular & cellular proteomics : MCP. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33067342)
 
-- Huang T, Choi M, Tzouros M, Golling S, Pandya NJ, Banfai B, Dunkley T, Vitek O. *MSstatsTMT: Statistical Detection of Differentially Abundant Proteins in Experiments with Isobaric Labeling and Multiple Mixtures.*. Molecular & cellular proteomics : MCP. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/32680918)
 
-- Ramachandran S, Thomas T. *A Frequency-Based Approach to Predict the Low-Energy Collision-Induced Dissociation Fragmentation Spectra.*. ACS omega. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/32548445)
+- Wein, Samuel; Andrews, Byron; Sachsenberg, Timo; Santos-Rosa, Helena; Kohlbacher, Oliver; Kouzarides, Tony; Garcia, Benjamin A; Weisser, Hendrik;  *A computational platform for high-throughput analysis of RNA sequences and modifications by mass spectrometry*. Nature communications. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/32066737)
 
-- Jeong K, Kim J, Gaikwad M, Hidayah SN, Heikaus L, Schlüter H, Kohlbacher O. *FLASHDeconv: Ultrafast, High-Quality Feature Deconvolution for Top-Down Proteomics.*. Cell systems. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/32078799)
+- Stützer, Alexandra; Welp, Luisa M; Raabe, Monika; Sachsenberg, Timo; Kappert, Christin; Wulf, Alexander; Lau, Andy M; David, Stefan-Sebastian; Chernev, Aleksandar; Kramer, Katharina;  *Analysis of protein-DNA interactions in chromatin by UV induced cross-linking and mass spectrometry*. Nature communications. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33067435)
 
-- Pfeuffer J, Sachsenberg T, Dijkstra TMH, Serang O, Reinert K, Kohlbacher O. *EPIFANY: A Method for Efficient High-Confidence Protein Inference.*. Journal of proteome research. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31975601)
+- Jeong, Kyowon; Kim, Jihyung; Gaikwad, Manasi; Hidayah, Siti Nurul; Heikaus, Laura; Schlüter, Hartmut; Kohlbacher, Oliver;  *FLASHDeconv: ultrafast, high-quality feature deconvolution for top-down proteomics*. Cell Systems. 2020
 
-- Rurik M, Alka O, Aicheler F, Kohlbacher O. *Metabolomics Data Processing Using OpenMS.*. Methods in molecular biology (Clifton, N.J.). 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31953812)
+- Nothias, Louis-Félix; Petras, Daniel; Schmid, Robin; Dührkop, Kai; Rainer, Johannes; Sarvepalli, Abinesh; Protsyuk, Ivan; Ernst, Madeleine; Tsugawa, Hiroshi; Fleischauer, Markus;  *Feature-based molecular networking in the GNPS analysis environment*. Nature methods. 2020
+
+- Rurik, Marc; Alka, Oliver; Aicheler, Fabian; Kohlbacher, Oliver;  *Metabolomics data processing using OpenMS*. Computational Methods and Data Analysis for Metabolomics. 2020
+
+- Netz, Eugen; Dijkstra, Tjeerd MH; Sachsenberg, Timo; Zimmermann, Lukas; Walzer, Mathias; Monecke, Thomas; Ficner, Ralf; Dybkov, Olexandr; Urlaub, Henning; Kohlbacher, Oliver;  *OpenPepXL: an open-source tool for sensitive identification of cross-linked peptides in XL-MS*. Molecular & Cellular Proteomics. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33067342)
+
+- Scheidt, Tamara; Alka, Oliver; Gonczarowska-Jorge, Humberto; Gruber, Wolfgang; Rathje, Florian; Dell’Aica, Margherita; Rurik, Marc; Kohlbacher, Oliver; Zahedi, René P; Aberger, Fritz;  *Phosphoproteomics of short-term hedgehog signaling in human medulloblastoma cells*. Cell Communication and Signaling. 2020
+
+- Kutuzova, Svetlana; Colaianni, Pasquale; Rost, Hannes; Sachsenberg, Timo; Alka, Oliver; Kohlbacher, Oliver; Burla, Bo; Torta, Federico; Schrubbers, Lars; Kristensen, Mette;  *SmartPeak automates targeted and quantitative metabolomics data processing*. Analytical Chemistry. 2020. [Link](https://www.ncbi.nlm.nih.gov/pubmed/33269929)
+
+- Starke, Robert; Oliphant, Kaitlyn; Jehmlich, Nico; Schäpe, Stephanie Serena; Sachsenberg, Timo; Kohlbacher, Oliver; Allen-Vercoe, Emma; von Bergen, Martin;  *Tracing incorporation of heavy water into proteins for species-specific metabolic activity in complex communities*. Journal of Proteomics. 2020
 ***
 ## 2019
-- Bichmann L, Nelde A, Ghosh M, Heumos L, Mohr C, Peltzer A, Kuchenbecker L, Sachsenberg T, Walz JS, Stevanović S, Rammensee HG, Kohlbacher O. *MHCquant: Automated and Reproducible Data Analysis for Immunopeptidomics.*. Journal of proteome research. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31589052)
 
-- Li X, Nakayama K, Goto T, Akamatsu S, Shimizu K, Ogawa O, Inoue T. *Data processing on a comparative evaluation of the extraction and analysis procedures for urinary phospholipid and lysophospholipid using MALDI-TOF/MS.*. Data in brief. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31417948)
+
+- Pfeuffer, Julianus; Sachsenberg, Timo; Dijkstra, Tjeerd MH; Serang, Oliver; Reinert, Knut; Kohlbacher, Oliver;  *EPIFANY-A method for efficient high-confidence protein inference*. Journal of proteome research. 2019
+
+- Cain, Nicolas; Alka, Oliver; Segelke, Torben; von Wuthenau, Kristian; Kohlbacher, Oliver; Fischer, Markus;  *Food fingerprinting: Mass spectrometric determination of the cocoa shell content (Theobroma cacao L.) in cocoa products by HPLC-QTOF-MS*. Food chemistry. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31260999)
+
+- Bichmann, Leon; Nelde, Annika; Ghosh, Michael; Heumos, Lukas; Mohr, Christopher; Peltzer, Alexander; Kuchenbecker, Leon; Sachsenberg, Timo; Walz, Juliane S; Stevanovic, Stefan;  *MHCquant: automated and reproducible data analysis for immunopeptidomics*. Journal of proteome research. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31589052)
+
+- Löffler, Markus W; Mohr, Christopher; Bichmann, Leon; Freudenmann, Lena Katharina; Walzer, Mathias; Schroeder, Christopher M; Trautwein, Nico; Hilke, Franz J; Zinser, Raphael S; Mühlenbruch, Lena;  *Multi-omics discovery of exome-derived neoantigens in hepatocellular carcinoma*. Genome medicine. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31039795)
+
+- Gruening, Bjorn; Sallou, Olivier; Moreno, Pablo; da Veiga Leprevost, Felipe; Ménager, Hervé; Søndergaard, Dan; Röst, Hannes; Sachsenberg, Timo; O'connor, Brian; Madeira, Fábio;  *Recommendations for the packaging and containerizing of bioinformatics software*. F1000Research. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31543945)
+
+- Hulstaert, Niels; Shofstahl, Jim; Sachsenberg, Timo; Walzer, Mathias; Barsnes, Harald; Martens, Lennart; Perez-Riverol, Yasset;  *ThermoRawFileParser: modular, scalable, and cross-platform RAW file conversion*. Journal of proteome research. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31755270)
+
+- Licha, David; Vidali, Silvia; Aminzadeh-Gohari, Sepideh; Alka, Oliver; Breitkreuz, Leander; Kohlbacher, Oliver; Reischl, Roland J; Feichtinger, René G; Kofler, Barbara; Huber, Christian G;  *Untargeted metabolomics reveals molecular effects of ketogenic diet on healthy and tumor xenograft mouse models*. International journal of molecular sciences. 2019. [Link](https://www.ncbi.nlm.nih.gov/pubmed/31398922)
 ***
 ## 2018
-- Goldfarb D, Lafferty MJ, Herring LE, Wang W, Major MB. *Approximating Isotope Distributions of Biomolecule Fragments.*. ACS omega. 2018. [Link](https://www.ncbi.nlm.nih.gov/pubmed/30288463)
 
-- Pioch M, Hoffmann M, Pralow A, Reichl U, Rapp E. *glyXtool(MS): An Open-Source Pipeline for Semiautomated Analysis of Glycopeptide Mass Spectrometry Data.*. Analytical chemistry. 2018. [Link](https://www.ncbi.nlm.nih.gov/pubmed/30252445)
+
+- Kahles, André; Lehmann, Kjong-Van; Toussaint, Nora C; Hüser, Matthias; Stark, Stefan G; Sachsenberg, Timo; Stegle, Oliver; Kohlbacher, Oliver; Sander, Chris; Caesar-Johnson, Samantha J;  *Comprehensive analysis of alternative splicing across tumors from 8,705 patients*. Cancer cell. 2018. [Link](https://www.ncbi.nlm.nih.gov/pubmed/30078747)
 ***
 ## 2017
-- Koch M, Duigou T, Carbonell P, Faulon JL. *Molecular structures enumeration and virtual screening in the chemical space with RetroPath2.0.*. Journal of cheminformatics. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/29260340)
 
-- Flett FJ, Sachsenberg T, Kohlbacher O, Mackay CL, Interthal H. *Differential Enzymatic (16)O/(18)O Labeling for the Detection of Cross-Linked Nucleic Acid-Protein Heteroconjugates.*. Analytical chemistry. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28885003)
 
-- Schlaffner CN, Pirklbauer GJ, Bender A, Choudhary JS. *Fast, Quantitative and Variant Enabled Mapping of Peptides to Genomes.*. Cell systems. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28837811)
+- Röst, Hannes L; Aebersold, Ruedi; Schubert, Olga T;  *Automated SWATH data analysis using targeted extraction of ion chromatograms*. Proteomics: Methods and Protocols. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28188537)
 
-- Weisser H, Choudhary JS. *Targeted Feature Detection for Data-Dependent Shotgun Proteomics.*. Journal of proteome research. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28673088)
+- da Veiga Leprevost, Felipe; Grüning, Björn A; Alves Aflitos, Saulo; Röst, Hannes L; Uszkoreit, Julian; Barsnes, Harald; Vaudel, Marc; Moreno, Pablo; Gatto, Laurent; Weber, Jonas;  *BioContainers: an open-source and community-driven framework for software standardization*. Bioinformatics. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28379341)
 
-- Pfeuffer J, Sachsenberg T, Alka O, Walzer M, Fillbrunn A, Nilse L, Schilling O, Reinert K, Kohlbacher O. *OpenMS - A platform for reproducible analysis of mass spectrometry data.*. Journal of biotechnology. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/28559010)
+- Audain, Enrique; Uszkoreit, Julian; Sachsenberg, Timo; Pfeuffer, Julianus; Liang, Xiao; Hermjakob, Henning; Sanchez, Aniel; Eisenacher, Martin; Reinert, Knut; Tabb, David L;  *In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics*. Journal of proteomics. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27498275)
 
-- Audain E, Uszkoreit J, Sachsenberg T, Pfeuffer J, Liang X, Hermjakob H, Sanchez A, Eisenacher M, Reinert K, Tabb DL, Kohlbacher O, Perez-Riverol Y. *In-depth analysis of protein inference algorithms using multiple search engines and well-defined metrics.*. Journal of proteomics. 2017. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27498275)
+- Pfeuffer, Julianus; Sachsenberg, Timo; Alka, Oliver; Walzer, Mathias; Fillbrunn, Alexander; Nilse, Lars; Schilling, Oliver; Reinert, Knut; Kohlbacher, Oliver;  *OpenMS–a platform for reproducible analysis of mass spectrometry data*. Journal of biotechnology. 2017
+
+- Weisser, Hendrik; Choudhary, Jyoti S;  *Targeted feature detection for data-dependent shotgun proteomics*. Journal of proteome research. 2017
+
+- Vizcaíno, Juan Antonio; Mayer, Gerhard; Perkins, Simon R; Barsnes, Harald; Vaudel, Marc; Perez-Riverol, Yasset; Ternent, Tobias; Uszkoreit, Julian; Eisenacher, Martin; Fischer, Lutz;  *The mzIdentML data standard version 1.2, supporting advances in proteome informatics*. Molecular & Cellular Proteomics. 2017
 ***
 ## 2016
-- Codrea MC, Nahnsen S. *Platforms and Pipelines for Proteomics Data Analysis and Management.*. Advances in experimental medicine and biology. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27975218)
 
-- Zühlke M, Riebe D, Beitz T, Löhmannsröben HG, Andreotti S, Reinert K, Zenichowski K, Diener M. *High-performance liquid chromatography with electrospray ionization ion mobility spectrometry: Characterization, data management, and applications.*. Journal of separation science. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27805770)
 
-- Weisser H, Wright JC, Mudge JM, Gutenbrunner P, Choudhary JS. *Flexible Data Analysis Pipeline for High-Confidence Proteogenomics.*. Journal of proteome research. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27786492)
+- Navarro, Pedro; Kuharev, Jörg; Gillet, Ludovic C; Bernhardt, Oliver M; MacLean, Brendan; Röst, Hannes L; Tate, Stephen A; Tsou, Chih-Chiang; Reiter, Lukas; Distler, Ute;  *A multicenter study benchmarks software tools for label-free proteome quantification*. Nature biotechnology. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27701404)
 
-- Röst HL, Sachsenberg T, Aiche S, Bielow C, Weisser H, Aicheler F, Andreotti S, Ehrlich HC, Gutenbrunner P, Kenar E, Liang X, Nahnsen S, Nilse L, Pfeuffer J, Rosenberger G, Rurik M, Schmitt U, Veit J, Walzer M, Wojnar D, Wolski WE, Schilling O, Choudhary JS, Malmström L, Aebersold R, Reinert K, Kohlbacher O. *OpenMS: a flexible open-source software platform for mass spectrometry data analysis.*. Nature methods. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27575624)
+- Weisser, Hendrik; Wright, James C; Mudge, Jonathan M; Gutenbrunner, Petra; Choudhary, Jyoti S;  *Flexible data analysis pipeline for high-confidence proteogenomics*. Journal of Proteome Research. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27786492)
 
-- Nilse L, Avci D, Heisterkamp P, Serang O, Lemberg MK, Schilling O. *Yeast membrane proteomics using leucine metabolic labelling: Bioinformatic data processing and exemplary application to the ER-intramembrane protease Ypf1.*. Biochimica et biophysica acta. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27426920)
+- Veit, Johannes; Sachsenberg, Timo; Chernev, Aleksandar; Aicheler, Fabian; Urlaub, Henning; Kohlbacher, Oliver;  *LFQProfiler and RNPxl: open-source tools for label-free quantification and protein–RNA cross-linking integrated into proteome discoverer*. Journal of proteome research. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27476824)
 
-- Burns NK, Andrighetto LM, Conlan XA, Purcell SD, Barnett NW, Denning J, Francis PS, Stevenson PG. *Blind column selection protocol for two-dimensional high performance liquid chromatography.*. Talanta. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/27154652)
+- Röst, Hannes L; Sachsenberg, Timo; Aiche, Stephan; Bielow, Chris; Weisser, Hendrik; Aicheler, Fabian; Andreotti, Sandro; Ehrlich, Hans-Christian; Gutenbrunner, Petra; Kenar, Erhan;  *OpenMS: a flexible open-source software platform for mass spectrometry data analysis*. Nature methods. 2016
 
-- Khoonsari PE, Häggmark A, Lönnberg M, Mikus M, Kilander L, Lannfelt L, Bergquist J, Ingelsson M, Nilsson P, Kultima K, Shevchenko G. *Analysis of the Cerebrospinal Fluid Proteome in Alzheimer's Disease.*. PloS one. 2016. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26950848)
+- Perez-Riverol, Yasset; Gatto, Laurent; Wang, Rui; Sachsenberg, Timo; Uszkoreit, Julian; da Veiga Leprevost, Felipe; Fufezan, Christian; Ternent, Tobias; Eglen, Stephen J; Katz, Daniel S;  *Ten simple rules for taking advantage of Git and GitHub*. PLoS computational biology. 2016
 ***
 ## 2015
-- Winkler R. *An evolving computational platform for biological mass spectrometry: workflows, statistics and data mining with MASSyPup64.*. PeerJ. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26618079)
 
-- Ranninger C, Rurik M, Limonciel A, Ruzek S, Reischl R, Wilmes A, Jennings P, Hewitt P, Dekant W, Kohlbacher O, Huber CG. *Nephron Toxicity Profiling via Untargeted Metabolome Analysis Employing a High Performance Liquid Chromatography-Mass Spectrometry-based Experimental and Computational Pipeline.*. The Journal of biological chemistry. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26055719)
 
-- Qi D, Zhang H, Fan J, Perkins S, Pisconti A, Simpson DM, Bessant C, Hubbard S, Jones AR. *The mzqLibrary--An open source Java library supporting the HUPO-PSI quantitative proteomics standard.*. Proteomics. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26037908)
+- Röst, Hannes L; Rosenberger, George; Aebersold, Ruedi; Malmström, Lars;  *Efficient visualization of high-throughput targeted proteomics experiments: TAPIR*. Bioinformatics. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25788625)
 
-- Röst HL, Schmitt U, Aebersold R, Malmström L. *Fast and Efficient XML Data Access for Next-Generation Mass Spectrometry.*. PloS one. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25927999)
+- Röst, Hannes L; Schmitt, Uwe; Aebersold, Ruedi; Malmström, Lars;  *Fast and efficient XML data access for next-generation mass spectrometry*. PloS one. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25927999)
 
-- Wang Y, Yang F, Wu P, Bu D, Sun S. *OpenMS-Simulator: an open-source software for theoretical tandem mass spectrum prediction.*. BMC bioinformatics. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25887925)
+- Sachsenberg, Timo; Herbst, Florian-Alexander; Taubert, Martin; Kermer, Rene; Jehmlich, Nico; Von Bergen, Martin; Seifert, Jana; Kohlbacher, Oliver;  *MetaProSIP: automated inference of stable isotope incorporation rates in proteins for functional metaproteomics*. Journal of proteome research. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25412983)
 
-- Aiche S, Sachsenberg T, Kenar E, Walzer M, Wiswedel B, Kristl T, Boyles M, Duschl A, Huber CG, Berthold MR, Reinert K, Kohlbacher O. *Workflows for automated downstream data analysis and visualization in large-scale computational mass spectrometry.*. Proteomics. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25604327)
+- Ranninger, Christina; Rurik, Marc; Limonciel, Alice; Ruzek, Silke; Reischl, Roland; Wilmes, Anja; Jennings, Paul; Hewitt, Philip; Dekant, Wolfgang; Kohlbacher, Oliver;  *Nephron toxicity profiling via untargeted metabolome analysis employing a high performance liquid chromatography-mass spectrometry-based experimental and computational pipeline*. Journal of Biological Chemistry. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26055719)
 
-- Sachsenberg T, Herbst FA, Taubert M, Kermer R, Jehmlich N, von Bergen M, Seifert J, Kohlbacher O. *MetaProSIP: automated inference of stable isotope incorporation rates in proteins for functional metaproteomics.*. Journal of proteome research. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25412983)
+- Aicheler, Fabian; Li, Jia; Hoene, Miriam; Lehmann, Rainer; Xu, Guowang; Kohlbacher, Oliver;  *Retention time prediction improves identification in nontargeted lipidomics approaches*. Analytical chemistry. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/26145158)
+
+- Nilse, Lars; Sigloch, Florian Christoph; Biniossek, Martin L; Schilling, Oliver;  *Toward improved peptide feature detection in quantitative proteomics using stable isotope labeling*. PROTEOMICS–Clinical Applications. 2015. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25931027)
+
+- Aiche, Stephan; Sachsenberg, Timo; Kenar, Erhan; Walzer, Mathias; Wiswedel, Bernd; Kristl, Theresa; Boyles, Matthew; Duschl, Albert; Huber, Christian G; Berthold, Michael R;  *Workflows for automated downstream data analysis and visualization in large‐scale computational mass spectrometry*. Proteomics. 2015
 ***
 ## 2014
-- Aoshima K, Takahashi K, Ikawa M, Kimura T, Fukuda M, Tanaka S, Parry HE, Fujita Y, Yoshizawa AC, Utsunomiya S, Kajihara S, Tanaka K, Oda Y. *A simple peak detection and label-free quantitation algorithm for chromatography-mass spectrometry.*. BMC bioinformatics. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25420746)
 
-- Kramer K, Sachsenberg T, Beckmann BM, Qamar S, Boon KL, Hentze MW, Kohlbacher O, Urlaub H. *Photo-cross-linking and high-resolution mass spectrometry for assignment of RNA-binding sites in RNA-binding proteins.*. Nature methods. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25173706)
 
-- Röst HL, Schmitt U, Aebersold R, Malmström L. *pyOpenMS: a Python-based interface to the OpenMS mass-spectrometry algorithm library.*. Proteomics. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24420968)
+- Kenar, Erhan; Franken, Holger; Forcisi, Sara; Wörmann, Kilian; Häring, Hans-Ulrich; Lehmann, Rainer; Schmitt-Kopplin, Philippe; Zell, Andreas; Kohlbacher, Oliver;  *Automated label-free quantification of metabolites from liquid chromatography–mass spectrometry data*. Molecular & Cellular Proteomics. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24176773)
 
-- Kenar E, Franken H, Forcisi S, Wörmann K, Häring HU, Lehmann R, Schmitt-Kopplin P, Zell A, Kohlbacher O. *Automated label-free quantification of metabolites from liquid chromatography-mass spectrometry data.*. Molecular & cellular proteomics : MCP. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24176773)
+- Röst, Hannes L; Rosenberger, George; Navarro, Pedro; Gillet, Ludovic; Miladinović, Saša M; Schubert, Olga T; Wolski, Witold; Collins, Ben C; Malmström, Johan; Malmström, Lars;  *OpenSWATH enables automated, targeted analysis of data-independent acquisition MS data*. Nature biotechnology. 2014
 
-- Perez-Riverol Y, Wang R, Hermjakob H, Müller M, Vesada V, Vizcaíno JA. *Open source libraries and frameworks for mass spectrometry based proteomics: a developer's perspective.*. Biochimica et biophysica acta. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23467006)
+- Kramer, Katharina; Sachsenberg, Timo; Beckmann, Benedikt M; Qamar, Saadia; Boon, Kum-Loong; Hentze, Matthias W; Kohlbacher, Oliver; Urlaub, Henning;  *Photo-cross-linking and high-resolution mass spectrometry for assignment of RNA-binding sites in RNA-binding proteins*. Nature methods. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/25173706)
+
+- Griss, Johannes; Jones, Andrew R; Sachsenberg, Timo; Walzer, Mathias; Gatto, Laurent; Hartler, Jürgen; Thallinger, Gerhard G; Salek, Reza M; Steinbeck, Christoph; Neuhauser, Nadin;  *The mzTab data exchange format: communicating mass-spectrometry-based proteomics and metabolomics experimental results to a wider audience*. Molecular & Cellular Proteomics. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24980485)
+
+- Röst, Hannes L; Schmitt, Uwe; Aebersold, Ruedi; Malmström, Lars;  *pyOpenMS: a Python‐based interface to the OpenMS mass‐spectrometry algorithm library*. Proteomics. 2014
+
+- Walzer, Mathias; Pernas, Lucia Espona; Nasso, Sara; Bittremieux, Wout; Nahnsen, Sven; Kelchtermans, Pieter; Pichler, Peter; van den Toorn, Henk WP; Staes, An; Vandenbussche, Jonathan;  *qcML: an exchange format for quality control metrics from mass spectrometry experiments*. Molecular & Cellular Proteomics. 2014. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24760958)
 ***
 ## 2013
-- Benjamin AM, Thompson JW, Soderblom EJ, Geromanos SJ, Henao R, Kraus VB, Moseley MA, Lucas JE. *A flexible statistical model for alignment of label-free proteomics data--incorporating ion mobility and product ion information.*. BMC bioinformatics. 2013. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24341404)
 
-- Novák J, Sachsenberg T, Hoksza D, Skopal T, Kohlbacher O. *On comparison of SimTandem with state-of-the-art peptide identification tools, efficiency of precursor mass filter and dealing with variable modifications.*. Journal of integrative bioinformatics. 2013. [Link](https://www.ncbi.nlm.nih.gov/pubmed/24231142)
 
-- Zerck A, Nordhoff E, Lehrach H, Reinert K. *Optimal precursor ion selection for LC-MALDI MS/MS.*. BMC bioinformatics. 2013. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23418672)
+- Weisser, Hendrik; Nahnsen, Sven; Grossmann, Jonas; Nilse, Lars; Quandt, Andreas; Brauer, Hendrik; Sturm, Marc; Kenar, Erhan; Kohlbacher, Oliver; Aebersold, Ruedi;  *An automated pipeline for high-throughput label-free quantitative proteomics*. Journal of proteome research. 2013
 
-- Kiefer P, Schmitt U, Vorholt JA. *eMZed: an open source framework in Python for rapid and interactive development of LC/MS data analysis workflows.*. Bioinformatics (Oxford, England). 2013. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23418185)
+- Walzer, Mathias; Qi, Da; Mayer, Gerhard; Uszkoreit, Julian; Eisenacher, Martin; Sachsenberg, Timo; Gonzalez-Galarza, Faviel F; Fan, Jun; Bessant, Conrad; Deutsch, Eric W;  *The mzQuantML data standard for mass spectrometry-based quantitative studies in proteomics*. Molecular & Cellular Proteomics. 2013
 
-- Weisser H, Nahnsen S, Grossmann J, Nilse L, Quandt A, Brauer H, Sturm M, Kenar E, Kohlbacher O, Aebersold R, Malmström L. *An automated pipeline for high-throughput label-free quantitative proteomics.*. Journal of proteome research. 2013. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23391308)
+- Nahnsen, Sven; Bielow, Chris; Reinert, Knut; Kohlbacher, Oliver;  *Tools for label-free peptide quantification*. Molecular & Cellular Proteomics. 2013
 ***
 ## 2012
-- Nahnsen S, Kohlbacher O. *In silico design of targeted SRM-based experiments.*. BMC bioinformatics. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23176520)
 
-- Junker J, Bielow C, Bertsch A, Sturm M, Reinert K, Kohlbacher O. *TOPPAS: a graphical workflow editor for the analysis of high-throughput proteomics data.*. Journal of proteome research. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/22583024)
 
-- Hoekman B, Breitling R, Suits F, Bischoff R, Horvatovich P. *msCompare: a framework for quantitative analysis of label-free LC-MS data for comparative candidate biomarker studies.*. Molecular & cellular proteomics : MCP. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/22318370)
+- Nahnsen, Sven; Kohlbacher, Oliver;  *In silico design of targeted SRM-based experiments*. BMC bioinformatics. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/23176520)
 
-- Andreotti S, Klau GW, Reinert K. *Antilope--a Lagrangian relaxation approach to the de novo peptide sequencing problem.*. IEEE/ACM transactions on computational biology and bioinformatics. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21464512)
+- Junker, Johannes; Bielow, Chris; Bertsch, Andreas; Sturm, Marc; Reinert, Knut; Kohlbacher, Oliver;  *TOPPAS: a graphical workflow editor for the analysis of high-throughput proteomics data*. Journal of proteome research. 2012. [Link](https://www.ncbi.nlm.nih.gov/pubmed/22583024)
+
+- Jones, Andrew R; Eisenacher, Martin; Mayer, Gerhard; Kohlbacher, Oliver; Siepen, Jennifer; Hubbard, Simon J; Selley, Julian N; Searle, Brian C; Shofstahl, James; Seymour, Sean L;  *The mzIdentML data standard for mass spectrometry-based proteomics results*. Molecular & cellular proteomics. 2012
 ***
 ## 2011
-- Ballardini R, Benevento M, Arrigoni G, Pattini L, Roda A. *MassUntangler: a novel alignment tool for label-free liquid chromatography-mass spectrometry proteomic data.*. Journal of chromatography. A. 2011. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21783198)
 
-- Nahnsen S, Bertsch A, Rahnenführer J, Nordheim A, Kohlbacher O. *Probabilistic consensus scoring improves tandem mass spectrometry peptide identification.*. Journal of proteome research. 2011. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21644507)
 
-- Bertsch A, Gröpl C, Reinert K, Kohlbacher O. *OpenMS and TOPP: open source software for LC-MS data analysis.*. Methods in molecular biology (Clifton, N.J.). 2011. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21063960)
+- Bielow, Chris; Aiche, Stephan; Andreotti, Sandro; Reinert, Knut;  *MSSimulator: Simulation of mass spectrometry data*. Journal of proteome research. 2011. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21526843)
+
+- Bertsch, Andreas; Gröpl, Clemens; Reinert, Knut; Kohlbacher, Oliver;  *OpenMS and TOPP: open source software for LC-MS data analysis*. Data Mining in Proteomics: From Standards to Applications. 2011
+
+- Nahnsen, Sven; Bertsch, Andreas; Rahnenführer, Jörg; Nordheim, Alfred; Kohlbacher, Oliver;  *Probabilistic consensus scoring improves tandem mass spectrometry peptide identification*. Journal of proteome research. 2011. [Link](https://www.ncbi.nlm.nih.gov/pubmed/21644507)
 ***
 ## 2010
-- Sun Y, Zhang J, Braga-Neto U, Dougherty ER. *BPDA - a Bayesian peptide detection algorithm for mass spectrometry.*. BMC bioinformatics. 2010. [Link](https://www.ncbi.nlm.nih.gov/pubmed/20920238)
 
-- Reinert K, Kohlbacher O. *OpenMS and TOPP: open source software for LC-MS data analysis.*. Methods in molecular biology (Clifton, N.J.). 2010. [Link](https://www.ncbi.nlm.nih.gov/pubmed/20013373)
+
+- Bertsch, Andreas; Jung, Stephan; Zerck, Alexandra; Pfeifer, Nico; Nahnsen, Sven; Henneges, Carsten; Nordheim, Alfred; Kohlbacher, Oliver;  *Optimal de novo design of MRM experiments for rapid assay development in targeted proteomics*. Journal of proteome research. 2010. [Link](https://www.ncbi.nlm.nih.gov/pubmed/20201589)
+
+- Gesing, Sandra; van Hemert, Jano; Koetsier, Jos; Bertsch, Andreas; Kohlbacher, Oliver;  *TOPP goes Rapid The OpenMS Proteomics Pipeline in a Grid-Enabled Web Portal*. Proceedings of the 2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing. 2010
 ***
 ## 2009
-- Hussong R, Gregorius B, Tholey A, Hildebrandt A. *Highly accelerated feature detection in proteomics data sets using modern graphics processing units.*. Bioinformatics (Oxford, England). 2009. [Link](https://www.ncbi.nlm.nih.gov/pubmed/19447788)
 
-- Sturm M, Kohlbacher O. *TOPPView: an open-source viewer for mass spectrometry data.*. Journal of proteome research. 2009. [Link](https://www.ncbi.nlm.nih.gov/pubmed/19425593)
+
+- Bertsch, Andreas; Leinenbach, Andreas; Pervukhin, Anton; Lubeck, Markus; Hartmer, Ralf; Baessmann, Carsten; Elnakady, Yasser Abbas; Müller, Rolf; Böcker, Sebastian; Huber, Christian G;  *De novo peptide sequencing by tandem MS using complementary CID and electron transfer dissociation*. Electrophoresis. 2009
+
+- Pfeifer, Nico; Leinenbach, Andreas; Huber, Christian G; Kohlbacher, Oliver;  *Improving peptide identification in proteome analysis by a two-dimensional retention time filtering approach*. Journal of proteome research. 2009. [Link](https://www.ncbi.nlm.nih.gov/pubmed/19492844)
+
+- Reinert, Knut; Kohlbacher, Oliver;  *OpenMS and TOPP: open source software for LC-MS data analysis*. Proteome Bioinformatics. 2009
+
+- Nilse, Lars; Sturm, Marc; Trudgian, David; Salek, Mogjiborahman; Sims, Paul FG; Carroll, Kathleen M; Hubbard, Simon J;  *SILACAnalyzer-a tool for differential quantitation of stable isotope derived data*. International Meeting on Computational Intelligence Methods for Bioinformatics and Biostatistics. 2009
+
+- Sturm, Marc; Kohlbacher, Oliver;  *TOPPView: an open-source viewer for mass spectrometry data*. Journal of proteome research. 2009. [Link](https://www.ncbi.nlm.nih.gov/pubmed/19425593)
 ***
 ## 2008
-- Sturm M, Bertsch A, Gröpl C, Hildebrandt A, Hussong R, Lange E, Pfeifer N, Schulz-Trieglaff O, Zerck A, Reinert K, Kohlbacher O. *OpenMS - an open-source software framework for mass spectrometry.*. BMC bioinformatics. 2008. [Link](https://www.ncbi.nlm.nih.gov/pubmed/18366760)
+
+
+- Lange, Eva;  *Analysis of mass spectrometric data: peak picking and map alignment*. Freie Universtaet Berlin. 2008
+
+- Schulz-Trieglaff, Ole; Hussong, Rene; Gröpl, Clemens; Leinenbach, Andreas; Hildebrandt, Andreas; Huber, Christian; Reinert, Knut;  *Computational quantification of peptides from LC-MS data*. Journal of Computational Biology. 2008
+
+- Lange, Eva; Tautenhahn, Ralf; Neumann, Steffen; Gröpl, Clemens;  *Critical assessment of alignment procedures for LC-MS proteomics and metabolomics measurements*. BMC bioinformatics. 2008. [Link](https://www.ncbi.nlm.nih.gov/pubmed/18793413)
+
+- Schulz-Trieglaff, Ole; Pfeifer, Nico; Gröpl, Clemens; Kohlbacher, Oliver; Reinert, Knut;  *LC-MSsim–a simulation software for liquid chromatography mass spectrometry data*. BMC bioinformatics. 2008. [Link](https://www.ncbi.nlm.nih.gov/pubmed/18842122)
+
+- Sturm, Marc; Bertsch, Andreas; Gröpl, Clemens; Hildebrandt, Andreas; Hussong, Rene; Lange, Eva; Pfeifer, Nico; Schulz-Trieglaff, Ole; Zerck, Alexandra; Reinert, Knut;  *OpenMS–an open-source software framework for mass spectrometry*. BMC bioinformatics. 2008
 ***
 ## 2007
-- Lange E, Gröpl C, Schulz-Trieglaff O, Leinenbach A, Huber C, Reinert K. *A geometric approach for the alignment of liquid chromatography-mass spectrometry data.*. Bioinformatics (Oxford, England). 2007. [Link](https://www.ncbi.nlm.nih.gov/pubmed/17646306)
 
-- Kohlbacher O, Reinert K, Gröpl C, Lange E, Pfeifer N, Schulz-Trieglaff O, Sturm M. *TOPP--the OpenMS proteomics pipeline.*. Bioinformatics (Oxford, England). 2007. [Link](https://www.ncbi.nlm.nih.gov/pubmed/17237091)
+
+- Schulz-Trieglaff, Ole; Hussong, Rene; Gröpl, Clemens; Hildebrandt, Andreas; Reinert, Knut;  *A fast and accurate algorithm for the quantification of peptides from mass spectrometry data*. Research in Computational Molecular Biology: 11th Annual International Conference, RECOMB 2007, Oakland, CA, USA, April 21-25, 2007. Proceedings 11. 2007
+
+- Lange, Eva; Gröpl, Clemens; Schulz-Trieglaff, Ole; Leinenbach, Andreas; Huber, Christian; Reinert, Knut;  *A geometric approach for the alignment of liquid chromatography—mass spectrometry data*. Bioinformatics. 2007
+
+- Sturm, Marc;  *TOPP The OpenMS Proteomics Pipeline*. Proceedings of the 5th European. 2007
+
+- Kohlbacher, Oliver; Reinert, Knut; Gröpl, Clemens; Lange, Eva; Pfeifer, Nico; Schulz-Trieglaff, Ole; Sturm, Marc;  *TOPP—the OpenMS proteomics pipeline*. Bioinformatics. 2007. [Link](https://www.ncbi.nlm.nih.gov/pubmed/17237091)
 ***
 ## 2006
-- Lange E, Gröpl C, Reinert K, Kohlbacher O, Hildebrandt A. *High-accuracy peak picking of proteomics data using wavelet techniques.*. Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing. 2006. [Link](https://www.ncbi.nlm.nih.gov/pubmed/17094243)
+
+
+- Lange, Eva; Gröpl, Clemens; Reinert, Knut; Kohlbacher, Oliver; Hildebrandt, Andreas;  *High-accuracy peak picking of proteomics data using wavelet techniques*. Biocomputing 2006. 2006. [Link](https://www.ncbi.nlm.nih.gov/pubmed/17094243)
+***
+## 2005
+
+
+- Groepl, Clemens; Lange, Eva; Reinert, Knut; Kohlbacher, Oliver; Sturm, Marc; Huber, Christian G; Mayr, Bettina M; Klein, Christoph L;  *Absolute quantification of myoglobin content in blood serum using HPLC/MS through automatic bioinformatics analysis*. MOLECULAR & CELLULAR PROTEOMICS. 2005
+
+- Gröpl, Clemens; Lange, Eva; Reinert, Knut; Kohlbacher, Oliver; Sturm, Marc; Huber, Christian G; Mayr, Bettina M; Klein, Christoph L;  *Algorithms for the automated absolute quantification of diagnostic markers in complex proteomics samples*. Computational Life Sciences: First International Symposium, CompLife 2005, Konstanz, Germany, September 25-27, 2005. Proceedings 1. 2005
+
+- Lange, E; Reinert, K; Groepl, C; Kohlbacher, O; Sturm, M; Hildebrandt, A;  *OPENMS; a generic open source framework for chromatography/MS-based proteomics*. Molecular & Cellular Proteomics. 2005
+
+- Gröpl, C; Hildebrandt, A; Kohlbacher, O; Lange, E; Lövenich, S; Sturm, M;  *OpenMS-Software for Mass Spectrometry*. Poster presented at the MBI Workshop on Computational Proteomics and Mass Spectrometry. 2005
 ***
