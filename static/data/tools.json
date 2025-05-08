@@ -1,0 +1,23 @@
+[
+  {
+    "name": "App A",
+    "version": "v1.2",
+    "author": "Author1",
+    "type": "application",
+    "tags": ["Proteomics", "Peptide Identification"]
+  },
+  {
+    "name": "Tool B",
+    "version": "v3.0",
+    "author": "Author2",
+    "type": "tool",
+    "tags": ["Metabolomics", "Protein Quantification"]
+  },
+  {
+    "name": "App C",
+    "version": "v2.5",
+    "author": "Author3",
+    "type": "application",
+    "tags": ["Proteomics", "Protein Quantification"]
+  }
+]

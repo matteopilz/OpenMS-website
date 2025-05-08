@@ -1,11 +1,63 @@
-{{ range first 1 (or (where .Site.RegularPages "Section" "news") (slice (.Site.GetPage "news"))) }}
-{{ $newsLink := default "/news" .Params.newsLink }}
-{{ $newsHeader := default .Title .Params.newsHeader }}
-{{ $date := .Date.Format "2006-01-02" }}
-<div class="news-container">
-  <div class="news-title"><a href="{{ relURL $newsLink }}"> {{ $newsHeader }}</a></div>
-  {{ if .Date }}
-  <div class="news-date"><a href="{{ relURL $newsLink }}">{{ $date }}</a></div>
-  {{ end }}
+<div class="container">
+  <h2>OpenMS Software Database</h2>
+  <p>Introduction text explaining how to use this database.</p>
+
+  <!-- Search Field -->
+  <input type="text" id="search" class="search-bar" placeholder="Search tools or applications..." onkeyup="filterItems()">
+
+  <!-- Category Selection -->
+  <div class="category-select">
+    <button onclick="setCategory('all')">All</button>
+    <button onclick="setCategory('application')">Application</button>
+    <button onclick="setCategory('tool')">Tool</button>
+  </div>
+
+  <!-- Tag Selection -->
+  <div class="tags">
+    <span class="tag" onclick="toggleTag(this, 'Proteomics')">+ Proteomics</span>
+    <span class="tag" onclick="toggleTag(this, 'Metabolomics')">+ Metabolomics</span>
+    <span class="tag" onclick="toggleTag(this, 'Peptide Identification')">+ Peptide Identification</span>
+    <span class="tag" onclick="toggleTag(this, 'Protein Quantification')">+ Protein Quantification</span>
+  </div>
+
+  <!-- Items List (populated dynamically) -->
+  <div id="item-list"></div>
+
 </div>
-{{ end }}
+
+<style>
+  .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  h2 { text-align: center; color: #2c3e50; }
+  p { text-align: center; color: #555; }
+  .search-bar { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
+  .category-select { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; }
+  .category-select button {
+    padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;
+    background-color: #3498db; color: white; font-size: 14px; transition: 0.3s;
+  }
+  .category-select button:hover { background-color: #2980b9; }
+  .tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
+  .tag {
+    padding: 8px 12px; border-radius: 5px; cursor: pointer; font-size: 14px;
+    transition: 0.3s; border: 1px solid #ddd;
+  }
+  .positive { background-color: #2ecc71; color: white; border: none; }
+  .negative { background-color: #e74c3c; color: white; border: none; }
+  .tag:hover { opacity: 0.8; }
+  .item {
+    background: #fff; padding: 15px; border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; transition: 0.3s;
+  }
+  .item:hover { box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); }
+  .item-content { margin-bottom: 10px; }
+  .item strong { font-size: 16px; color: #2c3e50; }
+  .item-category { font-size: 14px; padding: 5px 10px; border-radius: 5px; display: inline-block; margin-top: 5px; }
+  .application { background-color: #3498db; color: white; }
+  .tool { background-color: #9b59b6; color: white; }
+  .entry-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
+  .entry-tag { font-size: 12px; padding: 5px 8px; background: #bdc3c7; color: white; border-radius: 4px; }
+</style>
+
+<script src="/js/applications.js"></script>
+<script>console.log("Partial loaded!")</script>
