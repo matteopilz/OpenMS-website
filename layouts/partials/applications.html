@@ -3,25 +3,13 @@
   <p>Introduction text explaining how to use this database.</p>
 
   <!-- Search Field -->
-  <input type="text" id="search" class="search-bar" placeholder="Search tools or applications..." onkeyup="filterItems()">
-
-  <!-- Category Selection -->
-  <div class="category-select">
-    <button onclick="setCategory('all')">All</button>
-    <button onclick="setCategory('application')">Application</button>
-    <button onclick="setCategory('tool')">Tool</button>
-  </div>
-
-  <!-- Tag Selection -->
-  <div class="tags">
-    <span class="tag" onclick="toggleTag(this, 'Proteomics')">+ Proteomics</span>
-    <span class="tag" onclick="toggleTag(this, 'Metabolomics')">+ Metabolomics</span>
-    <span class="tag" onclick="toggleTag(this, 'Peptide Identification')">+ Peptide Identification</span>
-    <span class="tag" onclick="toggleTag(this, 'Protein Quantification')">+ Protein Quantification</span>
-  </div>
-
-  <!-- Items List (populated dynamically) -->
-  <div id="item-list"></div>
+  <input type="text" id="search" class="search-bar" placeholder="Search tools or applications..." onkeyup="filterItems()" list="tag-suggestions">
+  <datalist id="tag-suggestions"></datalist>
+  <div id="category-buttons" class="category-select"></div>
+  <div id="tag-buttons"></div>
+  <button id="reset-tags">Reset Tags</button>
+  <div id="match-count"></div>
+  <div id="item-list" data-category="All"></div>
 
 </div>
 
@@ -37,12 +25,22 @@
   }
   .category-select button:hover { background-color: #2980b9; }
   .tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
-  .tag {
-    padding: 8px 12px; border-radius: 5px; cursor: pointer; font-size: 14px;
-    transition: 0.3s; border: 1px solid #ddd;
+  .tag-button {
+    margin: 4px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
   }
-  .positive { background-color: #2ecc71; color: white; border: none; }
-  .negative { background-color: #e74c3c; color: white; border: none; }
+  .tag-button.positive {
+    background-color: #28a745;
+    color: white;
+  }
+  .tag-button.negative {
+    background-color: #dc3545;
+    color: white;
+  }
   .tag:hover { opacity: 0.8; }
   .item {
     background: #fff; padding: 15px; border-radius: 8px;
@@ -59,5 +57,4 @@
   .entry-tag { font-size: 12px; padding: 5px 8px; background: #bdc3c7; color: white; border-radius: 4px; }
 </style>
 
-<script src="/js/applications.js"></script>
-<script>console.log("Partial loaded!")</script>
+<!--<script>console.log("Partial loaded!")</script>-->
