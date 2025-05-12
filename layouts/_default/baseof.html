@@ -45,12 +45,6 @@
 
     {{ block "main" . }}
     {{ end }}
-    {{ partial "applications.html" . }}
-    {{ if .IsPage }}
-    {{ if eq .File.BaseFileName "applications" }}
-    <script src="/js/applications.js"></script>
-    {{ end }}
-    {{ end }}
 
     <!-- Back To Top Button -->
     <div id="backtotop"><a href="#" id="backtotop-color"></a></div>

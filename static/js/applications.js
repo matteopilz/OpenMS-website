@@ -37,7 +37,6 @@ function renderCategoryButtons() {
 function renderTagButtons() {
     const tagContainer = document.getElementById("tag-buttons");
     tagContainer.innerHTML = "";
-
     const uniqueTags = new Set();
     const toolNames = new Set();
 
@@ -63,6 +62,7 @@ function renderTagButtons() {
         button.textContent = "+ " + tag;
         button.className = "tag-button";
         button.dataset.tag = tag;
+        button.setAttribute("data-tag-button", tag);
         button.addEventListener("click", () => toggleTag(button, tag));
         tagContainer.appendChild(button);
     });
@@ -97,11 +97,32 @@ function renderItems() {
         item.setAttribute("data-tags", app.tags.join(","));
         item.setAttribute("data-url", app.url);
 
-        const tagsHTML = app.tags.map(tag => `<span class="entry-tag" data-tag="${tag}">${tag}</span>`).join("");
+        const tagsHTML = app.tags.map(tag => {
+            let tagClass = "entry-tag";
+            let tagSymbol = "+";
+            if (selectedTags[tag] === "positive") {
+                tagClass += " positive";
+                tagSymbol = "-";
+            } else if (selectedTags[tag] === "negative") {
+                tagClass += " negative";
+                tagSymbol = "×";
+            }
+            return `<span class="${tagClass}" data-tag="${tag}">${tagSymbol} ${tag}</span>`;
+        }).join("");
+
+        const tagSpans = item.querySelectorAll('.entry-tag');
+        tagSpans.forEach(span => {
+            span.addEventListener("click", (e) => {
+                e.stopPropagation(); // Prevent redirect
+                const tag = span.getAttribute("data-tag");
+                toggleTag(null, tag); // Pass null since it's not a button
+            });
+        });
 
         item.innerHTML = `
             <div class="item-content">
                 <strong>${app.name}</strong> (v${app.version})
+                <p class="item-description">${app.description || ''}</p>
                 <div class="entry-tags">${tagsHTML}</div>
             </div>
             <span class="item-category ${app.category}">${app.category}</span>
@@ -135,27 +156,50 @@ function renderItems() {
     window.filterItems();
 }
 
-
-
 // Handle tag toggle
-window.toggleTag = function (element, tag) {
+window.toggleTag = function(buttonElement, tag) {
+    const allButtons = document.querySelectorAll(`[data-tag-button="${tag}"]`);
+    const allSpans = document.querySelectorAll(`.entry-tag[data-tag="${tag}"]`);
+
     if (!selectedTags[tag]) {
         selectedTags[tag] = "positive";
-        element.classList.add("positive");
-        element.classList.remove("negative");
-        element.textContent = "- " + tag;
+        allButtons.forEach(btn => {
+            btn.classList.add("positive");
+            btn.classList.remove("negative");
+            btn.textContent = "- " + tag;
+        });
+        allSpans.forEach(span => {
+            span.classList.add("positive");
+            span.classList.remove("negative");
+            span.textContent = "- " + tag;
+        });
     } else if (selectedTags[tag] === "positive") {
         selectedTags[tag] = "negative";
-        element.classList.remove("positive");
-        element.classList.add("negative");
-        element.textContent = "× " + tag;
+        allButtons.forEach(btn => {
+            btn.classList.remove("positive");
+            btn.classList.add("negative");
+            btn.textContent = "× " + tag;
+        });
+        allSpans.forEach(span => {
+            span.classList.remove("positive");
+            span.classList.add("negative");
+            span.textContent = "× " + tag;
+        });
     } else {
         delete selectedTags[tag];
-        element.classList.remove("positive", "negative");
-        element.textContent = "+ " + tag;
+        allButtons.forEach(btn => {
+            btn.classList.remove("positive", "negative");
+            btn.textContent = "+ " + tag;
+        });
+        allSpans.forEach(span => {
+            span.classList.remove("positive", "negative");
+            span.textContent = "+ " + tag;
+        });
     }
+
     filterItems();
 };
+
 
 // Handle category selection
 window.setCategory = function (event, category) {
