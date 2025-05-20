@@ -2,127 +2,167 @@
   <h2>OpenMS Software Database</h2>
   <p>Introduction text explaining how to use this database.</p>
 
-  <!-- Search Field -->
-  <input type="text" id="search" class="search-bar" placeholder="Search tools or applications..." onkeyup="filterItems()" list="tag-suggestions">
-  <datalist id="tag-suggestions"></datalist>
-  <div id="category-buttons" class="category-select"></div>
-  <div id="tag-buttons"></div>
-  <button id="reset-tags">Reset Tags</button>
-  <div id="match-count"></div>
-  <div id="item-list" data-category="All"></div>
+  <div id="filter-panel">
+    <div id="filters-container"></div>
+    <button onclick="addFilter()">+ Add filter</button>
+    <button onclick="resetFilters()">Clear all filters</button>
+  </div>
+
+  <table id="tool-table">
+    <thead>
+    <tr>
+      <th>Name</th>
+      <th>Category</th>
+      <th>Tags</th>
+      <th>Description</th>
+      <th>Version</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+
 
 </div>
 
 <style>
-  .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-  h2 { text-align: center; color: #2c3e50; }
-  p { text-align: center; color: #555; }
-  .search-bar { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 5px; font-size: 16px; }
-  .category-select { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; }
-  .category-select button {
-    padding: 10px 20px; border: none; cursor: pointer; border-radius: 5px;
-    background-color: #3498db; color: white; font-size: 14px; transition: 0.3s;
-  }
-  .category-select button:hover { background-color: #2980b9; }
-  .tags { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 20px; }
 
-  .tag-button {
-    margin: 4px;
-    padding: 6px 12px;
-    font-size: 14px;
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2rem;
+    background-color: #f9f9fb;
+    color: #333;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .table-container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+  }
+
+  thead {
+    background-color: #f3f4f6;
+  }
+
+  th, td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  tr:hover {
+    background-color: #f9fafb;
+  }
+
+  th {
+    font-weight: 600;
+    color: #111827;
+  }
+
+  td a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+
+  td a:hover {
+    text-decoration: underline;
+  }
+
+  .tag {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0369a1;
     border-radius: 4px;
-    border: none;
-    background: #bdc3c7;
-    color: white;
-    transition: background 0.2s ease;
+    padding: 2px 8px;
+    margin-right: 5px;
+    font-size: 0.85em;
   }
 
-  .tag-button.positive {
-    background: #d4edda;
-    color: black;
-  }
-
-  .tag-button.negative {
-    background: #f8d7da;
-    color: black;
-  }
-
-  .tag-button:hover {
-    color: black;
-  }
-
-  #tag-buttons {
+  .filter-panel {
+    background: #ffffff;
+    border: 1px solid #d1d5db;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    align-items: center;
+    gap: 1rem;
   }
 
-  .entry-tag {
-    padding: 3px 8px;
-    margin: 2px;
-    border-radius: 12px;
-    background-color: #e0e0e0;
-    color: #333;
-    display: inline-block;
-    font-size: 0.85em;
-    cursor: pointer;
-  }
-
-  .entry-tag.positive {
-    background-color: #d4edda;
-    color: #155724;
-  }
-
-  .entry-tag.negative {
-    background-color: #f8d7da;
-    color: #721c24;
-  }
-
-  .item {
-    background: white;
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-  }
-
-  .item:hover {
-    transform: scale(1.01);
-    cursor: pointer;
-  }
-  .item-content { margin-bottom: 10px; }
-  .item strong {
-    font-size: 18px;
-    color: #2c3e50;
-  }
-
-  .item .item-description {
-    color: #555;
-    margin-top: 4px;
+  .filter-panel select,
+  .filter-panel input {
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    background-color: #f9fafb;
     font-size: 14px;
-    text-align: left;
   }
 
-  .item-category { font-size: 14px; padding: 5px 10px; border-radius: 5px; display: inline-block; margin-top: 5px; }
-  .application { background-color: #3498db; color: white; }
-  .tool { background-color: #9b59b6; color: white; }
-  .entry-tags { display: flex; gap: 5px; flex-wrap: wrap; margin-top: 5px; }
-  .entry-tag { font-size: 12px; padding: 5px 8px; background: #bdc3c7; color: white; border-radius: 4px; }
-
-  #match-count {
-    margin-top: 12px;
-    font-weight: bold;
-    color: #555;
+  .filter-row {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
   }
 
-  .filter-bar {
-    position: sticky;
-    top: 60px;
-    background: #fff;
-    z-index: 10;
-    padding: 12px 0;
+  .filter-row .remove-btn {
+    background-color: #f87171;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    font-size: 0.85em;
+    border-radius: 4px;
+    cursor: pointer;
   }
+
+  .filter-row .remove-btn:hover {
+    background-color: #ef4444;
+  }
+
+  button#add-filter,
+  button#reset-filters {
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  #add-filter {
+    background-color: #4ade80;
+    color: #065f46;
+  }
+
+  #add-filter:hover {
+    background-color: #22c55e;
+  }
+
+  #reset-filters {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+  }
+
+  #reset-filters:hover {
+    background-color: #bfdbfe;
+  }
+
+
 
 </style>
 
